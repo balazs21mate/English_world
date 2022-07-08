@@ -1,9 +1,13 @@
-import './cards.css'
+import React from 'react';
+import './cards.css';
+import Card from './Card';
 
 function Cards(){
     return(
         <div className="cards-container">
-            <p>Cards</p>
+            <Card title="Learned words"/>
+            <Card title="New words"/>
+            <Card title="Practice words"/>
         </div>
     )
 }

@@ -1,5 +1,6 @@
+import React from 'react';
 import Cards from "./components/cards/Cards";
-import MemoryCards from "./components/cards/MemoryCards";
+import MemoryCards from "./components/cards/memory-cards/MemoryCards";
 import Navbar from "./components/Navbar";
 
 function App() {
