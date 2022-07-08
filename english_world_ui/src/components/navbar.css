@@ -17,6 +17,7 @@
 
 .menu p{
     margin: 5px;
+    cursor: pointer;
 }
 
 .menu p:last-child{
@@ -27,4 +28,5 @@
     margin-left: 20px;
     font-size: 3rem;
     font-weight: 300;
+    cursor: pointer;
 }
