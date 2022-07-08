@@ -9,18 +9,27 @@
 
 .menu{
     display: flex;
-    color: #7c1b1b;
-    list-style:none;
     font-size: 1.5rem;
     font-weight: 300;
 }
 
-.menu p{
-    margin: 5px;
-    cursor: pointer;
+@media screen and (max-width: 819px) {
+    .menu {
+      flex-direction: column;
+    }
 }
 
-.menu p:last-child{
+.menu a{
+    margin: 5px;
+    text-decoration: none;
+    color: #7c1b1b;
+}
+
+.menu a:hover{
+    border-bottom:1px solid #7c1b1b;
+}
+
+.menu a:last-child{
     margin-right: 10px;
 }
 
@@ -29,4 +38,6 @@
     font-size: 3rem;
     font-weight: 300;
     cursor: pointer;
+    text-decoration: none;
+    color: #7c1b1b;
 }

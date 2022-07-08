@@ -3,11 +3,11 @@ import './navbar.css'
 function Navbar(){
     return(
         <div className="navbar">
-            <h1 className="logo">English world</h1>
+            <a href="/" className="logo">English world</a>
             <div className="menu">
-                <p><i class="fa-solid fa-bars"></i></p>
-                <p>Cards</p>
-                <p>Practice</p>
+                <a href="/"><i class="fa-solid fa-bars"></i></a>
+                <a href="/">Cards</a>
+                <a href="/">Practice</a>
             </div>
         </div>
     );

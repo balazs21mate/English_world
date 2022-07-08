@@ -42,3 +42,15 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+.content-container{
+	display: grid;
+	grid-template-columns: 40% 60%;
+}
+
+@media screen and (max-width: 819px) {
+    .content-container {
+		display: flex;
+		flex-direction: column;
+    }
+}
