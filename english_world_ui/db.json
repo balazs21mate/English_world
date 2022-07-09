@@ -112,5 +112,57 @@
          "english":"Study",
          "hungarian":"Tanulmányokat folytat, tanul"
       }
+   ],
+   "practice_words":[
+      {
+         "id":1,
+         "english":"Believe",
+         "hungarian":"Gondol,vél,hisz"
+      },
+      {
+         "id":2,
+         "english":"Behind",
+         "hungarian":"Mögött, mögé"
+      },
+      {
+         "id":3,
+         "english":"Accept",
+         "hungarian":"Elfogad, átvesz"
+      },
+      {
+         "id":4,
+         "english":"There",
+         "hungarian":"Ott, amott"
+      },
+      {
+         "id":5,
+         "english":"Here",
+         "hungarian":"Itt"
+      },
+      {
+         "id":6,
+         "english":"Care (ige)",
+         "hungarian":"Törődik, gondol valamivel, érdekli"
+      },
+      {
+         "id":7,
+         "english":"At",
+         "hungarian":"-nál, -nél"
+      },
+      {
+         "id":8,
+         "english":"Admit",
+         "hungarian":"Bevall, beismer, elismer"
+      },
+      {
+         "id":9,
+         "english":"Discover",
+         "hungarian":"Felfed, feltár, leleplez, felfedez"
+      },
+      {
+         "id":10,
+         "english":"Avoid",
+         "hungarian":"Elkerül"
+      }
    ]
  }
