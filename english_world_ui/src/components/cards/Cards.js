@@ -25,7 +25,7 @@ function Cards(){
           .then(res => setnewWordsList(res.data))
           .catch(err => console.log(err))
 
-          axios({
+        axios({
             method: 'get',
             url: `${baseUrl}practice_words/`
           })
