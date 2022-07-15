@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      <div className="content-container">
+      <div className="mt-[11rem] md:mt-[6rem] content-container">
         <Cards/>
         <MemoryCards/>
       </div>
