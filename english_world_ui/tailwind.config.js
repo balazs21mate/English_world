@@ -11,10 +11,11 @@ module.exports = {
       },
       boxShadow: {
         card: '5px 5px 15px #7c1b1b',
+        card_negative: '-5px 5px 15px #7c1b1b',
         button: '5px 5px 10px rgba(163,133,158,0.7)'
       },
-      transForm: {
-        rotate: 'rotateX(180deg)'
+      width: {
+        hr_width: '8rem'
       }
     },
   },

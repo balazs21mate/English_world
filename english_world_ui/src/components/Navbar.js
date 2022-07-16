@@ -21,13 +21,15 @@ function Navbar(props){
                     <a className="mr-2 md:hover:border-b-solid md:hover:border-b-2 md:hover:border-b-secondary_color" href="/">Cards</a>
                     <a className="mr-2 md:hover:border-b-solid md:hover:border-b-2 md:hover:border-b-secondary_color" href="/">Practice</a>
                 </div>
-                <MenuIcon className={`w-7 ${navbarMenu? "hidden": "block"} md:hidden`} onClick={set_navbar_menu_true}/>
-                <XCircleIcon className={`w-7 ${navbarMenu? "block": "hidden"} md:hidden`} onClick={set_navbar_menu_false}/>
+                <MenuIcon className={`w-7 cursor-pointer ${navbarMenu? "hidden": "block"} md:hidden`} onClick={set_navbar_menu_true}/>
+                <XCircleIcon className={`w-7 cursor-pointer ${navbarMenu? "block": "hidden"} md:hidden`} onClick={set_navbar_menu_false}/>
             </div>
             <div className={`${navbarMenu? "flex": "hidden"} flex-col items-center mt-5 md:hidden text-2xl`}>
-                <hr className='w-[80%] mb-2 border-b-solid border-secondary_color'></hr>
-                <a className="p-1 md:hover:border-b-solid md:hover:border-b-2 md:hover:border-b-secondary_color" href="/">Cards</a>
-                <a className="p-1 md:hover:border-b-solid md:hover:border-b-2 md:hover:border-b-secondary_color" href="/">Practice</a>
+                <hr className='w-full mb-2 border-b-solid border-secondary_color'></hr>
+                <a className="p-1" href="/">Cards</a>
+                <hr className='w-hr_width mb-2 border-b-solid border-secondary_color'></hr>
+                <a className="p-1" href="/">Practice</a>
+                <hr className='w-hr_width mb-2 border-b-solid border-secondary_color'></hr>
             </div>
         </div>
     );

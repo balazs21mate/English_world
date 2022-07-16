@@ -6,20 +6,3 @@
     transform: rotateY(180deg);
     transition: transform 1s;
 }
-
-.rotate_card_null{
-    transform: rotateY(0deg);
-    transition: transform 0s;
-    box-shadow: -5px 5px 15px #7c1b1b;
-}
-
-.rotate_card_180{
-    transform: rotateY(180deg);
-    transition: transform 0s;
-    box-shadow: 5px 5px 15px #7c1b1b;
-}
-
-.rotate_card_origin{
-    transform: rotateY(0deg);
-    transition: transform 1s;
-}
