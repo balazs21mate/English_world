@@ -6,12 +6,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'primery': 'rgb(240,200,175)',
-        'secondary_color': '#7c1b1b',
+        primery: 'rgb(240,200,175)',
+        secondary_color: '#7c1b1b',
       },
-      margin: {
-        '6rem': '6rem',
-        '11rem': '11rem',
+      boxShadow: {
+        card: '5px 5px 15px #7c1b1b',
+        button: '5px 5px 10px rgba(163,133,158,0.7)'
+      },
+      transForm: {
+        rotate: 'rotateX(180deg)'
       }
     },
   },
