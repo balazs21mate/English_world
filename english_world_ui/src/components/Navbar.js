@@ -14,7 +14,7 @@ function Navbar(props){
     }
 
     return(
-        <div className="w-screen fixed top-0 p-5 text-secondary_color flex flex-col bg-primery">
+        <div className="w-screen fixed top-0 z-10 p-5 text-secondary_color flex flex-col bg-primery">
             <div className="flex justify-between ">
                 <a href="/" className="text-6xl">English world</a>
                 <div className="hidden md:flex items-center text-2xl">
