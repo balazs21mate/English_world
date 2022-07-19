@@ -10,19 +10,23 @@ import {
   Route
 } from "react-router-dom";
 
+import {FetchProvider} from "./components/context/Fetch";
+
 function App() {
   return (
   <Router>
-    <div className="App">
-      <Navbar/>
-      <div className="mt-[11rem] sm:mt-[8rem]">
-        <Routes>
-          <Route path="/" element={<Cards/>} />
-          <Route path="/grammar" element={<Grammar/>} />
-          <Route path="/memory_game" element={<MemoryGame/>} />
-        </Routes>
+    <FetchProvider>
+      <div className="App">
+        <Navbar/>
+        <div className="mt-[8rem]">
+          <Routes>
+            <Route path="/" element={<Cards/>} />
+            <Route path="/grammar" element={<Grammar/>} />
+            <Route path="/memory_game" element={<MemoryGame/>} />
+          </Routes>
+        </div>
       </div>
-    </div>
+    </FetchProvider>
   </Router>
   );
 }
