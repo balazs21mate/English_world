@@ -14,22 +14,22 @@ function Navbar(props){
     }
 
     return(
-        <div className="w-screen fixed top-0 z-10 p-5 text-secondary_color flex flex-col bg-primery">
+        <div className="w-screen fixed top-0 z-10 p-5 flex flex-col text-secondary_color bg-primery">
             <div className="flex justify-between ">
-                <a href="/" className="text-6xl">English world</a>
+                <a href="/" className="text-4xl sm:text-5xl">English World</a>
                 <div className="hidden md:flex items-center text-2xl">
-                    <a className="mr-2 md:hover:border-b-solid md:hover:border-b-2 md:hover:border-b-secondary_color" href="/">Cards</a>
-                    <a className="mr-2 md:hover:border-b-solid md:hover:border-b-2 md:hover:border-b-secondary_color" href="/">Practice</a>
+                    <a className="mr-5 text-nav_menu hover:text-nav_menu_hover transition-colors" href="/">Cards</a>
+                    <a className="mr-5 text-nav_menu hover:text-nav_menu_hover transition-colors" href="/">Memory Game</a>
+                    <a className="mr-5 text-nav_menu hover:text-nav_menu_hover transition-colors" href="/">Grammar</a>
                 </div>
                 <MenuIcon className={`w-7 cursor-pointer ${navbarMenu? "hidden": "block"} md:hidden`} onClick={set_navbar_menu_true}/>
                 <XCircleIcon className={`w-7 cursor-pointer ${navbarMenu? "block": "hidden"} md:hidden`} onClick={set_navbar_menu_false}/>
             </div>
-            <div className={`${navbarMenu? "flex": "hidden"} flex-col items-center mt-5 md:hidden text-2xl`}>
+            <div className={`${navbarMenu? "flex": "hidden"} flex-col items-end mt-5 md:hidden text-2xl`}>
                 <hr className='w-full mb-2 border-b-solid border-secondary_color'></hr>
-                <a className="p-1" href="/">Cards</a>
-                <hr className='w-hr_width mb-2 border-b-solid border-secondary_color'></hr>
-                <a className="p-1" href="/">Practice</a>
-                <hr className='w-hr_width mb-2 border-b-solid border-secondary_color'></hr>
+                <a className="p-1 text-nav_menu hover:text-nav_menu_hover transition-colors" href="/">Cards</a>
+                <a className="p-1 text-nav_menu hover:text-nav_menu_hover transition-colors" href="/">Memory Game</a>
+                <a className="p-1 text-nav_menu hover:text-nav_menu_hover transition-colors" href="/">Grammar</a>
             </div>
         </div>
     );

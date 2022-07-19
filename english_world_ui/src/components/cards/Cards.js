@@ -28,8 +28,8 @@ function Cards(){
 
     return(
         <div className="flex flex-col items-center">
-          <h1 className='text-4xl font-light mb-2 text-secondary_color'>Study cards</h1>
-          <hr className='w-[80%] mb-2 border-b-solid border-secondary_color'></hr>
+          <h1 className='text-4xl font-light mb-2 text-secondary_color'>Study Cards</h1>
+          <hr className='w-[60%] mb-12 border-b-solid border-secondary_color'></hr>
           <Card title="Learned words" list={learnedWordsList}/>
           <Card title="New words" list={newWordsList}/>
           <Card title="Practice words" list={practiceWordsList}/>
