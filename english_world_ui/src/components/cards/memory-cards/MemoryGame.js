@@ -1,7 +1,7 @@
 import React from 'react'
 import MemoryCard from './MemoryCard'
 
-function MemoryCards(){
+function MemoryGame(){
     return(
         <div className="flex flex-col items-center text-secondary_color mb-6">
             <h1 className='text-4xl font-light mb-2'>Memory Game</h1>
@@ -14,4 +14,4 @@ function MemoryCards(){
     )
 }
 
-export default MemoryCards
+export default MemoryGame
