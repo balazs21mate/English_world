@@ -18,7 +18,7 @@ function Navbar(props){
     return(
         <div className="w-screen fixed top-0 z-10 p-5 flex flex-col text-secondary_color bg-primery">
             <div className="flex justify-between ">
-                <Link to="/" className="text-4xl sm:text-5xl">English World</Link>
+                <Link to="/" className='w-[10rem] md:w-[15rem] lg:w-80'><div className={`text-lg md:text-4xl shadow-card flex justify-center items-center text-secondary_color w-full h-full bg-white lg:p-2 border-solid border border-black rounded-lg mb-8`}>English World</div></Link>
                 <div className="hidden md:flex items-center text-2xl">
                     <Link to="/" className="mr-5 text-nav_menu hover:text-nav_menu_hover transition-colors" href="/">Cards</Link>
                     <Link to="/memory_game" className="mr-5 text-nav_menu hover:text-nav_menu_hover transition-colors" href="/">Memory Game</Link>

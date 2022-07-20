@@ -18,7 +18,7 @@ function App() {
     <FetchProvider>
       <div className="App">
         <Navbar/>
-        <div className="mt-[8rem]">
+        <div className="mt-[9rem]">
           <Routes>
             <Route path="/" element={<Cards/>} />
             <Route path="/grammar" element={<Grammar/>} />
