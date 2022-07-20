@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 
-function Card({title, list, set_list}){
+function Card({title, list}){
+    const [localList, setLocalList] = useState([]) 
     const [counter, setCounter] = useState(0)
     const [english_text, setEnglish_text] = useState("")
     const [hungarian_text, setHungarian_text] = useState("")
@@ -10,16 +11,21 @@ function Card({title, list, set_list}){
 
     useEffect(()=>{
         setCounter(Math.floor(Math.random()*list.length))
+        setLocalList(list)
     },[list])
 
     useEffect(()=>{
-        setEnglish_text(list[counter]?.english)
-        setHungarian_text(list[counter]?.hungarian)
-    },[list,counter])
+        setEnglish_text(localList[counter]?.english)
+        setHungarian_text(localList[counter]?.hungarian)
+    },[localList,counter])
 
     const new_counter = () => {
-        set_list(list.filter(item=>item!==list[counter]))
-        setCounter(Math.floor(Math.random()*list.length))
+        if (localList.length === 1) {
+            setLocalList(list)
+        } else {
+            setLocalList(localList.filter(item=>item.id!==localList[counter].id))
+            setCounter(Math.floor(Math.random()*(localList.length-1)))
+        }
     }
 
     const set_rotate=()=>{
@@ -29,7 +35,7 @@ function Card({title, list, set_list}){
         setRotate(!rotate)
         setTimeout(() => {
             setDisplay(!display)
-            rotate?setEnglish_text(list[counter]?.english):setHungarian_text(list[counter]?.hungarian)
+            rotate?setEnglish_text(localList[counter]?.english):setHungarian_text(localList[counter]?.hungarian)
             setDisabledAll(false)
         }, 1000);
     }
