@@ -1,168 +1,157 @@
 {
-    "learned_words":[
-       {
-          "id":1,
-          "english":"Believe",
-          "hungarian":"Gondol,vél,hisz"
-       },
-       {
-          "id":2,
-          "english":"Behind",
-          "hungarian":"Mögött, mögé"
-       },
-       {
-          "id":3,
-          "english":"Accept",
-          "hungarian":"Elfogad, átvesz"
-       },
-       {
-          "id":4,
-          "english":"There",
-          "hungarian":"Ott, amott"
-       },
-       {
-          "id":5,
-          "english":"Here",
-          "hungarian":"Itt"
-       },
-       {
-          "id":6,
-          "english":"Care (ige)",
-          "hungarian":"Törődik, gondol valamivel, érdekli"
-       },
-       {
-          "id":7,
-          "english":"At",
-          "hungarian":"-nál, -nél"
-       },
-       {
-          "id":8,
-          "english":"Admit",
-          "hungarian":"Bevall, beismer, elismer"
-       },
-       {
-          "id":9,
-          "english":"Discover",
-          "hungarian":"Felfed, feltár, leleplez, felfedez"
-       },
-       {
-          "id":10,
-          "english":"Avoid",
-          "hungarian":"Elkerül"
-       },
-       {
-          "id":11,
-          "english":"Clean (ige)",
-          "hungarian":"Tisztít, kitisztít, lesúrol, takarít, kitakarít"
-       },
-       {
-          "id":12,
-          "english":"Contribute",
-          "hungarian":"Hozzájárul, közreműködik, elősegít"
-       },
-       {
-          "id":13,
-          "english":"Carry",
-          "hungarian":"(El)visz, hord, cipel"
-       },
-       {
-          "id":14,
-          "english":"Must",
-          "hungarian":"Muszály, kell"
-       },
-       {
-          "id":15,
-          "english":"Deliver",
-          "hungarian":"Szállít, leszállít"
-       },
-       {
-          "id":16,
-          "english":"Correct (ige)",
-          "hungarian":"Helyesbít, kiigazít, korrigál, módosít, kijavít"
-       },
-       {
-          "id":17,
-          "english":"Cut (ige)",
-          "hungarian":"Vág, elvág, szétvág"
-       }
-    ],
-    "new_words":[
+   "most_common_verbs":
+   [
       {
-         "id":1,
-         "english":"Sing",
-         "hungarian":"Énekel, elénekel, dalol, eldalol, előad"
+         "title": "Most Common Verbs",
+         "slug": "most_common_verbs",
+         "list": [
+               {
+                  "id":1,
+                  "english":"Believe",
+                  "hungarian":"Gondol,vél,hisz"
+               },
+               {
+                  "id":2,
+                  "english":"Behind",
+                  "hungarian":"Mögött, mögé"
+               },
+               {
+                  "id":3,
+                  "english":"Accept",
+                  "hungarian":"Elfogad, átvesz"
+               },
+               {
+                  "id":4,
+                  "english":"There",
+                  "hungarian":"Ott, amott"
+               },
+               {
+                  "id":5,
+                  "english":"Here",
+                  "hungarian":"Itt"
+               },
+               {
+                  "id":6,
+                  "english":"Care (ige)",
+                  "hungarian":"Törődik, gondol valamivel, érdekli"
+               },
+               {
+                  "id":7,
+                  "english":"At",
+                  "hungarian":"-nál, -nél"
+               },
+               {
+                  "id":8,
+                  "english":"Admit",
+                  "hungarian":"Bevall, beismer, elismer"
+               },
+               {
+                  "id":9,
+                  "english":"Discover",
+                  "hungarian":"Felfed, feltár, leleplez, felfedez"
+               },
+               {
+                  "id":10,
+                  "english":"Avoid",
+                  "hungarian":"Elkerül"
+               },
+               {
+                  "id":11,
+                  "english":"Clean (ige)",
+                  "hungarian":"Tisztít, kitisztít, lesúrol, takarít, kitakarít"
+               },
+               {
+                  "id":12,
+                  "english":"Contribute",
+                  "hungarian":"Hozzájárul, közreműködik, elősegít"
+               },
+               {
+                  "id":13,
+                  "english":"Carry",
+                  "hungarian":"(El)visz, hord, cipel"
+               },
+               {
+                  "id":14,
+                  "english":"Must",
+                  "hungarian":"Muszály, kell"
+               },
+               {
+                  "id":15,
+                  "english":"Deliver",
+                  "hungarian":"Szállít, leszállít"
+               },
+               {
+                  "id":16,
+                  "english":"Correct (ige)",
+                  "hungarian":"Helyesbít, kiigazít, korrigál, módosít, kijavít"
+               },
+               {
+                  "id":17,
+                  "english":"Cut (ige)",
+                  "hungarian":"Vág, elvág, szétvág"
+               }
+         ]
       },
       {
-         "id":2,
-         "english":"Sit",
-         "hungarian":"Ül"
-      },
-      {
-         "id":3,
-         "english":"Stand",
-         "hungarian":"Áll"
-      },
-      {
-         "id":4,
-         "english":"Sound",
-         "hungarian":"Valamilyennek tűnik, hangzik"
-      },
-      {
-         "id":5,
-         "english":"Study",
-         "hungarian":"Tanulmányokat folytat, tanul"
-      }
-   ],
-   "practice_words":[
-      {
-         "id":1,
-         "english":"Believe",
-         "hungarian":"Gondol,vél,hisz"
-      },
-      {
-         "id":2,
-         "english":"Behind",
-         "hungarian":"Mögött, mögé"
-      },
-      {
-         "id":3,
-         "english":"Accept",
-         "hungarian":"Elfogad, átvesz"
-      },
-      {
-         "id":4,
-         "english":"There",
-         "hungarian":"Ott, amott"
-      },
-      {
-         "id":5,
-         "english":"Here",
-         "hungarian":"Itt"
-      },
-      {
-         "id":6,
-         "english":"Care (ige)",
-         "hungarian":"Törődik, gondol valamivel, érdekli"
-      },
-      {
-         "id":7,
-         "english":"At",
-         "hungarian":"-nál, -nél"
-      },
-      {
-         "id":8,
-         "english":"Admit",
-         "hungarian":"Bevall, beismer, elismer"
-      },
-      {
-         "id":9,
-         "english":"Discover",
-         "hungarian":"Felfed, feltár, leleplez, felfedez"
-      },
-      {
-         "id":10,
-         "english":"Avoid",
-         "hungarian":"Elkerül"
+         "title": "valami",
+         "slug": "valami",
+         "list": [
+               {
+                  "id":1,
+                  "english":"Believe",
+                  "hungarian":"Gondol,vél,hisz"
+               },
+               {
+                  "id":2,
+                  "english":"Behind",
+                  "hungarian":"Mögött, mögé"
+               },
+               {
+                  "id":3,
+                  "english":"Accept",
+                  "hungarian":"Elfogad, átvesz"
+               },
+               {
+                  "id":4,
+                  "english":"There",
+                  "hungarian":"Ott, amott"
+               },
+               {
+                  "id":5,
+                  "english":"Here",
+                  "hungarian":"Itt"
+               },
+               {
+                  "id":6,
+                  "english":"Care (ige)",
+                  "hungarian":"Törődik, gondol valamivel, érdekli"
+               },
+               {
+                  "id":7,
+                  "english":"At",
+                  "hungarian":"-nál, -nél"
+               },
+               {
+                  "id":8,
+                  "english":"Admit",
+                  "hungarian":"Bevall, beismer, elismer"
+               },
+               {
+                  "id":9,
+                  "english":"Discover",
+                  "hungarian":"Felfed, feltár, leleplez, felfedez"
+               },
+               {
+                  "id":10,
+                  "english":"Avoid",
+                  "hungarian":"Elkerül"
+               },
+               {
+                  "id":11,
+                  "english":"Clean (ige)",
+                  "hungarian":"Tisztít, kitisztít, lesúrol, takarít, kitakarít"
+               }
+         ]
       }
    ]
- }
+}

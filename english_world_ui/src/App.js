@@ -1,7 +1,7 @@
 import React from "react";
-import Cards from "./components/cards/Cards";
-import Grammar from "./components/cards/grammar/Grammar";
-import MemoryGame from "./components/cards/memory-cards/MemoryGame";
+import Cards from "./components/pages/cards/Cards";
+import Grammar from "./components/pages/grammar/Grammar";
+import MemoryGame from "./components/pages/memory-cards/MemoryGame";
 import Navbar from "./components/Navbar";
 
 import {

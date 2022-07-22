@@ -10,8 +10,13 @@ function Card({title, list}){
     const [disabledAll, setDisabledAll] = useState(false)
 
     useEffect(()=>{
-        setCounter(Math.floor(Math.random()*list.length))
-        setLocalList(list)
+        if (list) {
+            setCounter(Math.floor(Math.random()*list.length))
+            setLocalList(list)
+        } else {
+            setCounter(0)
+            setLocalList([])
+        }
     },[list])
 
     useEffect(()=>{
