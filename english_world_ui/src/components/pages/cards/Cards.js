@@ -3,7 +3,8 @@ import Card from './Card';
 import Title from './Title';
 import {FetchContext} from '../../context/Fetch';
 
-import {ArrowSmDownIcon} from '@heroicons/react/outline';
+import CardsInput from './CardsInput';
+import CardsButton from './CardsButton';
 
 function Cards(){
     const {wordsList} = useContext(FetchContext);
@@ -19,8 +20,8 @@ function Cards(){
           <div className='w-full lg:w-[80%] flex flex-col lg:flex-row justify-around items-center lg:items-start'>
             <div>
               <div className='flex lg:hidden h-7'>
-                <input className='flex border text-secondary_color border-button rounded-l outline-none items-center p-2' type='text' placeholder='Lists...'></input>
-                <button className="text-center h-full bg-button text-white border-none shadow-button cursor-pointer outline-none mb-2 flex items-center" onClick={()=>setLists(!lists)}><ArrowSmDownIcon className='w-8'/></button>
+                <CardsInput />
+                <CardsButton lists={lists} set_lists={setLists}/>
               </div>
               <div className={`${lists?'flex':'hidden'} lg:flex flex-col text-secondary_color`}>
                 {
