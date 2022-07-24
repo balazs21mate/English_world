@@ -16,9 +16,9 @@ function Navbar(props){
     }
 
     return(
-        <div className="w-screen fixed top-0 z-10 p-5 flex flex-col text-secondary_color bg-primery">
+        <div className="w-screen fixed top-0 z-10 p-5 flex flex-col text-secondary_color bg-primary">
             <div className="flex justify-between ">
-                <Link to="/" className='w-[10rem] md:w-[15rem] lg:w-80'><div className={`text-lg md:text-4xl shadow-card flex justify-center items-center text-secondary_color w-full italic h-full bg-white lg:p-2 border-solid border underline decoration-black-solid border-black decoration-solid rounded-lg mb-8 -rotate-1`}><div className='rotate-2'>English World</div></div></Link>
+                <Link to="/" className='w-[10rem] md:w-[15rem] lg:w-80'><div className={`text-lg md:text-4xl shadow-card flex justify-center items-center text-secondary_color w-full italic h-full bg-white lg:p-2 border-solid border underline decoration-black-solid border-black decoration-solid rounded-lg mb-8 -rotate-1`}><div className='rotate-1'>English World</div></div></Link>
                 <div className="hidden md:flex items-center text-2xl">
                     <Link to="/" className="mr-5 text-nav_menu hover:text-nav_menu_hover transition-colors" href="/">Cards</Link>
                     <Link to="/memory_game" className="mr-5 text-nav_menu hover:text-nav_menu_hover transition-colors" href="/">Memory Game</Link>

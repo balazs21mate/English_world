@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primery: 'rgb(240,200,175)',
+        primary: 'rgb(240,200,175)',
         secondary_color: 'rgb(124,27,27)',
         nav_menu: 'rgba(124,27,27,0.7)',
         nav_menu_hover: 'rgb(124,27,27)',

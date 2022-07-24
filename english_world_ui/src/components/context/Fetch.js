@@ -4,21 +4,21 @@ import axios from 'axios';
 export const FetchContext = createContext(true)
 
 export const FetchProvider = (props) => {
-    const [mostCommonVerbs, setMostCommonVerbs] = useState([]);
+    const [wordsList, setWordsList] = useState([]);
 
     const baseUrl = process.env.REACT_APP_BASE_URL;
   
     useEffect(() => {
       const fetch = async () =>{
-        const data = await axios.get(`${baseUrl}most_common_verbs/`).catch(err => console.log(err));
+        const data = await axios.get(`${baseUrl}words_list/`).catch(err => console.log(err));
   
-        setMostCommonVerbs(data.data);
+        setWordsList(data.data);
         };
       fetch();
     },[baseUrl])
     return (
         <FetchContext.Provider value={{
-            mostCommonVerbs: mostCommonVerbs
+            wordsList: wordsList
         }}>
             {props.children}
         </FetchContext.Provider>

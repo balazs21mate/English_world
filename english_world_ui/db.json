@@ -1,5 +1,5 @@
 {
-   "most_common_verbs":
+   "words_list":
    [
       {
          "title": "Most Common Verbs",
@@ -93,8 +93,8 @@
          ]
       },
       {
-         "title": "valami",
-         "slug": "valami",
+         "title": "Adverb",
+         "slug": "adverb",
          "list": [
                {
                   "id":1,
