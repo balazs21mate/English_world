@@ -1,9 +1,15 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect, useContext} from 'react';
 import Card from './Card';
 import SearchBar from './SearchBar';
+import {FetchContext} from '../../context/Fetch';
 
 function Cards(){
+    const {wordsList} = useContext(FetchContext);
     const [cardItem, setCardItem] = useState({});
+
+    useEffect(()=>{
+      setCardItem(wordsList[0]);
+    },[wordsList]);
 
     return(
         <div className="flex flex-col items-center">
