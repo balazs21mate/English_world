@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {MenuIcon} from '@heroicons/react/solid';
 import {XCircleIcon} from '@heroicons/react/outline';
 
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Navbar(props){
     const [navbarMenu, setNavbarMenu] = useState(false)
@@ -33,7 +33,6 @@ function Navbar(props){
                 <Link to="/memory_game" className="p-1 text-nav_menu hover:text-nav_menu_hover transition-colors" href="/" onClick={set_navbar_menu_false}>Memory Game</Link>
                 <Link to="/grammar" className="p-1 text-nav_menu hover:text-nav_menu_hover transition-colors" href="/" onClick={set_navbar_menu_false}>Grammar</Link>
             </div>
-            <Outlet />
         </div>
     );
 }
