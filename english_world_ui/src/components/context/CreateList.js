@@ -1,16 +1,16 @@
 import React, {createContext, useState} from 'react';
 
-export const FetchContext = createContext(true)
+export const CreateListContext = createContext(true)
 
-export const FetchProvider = (props) => {
+export const CreateListProvider = (props) => {
     const [createList, setCreateList] = useState([])
 
     return (
-        <FetchContext.Provider value={{
+        <CreateListContext.Provider value={{
             createList: createList,
             setCreateList: setCreateList
         }}>
             {props.children}
-        </FetchContext.Provider>
+        </CreateListContext.Provider>
     )
 }
