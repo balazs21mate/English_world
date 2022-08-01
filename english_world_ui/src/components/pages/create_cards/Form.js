@@ -1,17 +1,19 @@
-import React, {useEffect, useState} from "react";
+import React, {useContext, useEffect, useState} from "react";
+
+import {CreateListContext} from '../../context/CreateList';
 
 function Form() {
     const [title, setTitle] = useState('');
     const [english, setEnglish] = useState('');
     const [hungarian, setHungarian] = useState('');
-    const [createList, setCreateList] = useState([])
+    const {createList, setCreateList} = useContext(CreateListContext)
 
     useEffect(()=>{
         JSON.parse(localStorage.getItem('Items'))&&setCreateList(JSON.parse(localStorage.getItem('Items')));
-    }, [])
+    }, [setCreateList])
 
     useEffect(()=>{
-        createList.length !== 0&&localStorage.setItem('Items', JSON.stringify(createList));
+        createList?.length !== 0&&localStorage.setItem('Items', JSON.stringify(createList));
     }, [createList])
 
     const set_title = (event) => {
@@ -24,13 +26,30 @@ function Form() {
         setHungarian(event.target.value);
     }
 
-    const create_local_storage = () =>{
-        let Item = {
-            list: [{english: english,hungarian: hungarian}],
-            title: title
-        }
+    const create_local_storage_list = () =>{
+        setTitle("");
+        setEnglish("");
+        setHungarian("");
 
-        setCreateList(list =>[...list, Item]);
+        if (createList.length > 0 && title.length > 0 && english.length > 0 && hungarian.length > 0) {
+            const filteredList = createList.filter(item => item.title === title)
+            if (filteredList.length > 0) {
+                filteredList[0].list.push({english: english,hungarian: hungarian})
+                setCreateList(list =>[...list]);
+            } else {
+                const Item = {
+                    list: [{english: english,hungarian: hungarian}],
+                    title: title
+                }
+                setCreateList(list =>[...list, Item]);
+            }
+        } else if (title.length > 0 && english.length > 0 && hungarian.length > 0){
+            const Item = {
+                list: [{english: english,hungarian: hungarian}],
+                title: title
+            }
+            setCreateList(list =>[...list, Item]);
+        }
     }
 
     return (
@@ -46,7 +65,7 @@ function Form() {
                     <input type='text' className="w-full ml-2 mt-2 border border-secondary_color rounded p-2" placeholder="Text..." onChange={set_hungarian} value={hungarian}/>
                 </label>
             </div>
-            <button className="text-center max-w-[25rem] mt-6 mx-auto p-1 text-3xl bg-button text-white border-none rounded-xl shadow-button cursor-pointer outline-none mb-8 tracking-[0.3rem]" onClick={create_local_storage}>Send</button>
+            <button className="text-center max-w-[25rem] mt-6 mx-auto p-1 text-3xl bg-button text-white border-none rounded-xl shadow-button cursor-pointer outline-none mb-8 tracking-[0.3rem]" onClick={create_local_storage_list}>Send</button>
         </div>
     );
 }
