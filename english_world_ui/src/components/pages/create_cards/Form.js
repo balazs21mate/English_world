@@ -16,21 +16,11 @@ function Form() {
         createList?.length !== 0&&localStorage.setItem('Items', JSON.stringify(createList));
     }, [createList])
 
-    const set_title = (event) => {
-        setTitle(event.target.value);
-    }
-    const set_english = (event) => {
-        setEnglish(event.target.value);
-    }
-    const set_hungarian = (event) => {
-        setHungarian(event.target.value);
+    const handleInput = (setItem)=>(event) => {
+        setItem(event.target.value);
     }
 
-    const create_local_storage_list = () =>{
-        setTitle("");
-        setEnglish("");
-        setHungarian("");
-
+    const handleForm = () =>{
         if (createList.length > 0 && title.length > 0 && english.length > 0 && hungarian.length > 0) {
             const filteredList = createList.filter(item => item.title === title)
             if (filteredList.length > 0) {
@@ -53,20 +43,18 @@ function Form() {
     }
 
     return (
-        <div className="flex flex-col">
+        <form className="flex flex-col md:w-[60%] mx-auto">
             <label className="text-xl">Title:
-                <input type='text' className="w-full ml-2 mt-2 border border-secondary_color rounded p-2" placeholder="Text..." onChange={set_title} value={title}/>
+                <input type='text' className="w-full ml-2 mt-2 border border-secondary_color rounded p-2" placeholder="Text..." onChange={handleInput(setTitle)} value={title}/>
             </label>
-            <div className="flex justify-around mt-10">
-                <label className="text-xl">English:
-                    <input type='text' className="w-full ml-2 mt-2 border border-secondary_color rounded p-2" placeholder="Text..." onChange={set_english} value={english}/>
-                </label>
-                <label className="text-xl">Hungarian:
-                    <input type='text' className="w-full ml-2 mt-2 border border-secondary_color rounded p-2" placeholder="Text..." onChange={set_hungarian} value={hungarian}/>
-                </label>
-            </div>
-            <button className="text-center max-w-[25rem] mt-6 mx-auto p-1 text-3xl bg-button text-white border-none rounded-xl shadow-button cursor-pointer outline-none mb-8 tracking-[0.3rem]" onClick={create_local_storage_list}>Send</button>
-        </div>
+            <label className="text-xl mt-1">English:
+                <input type='text' className="w-full ml-2 mt-2 border border-secondary_color rounded p-2" placeholder="Text..." onChange={handleInput(setEnglish)} value={english}/>
+            </label>
+            <label className="text-xl mt-1">Hungarian:
+                <input type='text' className="w-full ml-2 mt-2 border border-secondary_color rounded p-2" placeholder="Text..." onChange={handleInput(setHungarian)} value={hungarian}/>
+            </label>
+            <button type="submit" className="text-center max-w-[25rem] mt-6 mx-auto p-1 text-3xl bg-button text-white border-none rounded-xl shadow-button cursor-pointer outline-none mb-8 tracking-[0.3rem]" onClick={handleForm}>Send</button>
+        </form>
     );
 }
 
