@@ -16,7 +16,9 @@ function Cards(){
 
     return(
         <div className="flex flex-col items-center">
-          <Link to='/create' className="text-sm self-end mr-8 text-secondary_color border-b border-secondary_color">Create new cards</Link>
+          <div className='flex justify-end mx-auto w-[90%]'>
+            <Link to='/create' className="text-sm md:text-lg text-secondary_color border-b border-secondary_color">Create new cards</Link> 
+          </div>
           <PagesTitle title='Study Cards'/>
           <div className='w-full lg:w-[80%] flex flex-col lg:flex-row justify-around items-center lg:items-start'>
               <SearchBar set_card_item={setCardItem}/>
