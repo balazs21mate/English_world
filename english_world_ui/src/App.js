@@ -16,12 +16,13 @@ import {FetchProvider} from "./components/context/Fetch";
 import {CreateListProvider} from "./components/context/CreateList";
 
 function App() {
+
   return (
   <Router>
     <FetchProvider>
       <div className="App">
         <Navbar/>
-        <div className="mt-[7rem] md:mt-[8rem] lg:mt-[9rem]">
+        <div className='mt-[7rem] md:mt-[8rem] lg:mt-[9rem]'>
         <CreateListProvider>
             <Routes>
               <Route path="/" element={<Cards/>} />
