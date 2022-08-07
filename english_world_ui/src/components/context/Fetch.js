@@ -18,7 +18,8 @@ export const FetchProvider = (props) => {
     },[baseUrl])
     return (
         <FetchContext.Provider value={{
-            wordsList: wordsList
+            wordsList: wordsList,
+            setWordsList: setWordsList
         }}>
             {props.children}
         </FetchContext.Provider>

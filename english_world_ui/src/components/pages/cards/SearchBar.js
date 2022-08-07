@@ -4,9 +4,11 @@ import Title from './Title';
 import {ArrowSmDownIcon} from '@heroicons/react/outline';
 
 import {FetchContext} from '../../context/Fetch';
+import {CreateListContext} from '../../context/CreateList';
 
 function SearchBar({set_card_item}) {
     const {wordsList} = useContext(FetchContext);
+    const {createList} = useContext(CreateListContext);
     const [showTitles, setShowTitles] = useState(false);
     const [inputValue, setInputValue] = useState("");
 
@@ -20,15 +22,25 @@ function SearchBar({set_card_item}) {
                 <div className='flex w-full absolute flex-col'>
                     {
                         wordsList.filter((item) => inputValue&&item.title.toLowerCase().includes(inputValue.toLowerCase()))
-                        .map((item)=>
+                        .map((item, index)=>
                         (
-                            <Title key={item.id} set_value={setInputValue} set_card_item={set_card_item} set_list={setShowTitles} item={item}/>)
+                            <Title key={index} set_value={setInputValue} set_card_item={set_card_item} set_list={setShowTitles} item={item}/>)
+                        )
+                    }
+                    {
+                        createList.filter((item) => inputValue&&item.title.toLowerCase().includes(inputValue.toLowerCase()))
+                        .map((item, index)=>
+                        (
+                            <Title key={index} set_value={setInputValue} set_card_item={set_card_item} set_list={setShowTitles} item={item}/>)
                         )
                     }
                 </div>
                 <div className={`${showTitles?'flex':'hidden'} w-full absolute flex-col`}>
                     {
-                        wordsList.map((item) => <Title key={item.id} set_value={setInputValue} set_card_item={set_card_item} set_list={setShowTitles} item={item}/>)
+                        wordsList.map((item, index) => <Title key={index} set_value={setInputValue} set_card_item={set_card_item} set_list={setShowTitles} item={item}/>)
+                    }
+                    {
+                        createList.map((item, index) => <Title key={index} set_value={setInputValue} set_card_item={set_card_item} set_list={setShowTitles} item={item}/>)
                     }
                 </div>
             </div>
