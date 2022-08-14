@@ -17,7 +17,7 @@ function SearchBar({set_card_item}) {
             <div className='relative'>
                 <div className='flex h-7'>
                     <input className='flex border h-full text-secondary_color border-button rounded-l outline-none items-center p-2' type='text' placeholder='Search...' onChange={(e)=>setInputValue(e.target.value)} value={inputValue}/>
-                    <button className='text-center h-full bg-button text-white border-none shadow-button cursor-pointer outline-none mb-2 flex items-center' disabled={inputValue?true:false} onClick={()=>setShowTitles(!showTitles)}><ArrowSmDownIcon className='w-6'/></button>
+                    <button className='text-center h-full bg-button text-white border-none cursor-pointer outline-none mb-2 flex items-center' disabled={inputValue?true:false} onClick={()=>setShowTitles(!showTitles)}><ArrowSmDownIcon className='w-6'/></button>
                 </div>
                 <div className='flex w-full absolute flex-col'>
                     {
