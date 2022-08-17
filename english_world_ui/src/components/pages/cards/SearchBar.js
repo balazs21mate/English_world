@@ -35,7 +35,7 @@ function SearchBar({set_card_item}) {
                         )
                     }
                 </div>
-                <div className={`${showTitles?'flex':'hidden'} w-full absolute flex-col`}>
+                <div className={`${showTitles?'flex':'hidden'} w-full h-28 overflow-hidden absolute flex-col`}>
                     {
                         wordsList.map((item, index) => <Title key={index} set_value={setInputValue} set_card_item={set_card_item} set_list={setShowTitles} item={item}/>)
                     }
