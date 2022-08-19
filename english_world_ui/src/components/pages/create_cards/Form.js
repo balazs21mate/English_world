@@ -31,6 +31,7 @@ function Form() {
     const [confirmText, setConfirmText] = useState('Biztos törli a listát?');
     const [visibleConfirm, setVisibleConfirm] = useState(false);
     const [handle, setHandle] = useState();
+    const [correct, setCorrect] = useState(false);
 
     
     const {createList, setCreateList} = useContext(CreateListContext);
@@ -43,6 +44,18 @@ function Form() {
         createList.length > 0&&localStorage.setItem('Items', JSON.stringify(createList));
         titles.length > 0&&localStorage.setItem('Titles', JSON.stringify(titles));
     }, [createList, titles])
+
+    useEffect(()=>{
+        const filteredList = createList.filter(item => item.title === title)
+        if (filteredList.length > 0) {
+            const filteredEnglish = filteredList[0].list.filter(item => item.english === english);
+            if (filteredEnglish.length > 0) {
+                    setCorrect(true);
+            }else{
+                setCorrect(false);
+            }
+        }
+    },[createList,title,english])
 
     const set_error = (text, sec, color) =>{
         setErrorText(text);
@@ -148,6 +161,19 @@ function Form() {
         }
     }
 
+    const handleCorrect = () => {
+        if (title.length > 0 && english.length > 0 && hungarian.length > 0) {
+            const filteredList = createList.filter(item => item.title === title)
+            if (filteredList.length > 0) {
+                const filteredEnglish = filteredList[0].list.filter(item => item.english === english);
+                filteredEnglish[0].hungarian = hungarian;
+                setCreateList(list =>[...list]);
+                setEnglish('');
+                setHungarian('');
+            }
+        }
+    }
+
     return (
         <div className="flex flex-col relative md:w-[60%] mx-auto">
             <p className={`${error?'block':'hidden'} ${errorColor?'bg-green-600':'bg-red-600'} text-white rounded self-center px-1`}>{errorText}</p>
@@ -169,7 +195,8 @@ function Form() {
                         <input type='text' className="w-full outline-none mt-2 border border-secondary_color rounded p-2" placeholder="Hungarian..." onChange={handleInput(setHungarian)} value={hungarian}/>
                     </label>
                 </div>
-                <button className={`text-center w-25 h-14 ml-2 mt-2 p-2 bg-button text-white border-none rounded-xl shadow-button outline-none`} onClick={handleWords}>Add new word</button>
+                <button className={`${correct?'hidden':''} text-center w-25 h-14 ml-2 mt-2 p-2 bg-button text-white border-none rounded-xl shadow-button outline-none`} onClick={handleWords}>Add new word</button>
+                <button className={`${correct?'':'hidden'} text-center w-25 h-14 ml-2 mt-2 p-2 bg-button text-white border-none rounded-xl shadow-button outline-none tracking-[0.1rem]`} onClick={handleCorrect}>Correct</button>
             </div>
             <hr className='w-[80%] mt-6 border-b-solid self-center border-secondary_color'></hr>
             <button className="text-center max-w-[25rem] mt-6 mx-auto p-1 text-3xl bg-button text-white border-none rounded-xl shadow-button outline-none mb-8 tracking-[0.3rem]" onClick={handleForm}>Create</button>
