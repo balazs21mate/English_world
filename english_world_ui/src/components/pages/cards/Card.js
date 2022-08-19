@@ -28,7 +28,7 @@ function Card({title, list}){
         if (localList.length === 1) {
             setLocalList(list)
         } else {
-            setLocalList(localList.filter(item=>item.id!==localList[counter].id))
+            setLocalList(localList.filter(item=>item.english!==localList[counter].english))
             setCounter(Math.floor(Math.random()*(localList.length-1)))
         }
     }

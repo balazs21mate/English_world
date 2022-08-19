@@ -31,7 +31,6 @@ function Form() {
     const [confirmText, setConfirmText] = useState('Biztos törli a listát?');
     const [visibleConfirm, setVisibleConfirm] = useState(false);
     const [handle, setHandle] = useState();
-    const [correct, setCorrect] = useState(false);
 
     
     const {createList, setCreateList} = useContext(CreateListContext);
@@ -44,18 +43,6 @@ function Form() {
         createList.length > 0&&localStorage.setItem('Items', JSON.stringify(createList));
         titles.length > 0&&localStorage.setItem('Titles', JSON.stringify(titles));
     }, [createList, titles])
-
-    useEffect(()=>{
-        const filteredList = createList.filter(item => item.title === title)
-        if (filteredList.length > 0) {
-            const filteredEnglish = filteredList[0].list.filter(item => item.english === english);
-            if (filteredEnglish.length > 0) {
-                    setCorrect(true);
-            }else{
-                setCorrect(false);
-            }
-        }
-    },[createList,title,english])
 
     const set_error = (text, sec, color) =>{
         setErrorText(text);
@@ -78,7 +65,7 @@ function Form() {
         if (title.length > 0 && english.length > 0 && hungarian.length > 0) {
             const Item = {
                 id:createList.length + 1,
-                list: [{id: 1,english: english,hungarian: hungarian}],
+                list: [{english: english,hungarian: hungarian}],
                 title: title
             }
             setCreateList(list =>[...list, Item]);
@@ -97,13 +84,13 @@ function Form() {
             if (createList.length > 0) {
                 const filteredList = createList.filter(item => item.title === title)
                 if (filteredList.length > 0) {
-                    filteredList[0].list.push({id: filteredList[0].list.length + 1,english: english,hungarian: hungarian})
+                    filteredList[0].list.push({english: english,hungarian: hungarian})
                     setCreateList(list =>[...list]);
                     set_error(`Added new word to this list: ${title}!`, 2000, true);
                 } else {
                     const Item = {
                         id:createList.length + 1,
-                        list: [{id: 1,english: english,hungarian: hungarian}],
+                        list: [{english: english,hungarian: hungarian}],
                         title: title
                     }
                     setCreateList(list =>[...list, Item]);
@@ -113,7 +100,7 @@ function Form() {
             }   else {
                 const Item = {
                     id:createList.length + 1,
-                    list: [{id: 1,english: english,hungarian: hungarian}],
+                    list: [{english: english,hungarian: hungarian}],
                     title: title
                 }
                 setCreateList(list =>[...list, Item]);
@@ -166,10 +153,32 @@ function Form() {
             const filteredList = createList.filter(item => item.title === title)
             if (filteredList.length > 0) {
                 const filteredEnglish = filteredList[0].list.filter(item => item.english === english);
-                filteredEnglish[0].hungarian = hungarian;
-                setCreateList(list =>[...list]);
-                setEnglish('');
-                setHungarian('');
+                if (filteredEnglish.length > 0) {
+                    filteredEnglish[0].hungarian = hungarian;
+                    setCreateList(list =>[...list]);
+                    setEnglish('');
+                    setHungarian('');
+                } else {
+                    set_error(`This word: ${english} isn't in this list: ${title}`, 1000, false);
+                }
+            }
+        }
+    }
+
+    const handleDeleteWord = () => {
+        if (title.length > 0 && english.length > 0) {
+            const filteredList = createList.filter(item => item.title === title)
+            if (filteredList.length > 0) {
+                const filteredNewList = filteredList[0].list.filter(item => item.english !== english);
+                const filteredEnglish = filteredList[0].list.filter(item => item.english === english);
+                if (filteredEnglish.length > 0) {
+                    filteredList[0].list = filteredNewList;
+                    setCreateList(list =>[...list]);
+                    setEnglish('');
+                    setHungarian('');
+                } else {
+                    set_error(`This word: ${english} isn't in this list: ${title}`, 1000, false);
+                }
             }
         }
     }
@@ -182,8 +191,8 @@ function Form() {
                 <input type='text' className="w-full  mt-2 border outline-none border-secondary_color rounded p-2" placeholder='Title...' onChange={handleInput(setTitle)} value={title}/>
             </label>
             <div className='flex justify-around mt-2'>
-                <button className='text-center mr-1 w-[50%] h-14 p-2 bg-button text-white border-none rounded-xl shadow-button outline-none' onClick={()=>set_handle(handleDelete, `Are you sure you want delete this list: ${title}?`)}>Delete list</button>
-                <button className='text-center ml-1 w-[50%] h-14 p-2 bg-button text-white border-none rounded-xl shadow-button outline-none' onClick={()=>set_handle(handleDeleteAll, 'Are you sure you want delete all list?')}>Delete all list</button>
+                <button className='text-center mr-1 w-[50%] h-14 p-2 bg-button text-white border-none rounded-xl shadow-button outline-none tracking-[0.1rem]' onClick={()=>set_handle(handleDelete, `Are you sure you want delete this list: ${title}?`)}>Delete list</button>
+                <button className='text-center ml-1 w-[50%] h-14 p-2 bg-button text-white border-none rounded-xl shadow-button outline-none tracking-[0.1rem]' onClick={()=>set_handle(handleDeleteAll, 'Are you sure you want delete all list?')}>Delete all list</button>
             </div>
             <hr className='w-[80%] mt-10 mb-2 border-b-solid self-center border-secondary_color'></hr>
             <div className="flex flex-col xl:flex-row justify-between items-center">
@@ -195,8 +204,11 @@ function Form() {
                         <input type='text' className="w-full outline-none mt-2 border border-secondary_color rounded p-2" placeholder="Hungarian..." onChange={handleInput(setHungarian)} value={hungarian}/>
                     </label>
                 </div>
-                <button className={`${correct?'hidden':''} text-center w-25 h-14 ml-2 mt-2 p-2 bg-button text-white border-none rounded-xl shadow-button outline-none`} onClick={handleWords}>Add new word</button>
-                <button className={`${correct?'':'hidden'} text-center w-25 h-14 ml-2 mt-2 p-2 bg-button text-white border-none rounded-xl shadow-button outline-none tracking-[0.1rem]`} onClick={handleCorrect}>Correct</button>
+                <div className="flex xl:flex-col align-center">
+                    <button className={`text-center w-25 h-14 ml-2 mt-2 p-2 bg-button text-white border-none rounded-xl shadow-button outline-none tracking-[0.1rem]`} onClick={handleWords}>Add word</button>
+                    <button className={`text-center w-25 h-14 ml-2 mt-2 p-2 bg-button text-white border-none rounded-xl shadow-button outline-none tracking-[0.1rem]`} onClick={handleCorrect}>Correct word</button>
+                    <button className={`text-center w-25 h-14 ml-2 mt-2 p-2 bg-button text-white border-none rounded-xl shadow-button outline-none tracking-[0.1rem]`} onClick={handleDeleteWord}>Delete word</button>
+                </div>
             </div>
             <hr className='w-[80%] mt-6 border-b-solid self-center border-secondary_color'></hr>
             <button className="text-center max-w-[25rem] mt-6 mx-auto p-1 text-3xl bg-button text-white border-none rounded-xl shadow-button outline-none mb-8 tracking-[0.3rem]" onClick={handleForm}>Create</button>
