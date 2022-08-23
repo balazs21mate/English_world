@@ -1,14 +1,23 @@
-import React from 'react'
+import React, {useState} from 'react'
 
-function MemoryCard(){
+function MemoryCard({text}){
+    const [rotate, setRotate] = useState(false);
+    const [textToCard, setTextToCard] = useState('');
+
+    const handleRotateCard = () => {
+        setRotate(true);
+        setTimeout(() => {
+            setTextToCard(text);
+            setTimeout(() => {
+                setTextToCard('');
+                setRotate(false);
+            }, 2000);
+        }, 1000);
+    }
+
     return(
-        <div className="grid grid-cols-2 w-full px-1 gap-2 mb-2">
-            <div className="flex justify-center items-center text-secondary_color w-full h-40 border-solid border border-black rounded-lg shadow-card ">
-                <p></p>
-            </div>
-            <div className="flex justify-center items-center text-secondary_color w-full h-40 border-solid border border-black rounded-lg shadow-card ">
-                <p></p>
-            </div>
+        <div>
+            <div className={`${rotate? 'rotate_card_neg':'rotate_card'} flex justify-center transition-all duration-1000 items-center text-secondary_color cursor-pointer w-48 h-40 border-solid border border-black rounded-lg shadow-card`} onClick={handleRotateCard}>{textToCard}</div>
         </div>
     )
 }

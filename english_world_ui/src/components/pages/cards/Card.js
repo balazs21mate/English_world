@@ -1,13 +1,13 @@
 import React, {useState, useEffect} from 'react';
 
 function Card({title, list}){
-    const [localList, setLocalList] = useState([]) 
-    const [counter, setCounter] = useState(0)
-    const [english_text, setEnglish_text] = useState("")
-    const [hungarian_text, setHungarian_text] = useState("")
-    const [rotate, setRotate] = useState(false)
-    const [display, setDisplay] = useState(false)
-    const [disabledAll, setDisabledAll] = useState(false)
+    const [localList, setLocalList] = useState([]); 
+    const [counter, setCounter] = useState(0);
+    const [english_text, setEnglish_text] = useState("");
+    const [hungarian_text, setHungarian_text] = useState("");
+    const [rotate, setRotate] = useState(false);
+    const [display, setDisplay] = useState(false);
+    const [disabledAll, setDisabledAll] = useState(false);
 
     useEffect(()=>{
         if (list) {
