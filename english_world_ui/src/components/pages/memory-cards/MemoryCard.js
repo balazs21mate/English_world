@@ -17,7 +17,7 @@ function MemoryCard({text}){
 
     return(
         <div>
-            <div className={`${rotate? 'rotate_card_neg':'rotate_card'} flex justify-center transition-all duration-1000 items-center text-secondary_color cursor-pointer w-48 h-40 border-solid border border-black rounded-lg shadow-card`} onClick={handleRotateCard}>{textToCard}</div>
+            <div className={`${rotate?'rotate':'rotate_card'} text-sm w-28 h-28 flex transform-scale scale-150 text-center justify-center transition-all duration-1000 items-center text-secondary_color cursor-pointer border-solid border border-black rounded-lg shadow-card`} onClick={handleRotateCard}>{textToCard}</div>
         </div>
     )
 }

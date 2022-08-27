@@ -12,3 +12,11 @@
     transform: rotateY(180deg);
     transition: transform 1s;
 }
+
+.rotate{
+    background-color: white;
+    width: 10rem;
+    min-height: 5rem;
+    position: absolute;
+    z-index: 100;
+}
