@@ -155,5 +155,88 @@
                }
          ]
       }
+   ],
+   "memory_words":
+   [
+      {
+         "id": 1,
+         "english": "treat",
+         "hungarian": "kezelni"
+      },
+      {
+         "id": 2,
+         "english": "try",
+         "hungarian": "próbálni"
+      },
+      {
+         "id": 3,
+         "english": "turn",
+         "hungarian": "fordulni"
+      },
+      {
+         "id": 4,
+         "english": "understand",
+         "hungarian": "megérteni"
+      },
+      {
+         "id": 5,
+         "english": "use",
+         "hungarian": "használni"
+      },
+      {
+         "id": 6,
+         "english": "visit",
+         "hungarian": "meglátogatni"
+      },
+      {
+         "id": 7,
+         "english": "wait",
+         "hungarian": "várni"
+      },
+      {
+         "id": 8,
+         "english": "want",
+         "hungarian": "akarni"
+      },
+      {
+         "id": 9,
+         "english": "walk",
+         "hungarian": "sétálni"
+      },
+      {
+         "id": 10,
+         "english": "watch",
+         "hungarian": "nézni (tv-t)"
+      },
+      {
+         "id": 11,
+         "english": "win",
+         "hungarian": "nyerni"
+      },
+      {
+         "id": 12,
+         "english": "wonder",
+         "hungarian": "elmélkedni"
+      },
+      {
+         "id": 13,
+         "english": "write",
+         "hungarian": "írni"
+      },
+      {
+         "id": 14,
+         "english": "put",
+         "hungarian": "tenni"
+      },
+      {
+         "id": 15,
+         "english": "relate",
+         "hungarian": "átérezni"
+      },
+      {
+         "id": 16,
+         "english": "run",
+         "hungarian": "futni"
+      }
    ]
 }
