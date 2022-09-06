@@ -12,7 +12,7 @@ function Confirm({text, func, visible, set_visible}) {
         <div className={`${visible?'flex':'hidden'} absolute left-10 bg-white flex-col w-[80%] border rounded p-2 border-secondary_color mx-auto`}>
             <p className="text-center text-secondary_color text-lg">{text}</p>
             <div className="flex justify-between">
-            <button className="text-center max-w-[25rem] mt-6 mx-auto p-1 text-lg text-button border border-button rounded-lg outline-none mb-8 tracking-[0.3rem]" onClick={()=>set_visible(false)}>Cancel</button>
+                <button className="text-center max-w-[25rem] mt-6 mx-auto p-1 text-lg text-button border border-button rounded-lg outline-none mb-8 tracking-[0.3rem]" onClick={()=>set_visible(false)}>Cancel</button>
                 <button className="text-center max-w-[25rem] mt-6 mx-auto p-1 text-lg bg-button text-white border-none rounded-lg outline-none mb-8 tracking-[0.3rem]" onClick={confirm}>Confirm</button>
             </div>
         </div>

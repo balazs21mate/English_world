@@ -237,6 +237,31 @@
          "id": 16,
          "english": "run",
          "hungarian": "futni"
+      },
+      {
+         "id": 17,
+         "english": "have",
+         "hungarian": "birtokol"
+      },
+      {
+         "id": 18,
+         "english": "help",
+         "hungarian": "segíteni"
+      },
+      {
+         "id": 19,
+         "english": "improve",
+         "hungarian": "javítani"
+      },
+      {
+         "id": 20,
+         "english": "join",
+         "hungarian": "csatlakozni"
+      },
+      {
+         "id": 21,
+         "english": "know",
+         "hungarian": "tudni"
       }
    ]
 }
