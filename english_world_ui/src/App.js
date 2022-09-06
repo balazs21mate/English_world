@@ -14,6 +14,8 @@ import {
 
 import {FetchProvider} from "./components/context/Fetch";
 import {CreateListProvider} from "./components/context/CreateList";
+import {MemoryProvider} from "./components/context/Memory";
+
 
 function App() {
 
@@ -24,13 +26,15 @@ function App() {
         <Navbar/>
         <div className='mt-[7rem] md:mt-[8rem] lg:mt-[9rem]'>
         <CreateListProvider>
+          <MemoryProvider>
             <Routes>
               <Route path="/" element={<Cards/>} />
               <Route path="/grammar" element={<Grammar/>} />
               <Route path="/memory_game" element={<MemoryGame/>} />
               <Route  path='/create' element={<CreateCard/>}/>
             </Routes>
-          </CreateListProvider>
+          </MemoryProvider>
+        </CreateListProvider>
         </div>
       </div>
     </FetchProvider>
