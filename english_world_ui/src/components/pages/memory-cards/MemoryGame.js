@@ -47,21 +47,21 @@ function MemoryGame(){
             <PagesTitle title='Memory Game'/>
             <h1 className='text-3xl'>Level:</h1>
             <div className='hidden md:flex'>
-                <button className="text-center max-w-[25rem] mt-6 mr-2 mx-auto p-1 text-lg text-button border border-button rounded-lg outline-none mb-8 tracking-[0.3rem]" onClick={()=>{handleLayout(4,6)}}>4x3</button>
-                <button className="text-center max-w-[25rem] mt-6 mr-2 mx-auto p-1 text-lg text-button border border-button rounded-lg outline-none mb-8 tracking-[0.3rem]" onClick={()=>{handleLayout(4,8)}}>4x4</button>
-                <button className="text-center max-w-[25rem] mt-6 mr-2 mx-auto p-1 text-lg text-button border border-button rounded-lg outline-none mb-8 tracking-[0.3rem]" onClick={()=>{handleLayout(5,10)}}>5x4</button>
-                <button className="text-center max-w-[25rem] mt-6 mr-2 mx-auto p-1 text-lg text-button border border-button rounded-lg outline-none mb-8 tracking-[0.3rem]" onClick={()=>{handleLayout(6,15)}}>6x5</button>
-                <button className="text-center max-w-[25rem] mt-6 mr-2 mx-auto p-1 text-lg text-button border border-button rounded-lg outline-none mb-8 tracking-[0.3rem]" onClick={()=>{handleLayout(6,18)}}>6x6</button>
-                <button className="text-center max-w-[25rem] mt-6 mx-auto p-1 text-lg text-button border border-button rounded-lg outline-none mb-8 tracking-[0.3rem]" onClick={()=>{handleLayout(7,21)}}>7x6</button>
+                <button className="text-center max-w-[25rem] mt-6 mr-2 mx-auto p-1 text-lg text-button border border-button rounded-lg outline-none mb-8 tracking-[0.3rem]" onClick={()=>{handleLayout(4,6);handleNewGame()}}>4x3</button>
+                <button className="text-center max-w-[25rem] mt-6 mr-2 mx-auto p-1 text-lg text-button border border-button rounded-lg outline-none mb-8 tracking-[0.3rem]" onClick={()=>{handleLayout(4,8);handleNewGame()}}>4x4</button>
+                <button className="text-center max-w-[25rem] mt-6 mr-2 mx-auto p-1 text-lg text-button border border-button rounded-lg outline-none mb-8 tracking-[0.3rem]" onClick={()=>{handleLayout(5,10);handleNewGame()}}>5x4</button>
+                <button className="text-center max-w-[25rem] mt-6 mr-2 mx-auto p-1 text-lg text-button border border-button rounded-lg outline-none mb-8 tracking-[0.3rem]" onClick={()=>{handleLayout(6,15);handleNewGame()}}>6x5</button>
+                <button className="text-center max-w-[25rem] mt-6 mr-2 mx-auto p-1 text-lg text-button border border-button rounded-lg outline-none mb-8 tracking-[0.3rem]" onClick={()=>{handleLayout(6,18);handleNewGame()}}>6x6</button>
+                <button className="text-center max-w-[25rem] mt-6 mx-auto p-1 text-lg text-button border border-button rounded-lg outline-none mb-8 tracking-[0.3rem]" onClick={()=>{handleLayout(7,21);handleNewGame()}}>7x6</button>
             </div>
             <div className='flex md:hidden'>
-                <button className="text-center max-w-[25rem] mt-6 mr-2 mx-auto p-1 text-lg text-button border border-button rounded-lg outline-none mb-8 tracking-[0.3rem]" onClick={()=>{handleLayout(2,2)}}>2x2</button>
-                <button className="text-center max-w-[25rem] mt-6 mr-2 mx-auto p-1 text-lg text-button border border-button rounded-lg outline-none mb-8 tracking-[0.3rem]" onClick={()=>{handleLayout(4,6)}}>4x3</button>
-                <button className="text-center max-w-[25rem] mt-6 mr-2 mx-auto p-1 text-lg text-button border border-button rounded-lg outline-none mb-8 tracking-[0.3rem]" onClick={()=>{handleLayout(4,8)}}>4x4</button>
+                <button className="text-center max-w-[25rem] mt-6 mr-2 mx-auto p-1 text-lg text-button border border-button rounded-lg outline-none mb-8 tracking-[0.3rem]" onClick={()=>{handleLayout(2,2);handleNewGame()}}>2x2</button>
+                <button className="text-center max-w-[25rem] mt-6 mr-2 mx-auto p-1 text-lg text-button border border-button rounded-lg outline-none mb-8 tracking-[0.3rem]" onClick={()=>{handleLayout(4,6);handleNewGame()}}>4x3</button>
+                <button className="text-center max-w-[25rem] mt-6 mr-2 mx-auto p-1 text-lg text-button border border-button rounded-lg outline-none mb-8 tracking-[0.3rem]" onClick={()=>{handleLayout(4,8);handleNewGame()}}>4x4</button>
             </div>
             <div className={`grid grid-cols-${numberOfCols} md:grid-cols-${numberOfCols} gap-1 relative`}>
                 {
-                    localList.sort(function(){return 0.5 - Math.random()}).map((item,index) => <MemoryCard key={index} item={item}/>)
+                    localList.map((item,index) => <MemoryCard key={index} item={item}/>)
                 }
             </div>
             <button className="text-center max-w-[25rem] mt-6 mx-auto p-1 text-lg text-white bg-button rounded-lg outline-none mb-8 tracking-[0.3rem]" onClick={handleNewGame}>New Game</button>
