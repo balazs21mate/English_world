@@ -10,9 +10,10 @@ function MemoryGame(){
 
     useEffect(()=>{
         const list=[]
-        for (let index = 0; index < memoryWordsList.length; index++) {
-            list.push({id: memoryWordsList[index].id, word: memoryWordsList[index].english});
-            list.push({id: memoryWordsList[index].id, word: memoryWordsList[index].hungarian});
+        const shuffledArray = memoryWordsList.sort(function(){return 0.5 - Math.random()}).slice(0,8);
+        for (let index = 0; index < shuffledArray.length; index++) {
+            list.push({id: shuffledArray[index].id, word: shuffledArray[index].english});
+            list.push({id: shuffledArray[index].id, word: shuffledArray[index].hungarian});
         }
 
         setLocalList(list);
@@ -23,7 +24,7 @@ function MemoryGame(){
             <PagesTitle title='Memory Game'/>
             <div className='grid grid-cols-3 md:grid-cols-4 gap-1 relative'>
                 {
-                    localList.sort(function(){return 0.5 - Math.random()}).map((item,index) => <MemoryCard key={index} text={item.word}/>)
+                    localList.sort(function(){return 0.5 - Math.random()}).map((item,index) => <MemoryCard key={index} item={item}/>)
                 }
             </div>
         </div>

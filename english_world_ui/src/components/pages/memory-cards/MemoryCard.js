@@ -1,13 +1,13 @@
 import React, {useState} from 'react'
 
-function MemoryCard({text}){
+function MemoryCard({item}){
     const [rotate, setRotate] = useState(false);
     const [textToCard, setTextToCard] = useState('');
 
     const handleRotateCard = () => {
         setRotate(true);
         setTimeout(() => {
-            setTextToCard(text);
+            setTextToCard(item.word + ' ' + item.id);
         }, 1000);
     }
 
