@@ -11,6 +11,19 @@ function MemoryGame(){
     const [localList, setLocalList] = useState([]);
     const [numberOfCards, setNumberOfCards] = useState(8);
     const [numberOfCols, setNumberOfCols] = useState(4);
+    const [gridCols, setGridCols] = useState({});
+
+    useEffect(()=>{
+        const cols = {
+            2:'grid-cols-2',
+            4:'grid-cols-4',
+            5:'grid-cols-5',
+            6:'grid-cols-6',
+            7:'grid-cols-7'
+        };
+
+        setGridCols(cols);
+    }, [setGridCols])
 
     useEffect(()=>{
         const list=[]
@@ -59,7 +72,7 @@ function MemoryGame(){
                 <button className="text-center max-w-[25rem] mt-6 mr-2 mx-auto p-1 text-lg text-button border border-button rounded-lg outline-none mb-8 tracking-[0.3rem]" onClick={()=>{handleLayout(4,6);handleNewGame()}}>4x3</button>
                 <button className="text-center max-w-[25rem] mt-6 mr-2 mx-auto p-1 text-lg text-button border border-button rounded-lg outline-none mb-8 tracking-[0.3rem]" onClick={()=>{handleLayout(4,8);handleNewGame()}}>4x4</button>
             </div>
-            <div className={`grid grid-cols-${numberOfCols} md:grid-cols-${numberOfCols} gap-1 relative`}>
+            <div className={`grid ${numberOfCols?gridCols[numberOfCols]:'grid-cols-4'} gap-1`}>
                 {
                     localList.map((item,index) => <MemoryCard key={index} item={item}/>)
                 }

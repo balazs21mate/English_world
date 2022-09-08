@@ -3,7 +3,7 @@ import React, {useState, useContext, useEffect} from 'react';
 import {MemoryContext} from '../../context/Memory';
 
 function MemoryCard({item}){
-    const {rotateAll, setRotateAll} = useContext(MemoryContext);
+    const {rotateAll, setRotateAll, setMemoryIdList} = useContext(MemoryContext);
     const [rotate, setRotate] = useState(false);
     const [textToCard, setTextToCard] = useState('');
 
@@ -16,6 +16,7 @@ function MemoryCard({item}){
 
     const handleRotateCard = () => {
         setRotateAll(false);
+        setMemoryIdList(list => [...list, item.id]);
         setRotate(true);
         setTimeout(() => {
             setTextToCard(item.word + ' ' + item.id);
