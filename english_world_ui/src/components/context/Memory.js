@@ -5,6 +5,8 @@ export const MemoryContext = createContext(true)
 export const MemoryProvider = (props) => {
     const [rotateAll, setRotateAll] = useState(false);
     const [memoryIdList, setMemoryIdList] = useState([]);
+    const [analogousIdList, setAnalogousIdList] = useState([]);
+    const [disabledAllCards, setdisabledAllCards] = useState(false);
 
     useEffect(()=>{
         if (memoryIdList.length === 2) {
@@ -14,6 +16,7 @@ export const MemoryProvider = (props) => {
                     setMemoryIdList([]);
                 }, 3000);
             }else{
+                setAnalogousIdList(list => [...list, memoryIdList[0]]);
                 setMemoryIdList([]);
             }
         }
@@ -24,7 +27,10 @@ export const MemoryProvider = (props) => {
             rotateAll: rotateAll,
             setRotateAll: setRotateAll,
             memoryIdList: memoryIdList,
-            setMemoryIdList: setMemoryIdList
+            setMemoryIdList: setMemoryIdList,
+            analogousIdList: analogousIdList,
+            setAnalogousIdList: setAnalogousIdList,
+            disabledAllCards: disabledAllCards
         }}>
             {props.children}
         </MemoryContext.Provider>

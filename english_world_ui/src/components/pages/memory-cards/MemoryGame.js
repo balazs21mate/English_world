@@ -7,7 +7,7 @@ import {MemoryContext} from '../../context/Memory';
 
 function MemoryGame(){
     const {memoryWordsList} = useContext(FetchContext);
-    const {setRotateAll} = useContext(MemoryContext);
+    const {setRotateAll, setMemoryIdList, setAnalogousIdList} = useContext(MemoryContext);
     const [localList, setLocalList] = useState([]);
     const [numberOfCards, setNumberOfCards] = useState(8);
     const [numberOfCols, setNumberOfCols] = useState(4);
@@ -39,7 +39,7 @@ function MemoryGame(){
             list.push({id: shuffledArray[index].id, word: shuffledArray[index].hungarian});
         }
 
-        setLocalList(list);
+        setLocalList(list.sort(function(){return 0.5 - Math.random()}));
     },[memoryWordsList, numberOfCards])
 
     const handleLayout = (func, numCol, numCards) => {
@@ -57,7 +57,9 @@ function MemoryGame(){
             list.push({id: shuffledArray[index].id, word: shuffledArray[index].hungarian});
         }
 
-        setLocalList(list);
+        setLocalList(list.sort(function(){return 0.5 - Math.random()}));
+        setAnalogousIdList([]);
+        setMemoryIdList([]);
     }
 
     return(
