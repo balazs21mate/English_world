@@ -9,15 +9,18 @@ export const MemoryProvider = (props) => {
     const [disabledAllCards, setdisabledAllCards] = useState(false);
 
     useEffect(()=>{
-        if (memoryIdList.length === 2) {
+        if (memoryIdList.length >= 2) {
+            setdisabledAllCards(true);
             if (memoryIdList[0] !== memoryIdList[1]) {
                 setTimeout(() => {
                     setRotateAll(true);
                     setMemoryIdList([]);
+                    setdisabledAllCards(false);
                 }, 3000);
             }else{
                 setAnalogousIdList(list => [...list, memoryIdList[0]]);
                 setMemoryIdList([]);
+                setdisabledAllCards(false);
             }
         }
     },[memoryIdList])

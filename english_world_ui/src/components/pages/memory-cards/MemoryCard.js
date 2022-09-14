@@ -7,18 +7,27 @@ function MemoryCard({item}){
     const [rotate, setRotate] = useState(false);
     const [textToCard, setTextToCard] = useState('');
     const [disableCard, setDisableCard] = useState(false);
+    const [disabledColor, setDisabledColor] = useState(false);
+
+    useEffect(()=>{
+        if(!rotate){
+            setDisableCard(false);
+        }
+    }, [rotate, setDisableCard])
 
     useEffect(()=>{
         if (analogousIdList.includes(item.id)) {
             setDisableCard(true);
-        }else{setDisableCard(false);}
+            setDisabledColor(true);
+        }else{
+            setDisableCard(false);
+            setDisabledColor(false);
+        }
     },[analogousIdList, item.id])
 
     useEffect(()=>{
         if (rotateAll) {
-            if (analogousIdList.includes(item.id)) {
-                
-            } else {
+            if (!analogousIdList.includes(item.id)) {
                 setRotate(false);
                 setTextToCard('');
             }
@@ -26,17 +35,18 @@ function MemoryCard({item}){
     },[rotateAll,analogousIdList,item.id])
 
     const handleRotateCard = () => {
+        setDisableCard(true);
         setRotateAll(false);
         setMemoryIdList(list => [...list, item.id]);
         setRotate(true);
         setTimeout(() => {
-            setTextToCard(item.word + ' ' + item.id);
+            setTextToCard(item.word);
         }, 1000);
     }
 
     return(
         <div>
-            <div className={`${rotate?'':'rotate_card'} text-xs w-20 h-20 flex text-center justify-center transition-all duration-1000 items-center text-secondary_color cursor-pointer border-solid border ${disableCard?'border-green-600':'border-secondary_color'} rounded-lg`} disabled={disableCard?true:false} onClick={handleRotateCard}>{textToCard}</div>
+            <div className={`${rotate?'':'rotate_card'} text-xs w-20 h-20 flex text-center justify-center transition-all duration-1000 items-center text-secondary_color cursor-pointer border-solid border ${disabledColor?'border-green-600':'border-secondary_color'} rounded-lg`} onClick={disabledAllCards || disableCard?undefined:handleRotateCard}>{textToCard}</div>
         </div>
     )
 }
