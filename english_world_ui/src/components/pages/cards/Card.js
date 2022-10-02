@@ -21,7 +21,8 @@ function Card({title, list}){
 
     useEffect(()=>{
         setEnglish_text(localList[counter]?.english)
-        setHungarian_text(localList[counter]?.hungarian)
+        let hungarian_words = localList[counter]?.hungarian.join("\r\n");
+        setHungarian_text(hungarian_words)
     },[localList,counter])
 
     const new_counter = () => {
@@ -40,16 +41,17 @@ function Card({title, list}){
         setRotate(!rotate)
         setTimeout(() => {
             setDisplay(!display)
-            rotate?setEnglish_text(localList[counter]?.english):setHungarian_text(localList[counter]?.hungarian)
+            let hungarian_words = localList[counter]?.hungarian.join("\r\n");
+            rotate?setEnglish_text(localList[counter]?.english):setHungarian_text(hungarian_words)
             setDisabledAll(false)
         }, 1000);
     }
 
     return(
-        <div className='flex flex-col justify-center items-center h-[20rem] max-w-lg w-[90%]'>
+        <div className='flex flex-col justify-center items-center h-[30rem] max-w-lg w-[90%]'>
             <h1 className='my-4 text-secondary_color text-[1.5rem] font-light'>{title}</h1>
-            <div className={`${rotate? 'rotate_card':''} cursor-pointer text-lg md:text-xl shadow-card ${display? 'hidden':'flex'} justify-center items-center text-secondary_color w-full h-full border-solid border border-black rounded-lg mb-8`} onClick={disabledAll?null:set_rotate}>{english_text}</div>
-            <div className={`${rotate? '':'rotate_card'} cursor-pointer text-lg md:text-xl shadow-card_negative ${display? 'flex':'hidden'} justify-center items-center text-secondary_color w-full h-full border-solid border border-black rounded-lg mb-8`} onClick={disabledAll?null:set_rotate}>{hungarian_text}</div>
+            <div className={`${rotate? 'rotate_card':''} cursor-pointer text-xl md:text-xl shadow-card ${display? 'hidden':'flex'} justify-center items-center text-secondary_color w-full h-full border-solid border border-black rounded-lg mb-8`} onClick={disabledAll?null:set_rotate}>{english_text}</div>
+            <div className={`new_line ${rotate? '':'rotate_card'} cursor-pointer text-xl md:text-xl shadow-card_negative ${display? 'flex':'hidden'}  text-secondary_color justify-center items-center w-full h-full border-solid border border-black rounded-lg mb-8`} onClick={disabledAll?null:set_rotate}>{hungarian_text}</div>
             <button className="text-center max-w-[25rem] my-0 mx-auto p-1 text-3xl bg-button text-white border-none rounded-xl shadow-button cursor-pointer outline-none mb-8 tracking-[0.3rem]" onClick={new_counter} disabled={disabledAll || display?true:false}>Next</button>
         </div>
     )

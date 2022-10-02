@@ -2,266 +2,5015 @@
    "words_list":
    [
       {
-         "id": 1,
-         "title": "Most Common Verbs",
-         "slug": "most_common_verbs",
+         "title": "1000 leggyakoribb angol szó",
          "list": [
                {
                   "id":1,
-                  "english":"Believe",
-                  "hungarian":"Gondol,vél,hisz"
+                  "english":"a",
+                  "hungarian":["egy"]
                },
                {
                   "id":2,
-                  "english":"Behind",
-                  "hungarian":"Mögött, mögé"
+                  "english":"ability",
+                  "hungarian":["képesség","készség"]
                },
                {
                   "id":3,
-                  "english":"Accept",
-                  "hungarian":"Elfogad, átvesz"
+                  "english":"able",
+                  "hungarian":["képes valamire"]
                },
                {
                   "id":4,
-                  "english":"There",
-                  "hungarian":"Ott, amott"
+                  "english":"about",
+                  "hungarian":["-ról","-ről"]
                },
                {
                   "id":5,
-                  "english":"Here",
-                  "hungarian":"Itt"
+                  "english":"above",
+                  "hungarian":["fölé"]
                },
                {
                   "id":6,
-                  "english":"Care (ige)",
-                  "hungarian":"Törődik, gondol valamivel, érdekli"
+                  "english":"accept",
+                  "hungarian":["elfogad"]
                },
                {
                   "id":7,
-                  "english":"At",
-                  "hungarian":"-nál, -nél"
+                  "english":"according",
+                  "hungarian":["valami szerint","valamihez képest","valaminek megfelelően"]
                },
                {
                   "id":8,
-                  "english":"Admit",
-                  "hungarian":"Bevall, beismer, elismer"
+                  "english":"account",
+                  "hungarian":["számla","elszámolás"]
                },
                {
                   "id":9,
-                  "english":"Discover",
-                  "hungarian":"Felfed, feltár, leleplez, felfedez"
+                  "english":"across",
+                  "hungarian":["keresztül"]
                },
                {
                   "id":10,
-                  "english":"Avoid",
-                  "hungarian":"Elkerül"
+                  "english":"act",
+                  "hungarian":["tett","cselekedet"]
                },
                {
                   "id":11,
-                  "english":"Clean (ige)",
-                  "hungarian":"Tisztít, kitisztít, lesúrol, takarít, kitakarít"
+                  "english":"action",
+                  "hungarian":["tett", "cselekedet", "cselekvés"]
                },
                {
                   "id":12,
-                  "english":"Contribute",
-                  "hungarian":"Hozzájárul, közreműködik, elősegít"
+                  "english":"activity",
+                  "hungarian":["tevékenység", "működés", "ténykedés", "aktivitás"]
                },
                {
                   "id":13,
-                  "english":"Carry",
-                  "hungarian":"(El)visz, hord, cipel"
+                  "english":"actually",
+                  "hungarian":["valójában", "ténylegesen", "igazából"]
                },
                {
                   "id":14,
-                  "english":"Must",
-                  "hungarian":"Muszály, kell"
+                  "english":"add",
+                  "hungarian":["összead"]
                },
                {
                   "id":15,
-                  "english":"Deliver",
-                  "hungarian":"Szállít, leszállít"
+                  "english":"address",
+                  "hungarian":["cím", "címzés"]
                },
                {
                   "id":16,
-                  "english":"Correct (ige)",
-                  "hungarian":"Helyesbít, kiigazít, korrigál, módosít, kijavít"
+                  "english":"administration",
+                  "hungarian":["adminisztráció", "ügyvitel"]
                },
                {
                   "id":17,
-                  "english":"Cut (ige)",
-                  "hungarian":"Vág, elvág, szétvág"
-               }
-         ]
-      },
-      {
-         "id": 2,
-         "title": "Adverb",
-         "slug": "adverb",
-         "list": [
-               {
-                  "id":1,
-                  "english":"Believe",
-                  "hungarian":"Gondol,vél,hisz"
+                  "english":"admit",
+                  "hungarian":["bevall", "beismer", "elismer"]
                },
                {
-                  "id":2,
-                  "english":"Behind",
-                  "hungarian":"Mögött, mögé"
+                  "id":18,
+                  "english":"adult",
+                  "hungarian":["felnőtt"]
                },
                {
-                  "id":3,
-                  "english":"Accept",
-                  "hungarian":"Elfogad, átvesz"
+                  "id":19,
+                  "english":"affect",
+                  "hungarian":["hatással van (valamire)", "kihatással van (valamire)", "érint", "hat", "befolyásol (valamit)", "köze van hozzá"]
                },
                {
-                  "id":4,
-                  "english":"There",
-                  "hungarian":"Ott, amott"
+                  "id":20,
+                  "english":"after",
+                  "hungarian":["után", "azután"]
                },
                {
-                  "id":5,
-                  "english":"Here",
-                  "hungarian":"Itt"
+                  "id":21,
+                  "english":"again",
+                  "hungarian":["újra", "újból", "megint", "ismét"]
                },
                {
-                  "id":6,
-                  "english":"Care (ige)",
-                  "hungarian":"Törődik, gondol valamivel, érdekli"
+                  "id":22,
+                  "english":"against",
+                  "hungarian":["ellenére", "ellen", "szemben", "ellenében"]
                },
                {
-                  "id":7,
-                  "english":"At",
-                  "hungarian":"-nál, -nél"
+                  "id":23,
+                  "english":"age",
+                  "hungarian":["kor", "életkor"]
                },
                {
-                  "id":8,
-                  "english":"Admit",
-                  "hungarian":"Bevall, beismer, elismer"
+                  "id":24,
+                  "english":"agency",
+                  "hungarian":["kirendeltség", "képviselet", "iroda"]
                },
                {
-                  "id":9,
-                  "english":"Discover",
-                  "hungarian":"Felfed, feltár, leleplez, felfedez"
+                  "id":25,
+                  "english":"agent",
+                  "hungarian":["ügynök", "kém", "hírszerző"]
                },
                {
-                  "id":10,
-                  "english":"Avoid",
-                  "hungarian":"Elkerül"
+                  "id":26,
+                  "english":"ago",
+                  "hungarian":["ezelőtt"]
                },
                {
-                  "id":11,
-                  "english":"Clean (ige)",
-                  "hungarian":"Tisztít, kitisztít, lesúrol, takarít, kitakarít"
+                  "id":27,
+                  "english":"agree",
+                  "hungarian":["egyetért", "beleegyezik", "hozzájárul", "megállapodik"]
+               },
+               {
+                  "id":28,
+                  "english":"agreement",
+                  "hungarian":["megállapodás", "megegyezés", "egyezmény", "szerződés"]
+               },
+               {
+                  "id":29,
+                  "english":"ahead",
+                  "hungarian":["előre", "elé"]
+               },
+               {
+                  "id":30,
+                  "english":"air",
+                  "hungarian":["levegő", "lég", "szellő"]
+               },
+               {
+                  "id":31,
+                  "english":"all",
+                  "hungarian":["minden", "az egész", "az összes"]
+               },
+               {
+                  "id":32,
+                  "english":"allow",
+                  "hungarian":["lehetővé tesz", "megenged", "engedélyez", "enged"]
+               },
+               {
+                  "id":33,
+                  "english":"almost",
+                  "hungarian":["majdnem", "csaknem"]
+               },
+               {
+                  "id":34,
+                  "english":"alone",
+                  "hungarian":["egyedül"]
+               },
+               {
+                  "id":35,
+                  "english":"along",
+                  "hungarian":["hosszában", "mentén"]
+               },
+               {
+                  "id":36,
+                  "english":"already",
+                  "hungarian":["már"]
+               },
+               {
+                  "id":37,
+                  "english":"also",
+                  "hungarian":["is", "szintén"]
+               },
+               {
+                  "id":38,
+                  "english":"although",
+                  "hungarian":["ámbár", "habár", "bár"]
+               },
+               {
+                  "id":39,
+                  "english":"always",
+                  "hungarian":["örökké", "mindig", "folyton"]
+               },
+               {
+                  "id":40,
+                  "english":"American",
+                  "hungarian":["amerikai"]
+               },
+               {
+                  "id":41,
+                  "english":"among",
+                  "hungarian":["között"]
+               },
+               {
+                  "id":42,
+                  "english":"amount",
+                  "hungarian":["összeg"]
+               },
+               {
+                  "id":43,
+                  "english":"analysis",
+                  "hungarian":["vizsgálat", "elemzés"]
+               },
+               {
+                  "id":44,
+                  "english":"and",
+                  "hungarian":["és", "valamint", "meg"]
+               },               
+               {
+                  "id":45,
+                  "english":"animal",
+                  "hungarian":["állat", "emlős állat"]
+               },               
+               {
+                  "id":46,
+                  "english":"another",
+                  "hungarian":["másik", "más"]
+               },               
+               {
+                  "id":47,
+                  "english":"answer",
+                  "hungarian":["felelet", "válasz"]
+               },               
+               {
+                  "id":48,
+                  "english":"any",
+                  "hungarian":["akármi", "akárki"]
+               },               
+               {
+                  "id":49,
+                  "english":"anyone",
+                  "hungarian":["akárki", "bárki", "valaki"]
+               },               
+               {
+                  "id":50,
+                  "english":"anything",
+                  "hungarian":["akármi"]
+               },               
+               {
+                  "id":51,
+                  "english":"appear",
+                  "hungarian":["megjelenik", "feltűnik"]
+               },               
+               {
+                  "id":52,
+                  "english":"apply",
+                  "hungarian":["kér", "kérvényt benyújt"]
+               },               
+               {
+                  "id":53,
+                  "english":"approach",
+                  "hungarian":["közeledés", "megközelítés"]
+               },               
+               {
+                  "id":54,
+                  "english":"area",
+                  "hungarian":["tér", "térség", "terület"]
+               },               
+               {
+                  "id":55,
+                  "english":"argue",
+                  "hungarian":["vitatkozik"]
+               },               
+               {
+                  "id":56,
+                  "english":"arm",
+                  "hungarian":["kar"]
+               },               
+               {
+                  "id":57,
+                  "english":"around",
+                  "hungarian":["minden oldalon", "körül"]
+               },               
+               {
+                  "id":58,
+                  "english":"arrive",
+                  "hungarian":["érkezik"]
+               },               
+               {
+                  "id":59,
+                  "english":"art",
+                  "hungarian":["művészet"]
+               },               
+               {
+                  "id":60,
+                  "english":"article",
+                  "hungarian":["cikk", "újságcikk"]
+               },               
+               {
+                  "id":61,
+                  "english":"artist",
+                  "hungarian":["művész"]
+               },               
+               {
+                  "id":62,
+                  "english":"as",
+                  "hungarian":["(a)mint", "ahogy(an)", "mivel"]
+               },               
+               {
+                  "id":63,
+                  "english":"ask",
+                  "hungarian":["megkérdez", "kérdez"]
+               },               
+               {
+                  "id":64,
+                  "english":"assume",
+                  "hungarian":["feltételez", "feltesz"]
+               },               
+               {
+                  "id":65,
+                  "english":"at",
+                  "hungarian":["-nál/-nél"]
+               },               
+               {
+                  "id":66,
+                  "english":"attack",
+                  "hungarian":["támadás", "roham"]
+               },               
+               {
+                  "id":67,
+                  "english":"attention",
+                  "hungarian":["figyelem", "gondosság", "vigyázat"]
+               },               
+               {
+                  "id":68,
+                  "english":"attorney",
+                  "hungarian":["megbízott", "meghatalmazott"]
+               },               
+               {
+                  "id":69,
+                  "english":"audience",
+                  "hungarian":["közönség", "publikum", "hallgatóság"]
+               },               
+               {
+                  "id":70,
+                  "english":"author",
+                  "hungarian":["szerző", "író"]
+               },               
+               {
+                  "id":71,
+                  "english":"authority",
+                  "hungarian":["engedélyezés", "felhatalmazás"]
+               },               
+               {
+                  "id":72,
+                  "english":"available",
+                  "hungarian":["rendelkezésre álló", "elérhető"]
+               },               
+               {
+                  "id":73,
+                  "english":"avoid",
+                  "hungarian":["elkerül"]
+               },               
+               {
+                  "id":74,
+                  "english":"away",
+                  "hungarian":["el", "messze"]
+               },               
+               {
+                  "id":75,
+                  "english":"baby",
+                  "hungarian":["baba", "csecsemő", "gyermek"]
+               },               
+               {
+                  "id":76,
+                  "english":"back",
+                  "hungarian":["hátrafelé", "hátra"]
+               },               
+               {
+                  "id":77,
+                  "english":"bad",
+                  "hungarian":["rossz", "hibás", "gonosz"]
+               },               
+               {
+                  "id":78,
+                  "english":"bag",
+                  "hungarian":["táska", "bőrönd", "zacskó", "retikül", "erszény", "zsák"]
+               },               
+               {
+                  "id":79,
+                  "english":"ball",
+                  "hungarian":["labda", "lövedék", "(ágyú)golyó", "gömb", "gombolyag"]
+               },               
+               {
+                  "id":80,
+                  "english":"bank",
+                  "hungarian":["pénzintézet", "bank"]
+               },               
+               {
+                  "id":81,
+                  "english":"bar",
+                  "hungarian":["bár"]
+               },               
+               {
+                  "id":82,
+                  "english":"base",
+                  "hungarian":["alapoz", "alapít"]
+               },               
+               {
+                  "id":83,
+                  "english":"be",
+                  "hungarian":["van", "létezik", "él"]
+               },               
+               {
+                  "id":84,
+                  "english":"beat",
+                  "hungarian":["megüt", "(meg)ver", "legyőz", "támadásra ad jelt"]
+               },               
+               {
+                  "id":85,
+                  "english":"beautiful",
+                  "hungarian":["gyönyörű", "szép"]
+               },               
+               {
+                  "id":86,
+                  "english":"because",
+                  "hungarian":["mert", "mivel"]
+               },               
+               {
+                  "id":87,
+                  "english":"become",
+                  "hungarian":["lesz valamivé", "válik valamivé"]
+               },               
+               {
+                  "id":88,
+                  "english":"bed",
+                  "hungarian":["fekhely", "ágy"]
+               },               
+               {
+                  "id":89,
+                  "english":"before",
+                  "hungarian":["előtt"]
+               },               
+               {
+                  "id":90,
+                  "english":"begin",
+                  "hungarian":["hozzáfog", "megkezd", "kezd", "elkezd"]
+               },               
+               {
+                  "id":91,
+                  "english":"behavior",
+                  "hungarian":["viselkedés", "magatartás", "magaviselet", "viselkedésmód"]
+               },               
+               {
+                  "id":92,
+                  "english":"behind",
+                  "hungarian":["mögött"]
+               },               
+               {
+                  "id":93,
+                  "english":"believe",
+                  "hungarian":["gondol", "vél", "hisz"]
+               },               
+               {
+                  "id":94,
+                  "english":"benefit",
+                  "hungarian":["juttatás", "ellátás"]
+               },               
+               {
+                  "id":95,
+                  "english":"best",
+                  "hungarian":["legjobb"]
+               },               
+               {
+                  "id":96,
+                  "english":"better",
+                  "hungarian":["jobban"]
+               },               
+               {
+                  "id":97,
+                  "english":"between",
+                  "hungarian":["között"]
+               },               
+               {
+                  "id":98,
+                  "english":"beyond",
+                  "hungarian":["mögött", "túl"]
+               },               
+               {
+                  "id":99,
+                  "english":"big",
+                  "hungarian":["nagy"]
+               },               
+               {
+                  "id":100,
+                  "english":"bill",
+                  "hungarian":["számla"]
+               },
+               {
+                  "id":101,
+                  "english":"billion",
+                  "hungarian":["milliárd"]
+               },
+               {
+                  "id":102,
+                  "english":"bit",
+                  "hungarian":["darab"]
+               },
+               {
+                  "id":103,
+                  "english":"black",
+                  "hungarian":["fekete", "sötét"]
+               },
+               {
+                  "id":104,
+                  "english":"blood",
+                  "hungarian":["vér"]
+               },
+               {
+                  "id":105,
+                  "english":"blue",
+                  "hungarian":["kék", "kék színű", "kéklő", "kékes"]
+               },
+               {
+                  "id":106,
+                  "english":"board",
+                  "hungarian":["deszka"]
+               },
+               {
+                  "id":107,
+                  "english":"body",
+                  "hungarian":["test"]
+               },
+               {
+                  "id":108,
+                  "english":"book",
+                  "hungarian":["könyv"]
+               },
+               {
+                  "id":109,
+                  "english":"born",
+                  "hungarian":["szül", "teremt"]
+               },
+               {
+                  "id":110,
+                  "english":"both",
+                  "hungarian":["mind... mind", "is... is"]
+               },
+               {
+                  "id":111,
+                  "english":"box",
+                  "hungarian":["láda", "szekrény", "doboz"]
+               },
+               {
+                  "id":112,
+                  "english":"boy",
+                  "hungarian":["fiú"]
+               },
+               {
+                  "id":113,
+                  "english":"break",
+                  "hungarian":["tör", "eltör", "átszakít", "felfeszít"]
+               },
+               {
+                  "id":114,
+                  "english":"bring",
+                  "hungarian":["elhoz", "hoz"]
+               },
+               {
+                  "id":115,
+                  "english":"brother",
+                  "hungarian":["fiútestvér", "fivér"]
+               },
+               {
+                  "id":116,
+                  "english":"budget",
+                  "hungarian":["büdzsé", "költségvetés"]
+               },
+               {
+                  "id":117,
+                  "english":"build",
+                  "hungarian":["épít", "megépít", "felépít"]
+               },
+               {
+                  "id":118,
+                  "english":"building",
+                  "hungarian":["épület"]
+               },
+               {
+                  "id":119,
+                  "english":"business",
+                  "hungarian":["üzlet"]
+               },
+               {
+                  "id":120,
+                  "english":"but",
+                  "hungarian":["azonban", "de"]
+               },
+               {
+                  "id":121,
+                  "english":"buy",
+                  "hungarian":["vesz", "vásárol", "megvesz"]
+               },
+               {
+                  "id":122,
+                  "english":"by",
+                  "hungarian":["-val/-vel"]
+               },
+               {
+                  "id":123,
+                  "english":"call",
+                  "hungarian":["hív"]
+               },
+               {
+                  "id":124,
+                  "english":"camera",
+                  "hungarian":["fényképezőgép", "tévékamera", "kamera", "filmfelvevő"]
+               },
+               {
+                  "id":125,
+                  "english":"campaign",
+                  "hungarian":["kampány", "mozgalom", "korteshadjárat"]
+               },
+               {
+                  "id":126,
+                  "english":"can",
+                  "hungarian":["tud", "képes valamire"]
+               },
+               {
+                  "id":127,
+                  "english":"cancer",
+                  "hungarian":["rák", "tumor", "rosszindulatú daganat"]
+               },
+               {
+                  "id":128,
+                  "english":"candidate",
+                  "hungarian":["jelölt", "pályázó", "várományos"]
+               },
+               {
+                  "id":129,
+                  "english":"capital",
+                  "hungarian":["főváros"]
+               },
+               {
+                  "id":130,
+                  "english":"car",
+                  "hungarian":["autó"]
+               },
+               {
+                  "id":131,
+                  "english":"card",
+                  "hungarian":["kártya", "kártyalap", "lap"]
+               },
+               {
+                  "id":132,
+                  "english":"care",
+                  "hungarian":["gondozás", "törődés", "ápolás", "gondoskodás", "ellátás"]
+               },
+               {
+                  "id":133,
+                  "english":"career",
+                  "hungarian":["karrier", "életpálya", "pályafutás"]
+               },
+               {
+                  "id":134,
+                  "english":"carry",
+                  "hungarian":["(el)visz"]
+               },
+               {
+                  "id":135,
+                  "english":"case",
+                  "hungarian":["doboz", "tartó", "tok", "burok", "láda"]
+               },
+               {
+                  "id":136,
+                  "english":"catch",
+                  "hungarian":["fog", "elfog", "megragad", "elkap"]
+               },
+               {
+                  "id":137,
+                  "english":"cause",
+                  "hungarian":["előidéz", "okoz"]
+               },
+               {
+                  "id":138,
+                  "english":"cell",
+                  "hungarian":["sejt"]
+               },
+               {
+                  "id":139,
+                  "english":"center",
+                  "hungarian":["középpont", "gócpont", "góc"]
+               },
+               {
+                  "id":140,
+                  "english":"central",
+                  "hungarian":["központi"]
+               },
+               {
+                  "id":141,
+                  "english":"century",
+                  "hungarian":["század", "évszázad"]
+               },
+               {
+                  "id":142,
+                  "english":"certain",
+                  "hungarian":["biztos", "bizonyos"]
+               },
+               {
+                  "id":143,
+                  "english":"certainly",
+                  "hungarian":["biztosan", "kétségkívül"]
+               },
+               {
+                  "id":144,
+                  "english":"chair",
+                  "hungarian":["szék"]
+               },               
+               {
+                  "id":145,
+                  "english":"challenge",
+                  "hungarian":["felhívás", "erőpróbára való alkalom", "ösztönző feladat", "provokáció", "kihívás"]
+               },               
+               {
+                  "id":146,
+                  "english":"chance",
+                  "hungarian":["esély", "alkalom", "lehetőség"]
+               },               
+               {
+                  "id":147,
+                  "english":"change",
+                  "hungarian":["váltás", "változás"]
+               },               
+               {
+                  "id":148,
+                  "english":"character",
+                  "hungarian":["vonás", "sajátosság", "jelleg", "jellemző"]
+               },               
+               {
+                  "id":149,
+                  "english":"charge",
+                  "hungarian":["díj", "költség"]
+               },               
+               {
+                  "id":150,
+                  "english":"check",
+                  "hungarian":["átvizsgál", "megnéz", "meggyőződik", "ellenőriz"]
+               },               
+               {
+                  "id":151,
+                  "english":"child",
+                  "hungarian":["gyermek"]
+               },               
+               {
+                  "id":152,
+                  "english":"choice",
+                  "hungarian":["választék", "választási lehetőség", "választás"]
+               },               
+               {
+                  "id":153,
+                  "english":"choose",
+                  "hungarian":["választ", "kiválaszt", "megválaszt"]
+               },               
+               {
+                  "id":154,
+                  "english":"church",
+                  "hungarian":["templom"]
+               },               
+               {
+                  "id":155,
+                  "english":"citizen",
+                  "hungarian":["állampolgár"]
+               },               
+               {
+                  "id":156,
+                  "english":"city",
+                  "hungarian":["város"]
+               },               
+               {
+                  "id":157,
+                  "english":"civil",
+                  "hungarian":["polgár-", "polgári"]
+               },               
+               {
+                  "id":158,
+                  "english":"claim",
+                  "hungarian":["igényel", "követel"]
+               },               
+               {
+                  "id":159,
+                  "english":"class",
+                  "hungarian":["osztály"]
+               },               
+               {
+                  "id":160,
+                  "english":"clear",
+                  "hungarian":["átlátszó", "tiszta"]
+               },               
+               {
+                  "id":161,
+                  "english":"clearly",
+                  "hungarian":["érthetően", "nyilvánvalóan", "világos", "világosan"]
+               },               
+               {
+                  "id":162,
+                  "english":"close",
+                  "hungarian":["közeli"]
+               },               
+               {
+                  "id":163,
+                  "english":"coach",
+                  "hungarian":["edző", "mesteredző"]
+               },               
+               {
+                  "id":164,
+                  "english":"cold",
+                  "hungarian":["hideg"]
+               },               
+               {
+                  "id":165,
+                  "english":"collection",
+                  "hungarian":["összehívás", "egybehívás", "összeszedés", "felfogás", "lecsapolás"]
+               },               
+               {
+                  "id":166,
+                  "english":"college",
+                  "hungarian":["egyetem", "főiskola"]
+               },               
+               {
+                  "id":167,
+                  "english":"color",
+                  "hungarian":["szín"]
+               },               
+               {
+                  "id":168,
+                  "english":"come",
+                  "hungarian":["jön"]
+               },               
+               {
+                  "id":169,
+                  "english":"commercial",
+                  "hungarian":["kereskedelmi"]
+               },               
+               {
+                  "id":170,
+                  "english":"common",
+                  "hungarian":["gyakori", "szokásos", "megszokott", "mindennapos"]
+               },               
+               {
+                  "id":171,
+                  "english":"community",
+                  "hungarian":["közösség"]
+               },               
+               {
+                  "id":172,
+                  "english":"company",
+                  "hungarian":["társulat", "társaság", "vállalat", "cég"]
+               },               
+               {
+                  "id":173,
+                  "english":"compare",
+                  "hungarian":["hasonlít", "összehasonlít"]
+               },               
+               {
+                  "id":174,
+                  "english":"computer",
+                  "hungarian":["számítógép"]
+               },               
+               {
+                  "id":175,
+                  "english":"concern",
+                  "hungarian":["aggodalom", "gond"]
+               },               
+               {
+                  "id":176,
+                  "english":"condition",
+                  "hungarian":["feltétel"]
+               },               
+               {
+                  "id":177,
+                  "english":"conference",
+                  "hungarian":["értekezlet", "tanácskozás", "konferencia"]
+               },               
+               {
+                  "id":178,
+                  "english":"Congress",
+                  "hungarian":["gyűlés", "küldöttgyűlés", "kongresszus"]
+               },               
+               {
+                  "id":179,
+                  "english":"consider",
+                  "hungarian":["elgondolkozik valamiről", "fontolóra vesz", "megfontol"]
+               },               
+               {
+                  "id":180,
+                  "english":"consumer",
+                  "hungarian":["fogyasztó"]
+               },               
+               {
+                  "id":181,
+                  "english":"contain",
+                  "hungarian":["tartalmaz", "magába foglal"]
+               },               
+               {
+                  "id":182,
+                  "english":"continue",
+                  "hungarian":["folytat"]
+               },               
+               {
+                  "id":183,
+                  "english":"control",
+                  "hungarian":["fennhatóság", "felügyelet", "ellenőrzés", "irányítás"]
+               },               
+               {
+                  "id":184,
+                  "english":"cost",
+                  "hungarian":["ár"]
+               },               
+               {
+                  "id":185,
+                  "english":"could",
+                  "hungarian":["tudhatna"]
+               },               
+               {
+                  "id":186,
+                  "english":"country",
+                  "hungarian":["ország"]
+               },               
+               {
+                  "id":187,
+                  "english":"couple",
+                  "hungarian":["pár"]
+               },               
+               {
+                  "id":188,
+                  "english":"course",
+                  "hungarian":["menet", "folyamat", "lefolyás"]
+               },               
+               {
+                  "id":189,
+                  "english":"court",
+                  "hungarian":["törvényszék", "tárgyalóterem", "bíróság"]
+               },               
+               {
+                  "id":190,
+                  "english":"cover",
+                  "hungarian":["takar", "betakar", "fed", "befed"]
+               },               
+               {
+                  "id":191,
+                  "english":"create",
+                  "hungarian":["teremt", "létrehoz", "alkot"]
+               },               
+               {
+                  "id":192,
+                  "english":"crime",
+                  "hungarian":["bűn", "bűntett", "bűntény", "bűncselekmény"]
+               },               
+               {
+                  "id":193,
+                  "english":"cultural",
+                  "hungarian":["kulturális", "művelődési"]
+               },               
+               {
+                  "id":194,
+                  "english":"culture",
+                  "hungarian":["kultúra"]
+               },               
+               {
+                  "id":195,
+                  "english":"cup",
+                  "hungarian":["pohár", "csésze", "bögre"]
+               },               
+               {
+                  "id":196,
+                  "english":"current",
+                  "hungarian":["pillanatnyi", "jelenlegi"]
+               },               
+               {
+                  "id":197,
+                  "english":"customer",
+                  "hungarian":["vevő", "vásárló", "vendég", "fogyasztó", "kuncsaft", "ügyfél"]
+               },               
+               {
+                  "id":198,
+                  "english":"cut",
+                  "hungarian":["vág", "elvág", "szétvág"]
+               },               
+               {
+                  "id":199,
+                  "english":"dark",
+                  "hungarian":["sötét"]
+               },               
+               {
+                  "id":200,
+                  "english":"data",
+                  "hungarian":["adat"]
+               },
+               {
+                  "id":201,
+                  "english":"daughter",
+                  "hungarian":["valakinek a lánya", "lánygyermek"]
+               },
+               {
+                  "id":202,
+                  "english":"day",
+                  "hungarian":["nap"]
+               },
+               {
+                  "id":203,
+                  "english":"dead",
+                  "hungarian":["halott", "élettelen"]
+               },
+               {
+                  "id":204,
+                  "english":"deal",
+                  "hungarian":["foglalkozik"]
+               },
+               {
+                  "id":205,
+                  "english":"death",
+                  "hungarian":["halál"]
+               },
+               {
+                  "id":206,
+                  "english":"debate",
+                  "hungarian":["vita", "megvitatás", "tanácskozás"]
+               },
+               {
+                  "id":207,
+                  "english":"decade",
+                  "hungarian":["évtized"]
+               },
+               {
+                  "id":208,
+                  "english":"decide",
+                  "hungarian":["eldönt", "határoz", "dönt"]
+               },
+               {
+                  "id":209,
+                  "english":"decision",
+                  "hungarian":["döntés", "határozat", "rendelet", "végzés", "ítélet"]
+               },
+               {
+                  "id":210,
+                  "english":"deep",
+                  "hungarian":["mély", "alapos", "okos", "nagy tudású", "széles"]
+               },
+               {
+                  "id":211,
+                  "english":"defense",
+                  "hungarian":["védelem", "megvédés", "oltalom"]
+               },
+               {
+                  "id":212,
+                  "english":"degree",
+                  "hungarian":["fok", "fokozat", "mérték"]
+               },
+               {
+                  "id":213,
+                  "english":"Democrat",
+                  "hungarian":["demokrata"]
+               },
+               {
+                  "id":214,
+                  "english":"democratic",
+                  "hungarian":["demokratikus"]
+               },
+               {
+                  "id":215,
+                  "english":"describe",
+                  "hungarian":["ecsetel", "leír"]
+               },
+               {
+                  "id":216,
+                  "english":"design",
+                  "hungarian":["vázlat", "elgondolás", "tervezet", "terv"]
+               },
+               {
+                  "id":217,
+                  "english":"despite",
+                  "hungarian":["valami ellenére"]
+               },
+               {
+                  "id":218,
+                  "english":"detail",
+                  "hungarian":["részlet"]
+               },
+               {
+                  "id":219,
+                  "english":"determine",
+                  "hungarian":["meghatároz", "elhatároz", "eldönt"]
+               },
+               {
+                  "id":220,
+                  "english":"develop",
+                  "hungarian":["fejleszt", "kifejleszt", "feltár", "kiaknáz", "hasznosít"]
+               },
+               {
+                  "id":221,
+                  "english":"development",
+                  "hungarian":["fejlődés"]
+               },
+               {
+                  "id":222,
+                  "english":"die",
+                  "hungarian":["meghal"]
+               },
+               {
+                  "id":223,
+                  "english":"difference",
+                  "hungarian":["különbözet", "különbség"]
+               },
+               {
+                  "id":224,
+                  "english":"different",
+                  "hungarian":["különböző", "eltérő"]
+               },
+               {
+                  "id":225,
+                  "english":"difficult",
+                  "hungarian":["nehéz", "bonyolult", "bajos", "problémás"]
+               },
+               {
+                  "id":226,
+                  "english":"dinner",
+                  "hungarian":["vacsora"]
+               },
+               {
+                  "id":227,
+                  "english":"direction",
+                  "hungarian":["igazodás", "irányultság", "irány"]
+               },
+               {
+                  "id":228,
+                  "english":"director",
+                  "hungarian":["rendező"]
+               },
+               {
+                  "id":229,
+                  "english":"discover",
+                  "hungarian":["felfed", "feltár", "leleplez", "felfedez"]
+               },
+               {
+                  "id":230,
+                  "english":"discuss",
+                  "hungarian":["megtárgyal", "megvitat", "megbeszél"]
+               },
+               {
+                  "id":231,
+                  "english":"discussion",
+                  "hungarian":["megbeszélés", "tárgyalás", "vita"]
+               },
+               {
+                  "id":232,
+                  "english":"disease",
+                  "hungarian":["kór", "betegség"]
+               },
+               {
+                  "id":233,
+                  "english":"do",
+                  "hungarian":["tesz", "csinál", "elvégez"]
+               },
+               {
+                  "id":234,
+                  "english":"doctor",
+                  "hungarian":["orvos", "doktor", "orvosdoktor"]
+               },
+               {
+                  "id":235,
+                  "english":"dog",
+                  "hungarian":["eb", "kutya"]
+               },
+               {
+                  "id":236,
+                  "english":"door",
+                  "hungarian":["ajtó"]
+               },
+               {
+                  "id":237,
+                  "english":"down",
+                  "hungarian":["le", "lefelé"]
+               },
+               {
+                  "id":238,
+                  "english":"draw",
+                  "hungarian":["rajzol"]
+               },
+               {
+                  "id":239,
+                  "english":"dream",
+                  "hungarian":["álom", "álomkép"]
+               },
+               {
+                  "id":240,
+                  "english":"drive",
+                  "hungarian":["irányít", "működtet", "vezet"]
+               },
+               {
+                  "id":241,
+                  "english":"drop",
+                  "hungarian":["csepeg", "csöpög"]
+               },
+               {
+                  "id":242,
+                  "english":"drug",
+                  "hungarian":["gyógyszer"]
+               },
+               {
+                  "id":243,
+                  "english":"during",
+                  "hungarian":["közben", "alatt"]
+               },
+               {
+                  "id":244,
+                  "english":"each",
+                  "hungarian":["mindegyik", "mindenki", "minden"]
+               },               
+               {
+                  "id":245,
+                  "english":"early",
+                  "hungarian":["korai"]
+               },               
+               {
+                  "id":246,
+                  "english":"east",
+                  "hungarian":["kelet"]
+               },               
+               {
+                  "id":247,
+                  "english":"easy",
+                  "hungarian":["könnyű", "könnyed", "kényelmes", "fesztelen"]
+               },               
+               {
+                  "id":248,
+                  "english":"eat",
+                  "hungarian":["étkezik", "eszik"]
+               },               
+               {
+                  "id":249,
+                  "english":"economic",
+                  "hungarian":["gazdasági", "gazdaságos"]
+               },               
+               {
+                  "id":250,
+                  "english":"economy",
+                  "hungarian":["gazdaság"]
+               },               
+               {
+                  "id":251,
+                  "english":"edge",
+                  "hungarian":["él", "éle valaminek"]
+               },               
+               {
+                  "id":252,
+                  "english":"education",
+                  "hungarian":["közoktatás", "oktatásügy", "oktatás"]
+               },               
+               {
+                  "id":253,
+                  "english":"effect",
+                  "hungarian":["kihatás", "hatás"]
+               },               
+               {
+                  "id":254,
+                  "english":"effort",
+                  "hungarian":["törekvés", "fáradozás", "erőkifejtés", "erőlködés", "erőfeszítés"]
+               },               
+               {
+                  "id":255,
+                  "english":"eight",
+                  "hungarian":["nyolc"]
+               },               
+               {
+                  "id":256,
+                  "english":"either",
+                  "hungarian":["egyik", "valamelyik (a kettő közül)"]
+               },               
+               {
+                  "id":257,
+                  "english":"election",
+                  "hungarian":["választás"]
+               },               
+               {
+                  "id":258,
+                  "english":"else",
+                  "hungarian":["egyéb", "más"]
+               },               
+               {
+                  "id":259,
+                  "english":"employee",
+                  "hungarian":["dolgozó", "munkavállaló", "magántisztviselő", "alkalmazott"]
+               },               
+               {
+                  "id":260,
+                  "english":"end",
+                  "hungarian":["vége", "vég"]
+               },               
+               {
+                  "id":261,
+                  "english":"energy",
+                  "hungarian":["energia"]
+               },               
+               {
+                  "id":262,
+                  "english":"enjoy",
+                  "hungarian":["élvez", "tetszik neki"]
+               },               
+               {
+                  "id":263,
+                  "english":"enough",
+                  "hungarian":["meglehetősen", "elégséges", "eléggé"]
+               },               
+               {
+                  "id":264,
+                  "english":"enter",
+                  "hungarian":["bemegy", "behatol", "belép"]
+               },               
+               {
+                  "id":265,
+                  "english":"entire",
+                  "hungarian":["teljes", "egész"]
+               },               
+               {
+                  "id":266,
+                  "english":"environment",
+                  "hungarian":["környezet"]
+               },               
+               {
+                  "id":267,
+                  "english":"environmental",
+                  "hungarian":["környezeti"]
+               },               
+               {
+                  "id":268,
+                  "english":"especially",
+                  "hungarian":["különösen"]
+               },               
+               {
+                  "id":269,
+                  "english":"establish",
+                  "hungarian":["alapít", "megalapít", "létesít"]
+               },               
+               {
+                  "id":270,
+                  "english":"even",
+                  "hungarian":["még", "még inkább", "sőt"]
+               },               
+               {
+                  "id":271,
+                  "english":"evening",
+                  "hungarian":["este"]
+               },               
+               {
+                  "id":272,
+                  "english":"event",
+                  "hungarian":["eset", "esemény", "rendezvény"]
+               },               
+               {
+                  "id":273,
+                  "english":"ever",
+                  "hungarian":["valaha"]
+               },               
+               {
+                  "id":274,
+                  "english":"every",
+                  "hungarian":["mind", "miden"]
+               },               
+               {
+                  "id":275,
+                  "english":"everybody",
+                  "hungarian":["mindenki"]
+               },               
+               {
+                  "id":276,
+                  "english":"everyone",
+                  "hungarian":["mind", "valamennyien", "mindenki"]
+               },               
+               {
+                  "id":277,
+                  "english":"everything",
+                  "hungarian":["minden"]
+               },               
+               {
+                  "id":278,
+                  "english":"evidence",
+                  "hungarian":["bizonyosság", "bizonyíték"]
+               },               
+               {
+                  "id":279,
+                  "english":"exactly",
+                  "hungarian":["pontosan"]
+               },               
+               {
+                  "id":280,
+                  "english":"example",
+                  "hungarian":["példa"]
+               },               
+               {
+                  "id":281,
+                  "english":"executive",
+                  "hungarian":["végrehajtó szerv", "végrehajtó hatalom", "közigazgatási szerv", "parancsnokság"]
+               },               
+               {
+                  "id":282,
+                  "english":"exist",
+                  "hungarian":["él", "van", "fennáll", "létezik"]
+               },               
+               {
+                  "id":283,
+                  "english":"expect",
+                  "hungarian":["vár"]
+               },               
+               {
+                  "id":284,
+                  "english":"experience",
+                  "hungarian":["tapasztalat", "jártasság"]
+               },               
+               {
+                  "id":285,
+                  "english":"expert",
+                  "hungarian":["szakember", "szakértő"]
+               },               
+               {
+                  "id":286,
+                  "english":"explain",
+                  "hungarian":["indokol", "magyaráz", "magyarázkodik", "megmagyaráz"]
+               },               
+               {
+                  "id":287,
+                  "english":"eye",
+                  "hungarian":["szem"]
+               },               
+               {
+                  "id":288,
+                  "english":"face",
+                  "hungarian":["arc"]
+               },               
+               {
+                  "id":289,
+                  "english":"fact",
+                  "hungarian":["tény"]
+               },               
+               {
+                  "id":290,
+                  "english":"factor",
+                  "hungarian":["tényező", "elem", "együttható", "fokozat", "faktor"]
+               },               
+               {
+                  "id":291,
+                  "english":"fail",
+                  "hungarian":["nem sikerül"]
+               },               
+               {
+                  "id":292,
+                  "english":"fall",
+                  "hungarian":["leejt", "lehull", "leesik", "esik"]
+               },               
+               {
+                  "id":293,
+                  "english":"family",
+                  "hungarian":["család"]
+               },               
+               {
+                  "id":294,
+                  "english":"far",
+                  "hungarian":["távol", "messze"]
+               },               
+               {
+                  "id":295,
+                  "english":"fast",
+                  "hungarian":["gyors", "gyorsjáratú", "sebes"]
+               },               
+               {
+                  "id":296,
+                  "english":"father",
+                  "hungarian":["édesapa", "apa", "atya"]
+               },               
+               {
+                  "id":297,
+                  "english":"fear",
+                  "hungarian":["félelem", "rettegés", "riadalom", "aggódás", "aggodalom"]
+               },               
+               {
+                  "id":298,
+                  "english":"federal",
+                  "hungarian":["központi"]
+               },               
+               {
+                  "id":299,
+                  "english":"feel",
+                  "hungarian":["érez", "valahogyan érzi magát"]
+               },               
+               {
+                  "id":300,
+                  "english":"feeling",
+                  "hungarian":["érzelem", "érzés"]
+               },
+               {
+                  "id":301,
+                  "english":"few",
+                  "hungarian":["kevés", "nem sok"]
+               },
+               {
+                  "id":302,
+                  "english":"field",
+                  "hungarian":["föld", "mező"]
+               },
+               {
+                  "id":303,
+                  "english":"fight",
+                  "hungarian":["harcol", "küzd"]
+               },
+               {
+                  "id":304,
+                  "english":"figure",
+                  "hungarian":["alak", "alakzat", "termet", "megjelenés"]
+               },
+               {
+                  "id":305,
+                  "english":"fill",
+                  "hungarian":["megtelik", "tölt"]
+               },
+               {
+                  "id":306,
+                  "english":"film",
+                  "hungarian":["film"]
+               },
+               {
+                  "id":307,
+                  "english":"final",
+                  "hungarian":["utolsó", "végső"]
+               },
+               {
+                  "id":308,
+                  "english":"finally",
+                  "hungarian":["utoljára", "végre", "végül", "végül is"]
+               },
+               {
+                  "id":309,
+                  "english":"financial",
+                  "hungarian":["pénzügyi"]
+               },
+               {
+                  "id":310,
+                  "english":"find",
+                  "hungarian":["talál", "megtalál", "rátalál", "lel"]
+               },
+               {
+                  "id":311,
+                  "english":"fine",
+                  "hungarian":["jó", "jól", "kitűnő", "szép"]
+               },
+               {
+                  "id":312,
+                  "english":"finger",
+                  "hungarian":["ujj", "rudacska", "stangli"]
+               },
+               {
+                  "id":313,
+                  "english":"finish",
+                  "hungarian":["befejeződik", "végződik"]
+               },
+               {
+                  "id":314,
+                  "english":"fire",
+                  "hungarian":["tűz", "tüzelés", "tűzvész"]
+               },
+               {
+                  "id":315,
+                  "english":"firm",
+                  "hungarian":["cég", "cégjelzés", "társaság", "üzletház"]
+               },
+               {
+                  "id":316,
+                  "english":"first",
+                  "hungarian":["első"]
+               },
+               {
+                  "id":317,
+                  "english":"fish",
+                  "hungarian":["hal"]
+               },
+               {
+                  "id":318,
+                  "english":"five",
+                  "hungarian":["öt"]
+               },
+               {
+                  "id":319,
+                  "english":"floor",
+                  "hungarian":["padló"]
+               },
+               {
+                  "id":320,
+                  "english":"fly",
+                  "hungarian":["átrepül valamit", "vezet", "repülőgépen visz valakit", "repülőgépen szállít valakit", "repülőgépen küld valakit"]
+               },
+               {
+                  "id":321,
+                  "english":"focus",
+                  "hungarian":["összpontosít", "koncentrál"]
+               },
+               {
+                  "id":322,
+                  "english":"follow",
+                  "hungarian":["követ"]
+               },
+               {
+                  "id":323,
+                  "english":"food",
+                  "hungarian":["ennivaló", "táplálék", "élelmiszer", "élelem"]
+               },
+               {
+                  "id":324,
+                  "english":"foot",
+                  "hungarian":["láb", "lábfej"]
+               },
+               {
+                  "id":325,
+                  "english":"for",
+                  "hungarian":["-nak/-nek"]
+               },
+               {
+                  "id":326,
+                  "english":"force",
+                  "hungarian":["erő", "kényszer", "kényszerítés", "erőszak"]
+               },
+               {
+                  "id":327,
+                  "english":"foreign",
+                  "hungarian":["külföldi"]
+               },
+               {
+                  "id":328,
+                  "english":"forget",
+                  "hungarian":["elfelejt", "nem jut eszébe", "megfeledkezik"]
+               },
+               {
+                  "id":329,
+                  "english":"form",
+                  "hungarian":["alak", "forma"]
+               },
+               {
+                  "id":330,
+                  "english":"former",
+                  "hungarian":["korábbi", "előző", "előbbi"]
+               },
+               {
+                  "id":331,
+                  "english":"forward",
+                  "hungarian":["elöl", "előre"]
+               },
+               {
+                  "id":332,
+                  "english":"four",
+                  "hungarian":["négy"]
+               },
+               {
+                  "id":333,
+                  "english":"free",
+                  "hungarian":["szabad", "önálló", "független"]
+               },
+               {
+                  "id":334,
+                  "english":"friend",
+                  "hungarian":["barát(nő)"]
+               },
+               {
+                  "id":335,
+                  "english":"from",
+                  "hungarian":["-tól/-től"]
+               },
+               {
+                  "id":336,
+                  "english":"front",
+                  "hungarian":["arc", "homlok", "kiállás", "magatartás", "viselkedés"]
+               },
+               {
+                  "id":337,
+                  "english":"full",
+                  "hungarian":["tömve", "telt", "tele"]
+               },
+               {
+                  "id":338,
+                  "english":"fund",
+                  "hungarian":["pénzügyi alap", "tőke", "forrás", "fedezet", "pénz"]
+               },
+               {
+                  "id":339,
+                  "english":"future",
+                  "hungarian":["jövendő", "jövő"]
+               },
+               {
+                  "id":340,
+                  "english":"game",
+                  "hungarian":["játszma", "játék"]
+               },
+               {
+                  "id":341,
+                  "english":"garden",
+                  "hungarian":["kert"]
+               },
+               {
+                  "id":342,
+                  "english":"gas",
+                  "hungarian":["gáz", "benzin"]
+               },
+               {
+                  "id":343,
+                  "english":"general",
+                  "hungarian":["általános"]
+               },
+               {
+                  "id":344,
+                  "english":"generation",
+                  "hungarian":["nemzedék", "generáció", "emberöltő"]
+               },               
+               {
+                  "id":345,
+                  "english":"get",
+                  "hungarian":["kap"]
+               },               
+               {
+                  "id":346,
+                  "english":"girl",
+                  "hungarian":["kislány", "kisasszony", "lány"]
+               },               
+               {
+                  "id":347,
+                  "english":"give",
+                  "hungarian":["ad", "odaad", "átad"]
+               },               
+               {
+                  "id":348,
+                  "english":"glass",
+                  "hungarian":["üveg"]
+               },               
+               {
+                  "id":349,
+                  "english":"go",
+                  "hungarian":["megy", "halad", "indul"]
+               },               
+               {
+                  "id":350,
+                  "english":"goal",
+                  "hungarian":["cél"]
+               },               
+               {
+                  "id":351,
+                  "english":"good",
+                  "hungarian":["kitűnő", "jó"]
+               },               
+               {
+                  "id":352,
+                  "english":"government",
+                  "hungarian":["államigazgatás", "közigazgatás", "kormányzás"]
+               },               
+               {
+                  "id":353,
+                  "english":"great",
+                  "hungarian":["jelentős", "nagy"]
+               },               
+               {
+                  "id":354,
+                  "english":"green",
+                  "hungarian":["zöld"]
+               },               
+               {
+                  "id":355,
+                  "english":"ground",
+                  "hungarian":["föld", "talaj"]
+               },               
+               {
+                  "id":356,
+                  "english":"group",
+                  "hungarian":["csoport"]
+               },               
+               {
+                  "id":357,
+                  "english":"grow",
+                  "hungarian":["nő", "növekedik", "növekszik"]
+               },               
+               {
+                  "id":358,
+                  "english":"growth",
+                  "hungarian":["növés", "növekedés", "fejlődés", "gyarapodás"]
+               },               
+               {
+                  "id":359,
+                  "english":"guess",
+                  "hungarian":["vél", "hisz", "vélekedik"]
+               },               
+               {
+                  "id":360,
+                  "english":"gun",
+                  "hungarian":["lőfegyver", "pisztoly", "puska", "ágyú", "löveg"]
+               },               
+               {
+                  "id":361,
+                  "english":"guy",
+                  "hungarian":["ember", "férfi", "pasas", "srác"]
+               },               
+               {
+                  "id":362,
+                  "english":"hair",
+                  "hungarian":["haj", "hajszál", "szőr", "szőrszál"]
+               },               
+               {
+                  "id":363,
+                  "english":"half",
+                  "hungarian":["fele számú", "fele mennyiségű"]
+               },               
+               {
+                  "id":364,
+                  "english":"hand",
+                  "hungarian":["kéz", "kézfej"]
+               },               
+               {
+                  "id":365,
+                  "english":"hang",
+                  "hungarian":["akaszt", "felakaszt", "függeszt", "felfüggeszt", "feltesz", "felszerel"]
+               },               
+               {
+                  "id":366,
+                  "english":"happen",
+                  "hungarian":["(meg)történik"]
+               },               
+               {
+                  "id":367,
+                  "english":"happy",
+                  "hungarian":["boldog", "megelégedett"]
+               },               
+               {
+                  "id":368,
+                  "english":"hard",
+                  "hungarian":["kemény", "merev", "szilárd"]
+               },               
+               {
+                  "id":369,
+                  "english":"have",
+                  "hungarian":["van valamije", "van valakinek valamije", "valamit bír", "birtokol"]
+               },               
+               {
+                  "id":370,
+                  "english":"he",
+                  "hungarian":["ő (hímnemű)"]
+               },               
+               {
+                  "id":371,
+                  "english":"head",
+                  "hungarian":["fej"]
+               },               
+               {
+                  "id":372,
+                  "english":"health",
+                  "hungarian":["egészség"]
+               },               
+               {
+                  "id":373,
+                  "english":"hear",
+                  "hungarian":["hall"]
+               },               
+               {
+                  "id":374,
+                  "english":"heart",
+                  "hungarian":["szív"]
+               },               
+               {
+                  "id":375,
+                  "english":"heat",
+                  "hungarian":["meleg", "hő", "hőmérséklet", "hőség", "forróság"]
+               },               
+               {
+                  "id":376,
+                  "english":"heavy",
+                  "hungarian":["súlyos", "nehéz"]
+               },               
+               {
+                  "id":377,
+                  "english":"help",
+                  "hungarian":["segít"]
+               },               
+               {
+                  "id":378,
+                  "english":"her",
+                  "hungarian":["őt (nőnemű)"]
+               },               
+               {
+                  "id":379,
+                  "english":"here",
+                  "hungarian":["itt"]
+               },               
+               {
+                  "id":380,
+                  "english":"herself",
+                  "hungarian":["önmaga", "saját maga", "maga"]
+               },               
+               {
+                  "id":381,
+                  "english":"high",
+                  "hungarian":["értékes", "magas"]
+               },               
+               {
+                  "id":382,
+                  "english":"him",
+                  "hungarian":["őt (fiú)", "neki", "őneki"]
+               },               
+               {
+                  "id":383,
+                  "english":"himself",
+                  "hungarian":["önmaga"]
+               },               
+               {
+                  "id":384,
+                  "english":"his",
+                  "hungarian":["az ő valamije (hímneműé)"]
+               },               
+               {
+                  "id":385,
+                  "english":"history",
+                  "hungarian":["történet", "történelem"]
+               },               
+               {
+                  "id":386,
+                  "english":"hit",
+                  "hungarian":["üt", "elüt", "megüt"]
+               },               
+               {
+                  "id":387,
+                  "english":"hold",
+                  "hungarian":["fog", "tart", "kézben tart", "kézzel fog"]
+               },               
+               {
+                  "id":388,
+                  "english":"home",
+                  "hungarian":["otthon", "haza"]
+               },               
+               {
+                  "id":389,
+                  "english":"hope",
+                  "hungarian":["bízik", "remél", "reménykedik"]
+               },               
+               {
+                  "id":390,
+                  "english":"hospital",
+                  "hungarian":["kórház"]
+               },               
+               {
+                  "id":391,
+                  "english":"hot",
+                  "hungarian":["meleg", "izzó", "forró"]
+               },               
+               {
+                  "id":392,
+                  "english":"hotel",
+                  "hungarian":["hotel", "szálloda"]
+               },               
+               {
+                  "id":393,
+                  "english":"hour",
+                  "hungarian":["óra"]
+               },               
+               {
+                  "id":394,
+                  "english":"house",
+                  "hungarian":["ház", "épület"]
+               },               
+               {
+                  "id":395,
+                  "english":"how",
+                  "hungarian":["hogy?", "hogyan?"," mi módon?", "miként?"]
+               },               
+               {
+                  "id":396,
+                  "english":"however",
+                  "hungarian":["akárhogyan", "bármennyire"]
+               },               
+               {
+                  "id":397,
+                  "english":"huge",
+                  "hungarian":["óriási", "roppant", "irtózatos", "hatalmas"]
+               },               
+               {
+                  "id":398,
+                  "english":"human",
+                  "hungarian":["emberhez tartozó", "emberi"]
+               },               
+               {
+                  "id":399,
+                  "english":"hundred",
+                  "hungarian":["száz"]
+               },               
+               {
+                  "id":400,
+                  "english":"husband",
+                  "hungarian":["férj"]
+               },
+               {
+                  "id":401,
+                  "english":"I",
+                  "hungarian":["én"]
+               },
+               {
+                  "id":402,
+                  "english":"idea",
+                  "hungarian":["ötlet"]
+               },
+               {
+                  "id":403,
+                  "english":"identify",
+                  "hungarian":["ráismer (valakire)", "felismer"]
+               },
+               {
+                  "id":404,
+                  "english":"if",
+                  "hungarian":["ha", "feltéve hogy"]
+               },
+               {
+                  "id":405,
+                  "english":"image",
+                  "hungarian":["elképzelés", "képzelet"]
+               },
+               {
+                  "id":406,
+                  "english":"imagine",
+                  "hungarian":["képzel", "vél", "gondol", "hisz"]
+               },
+               {
+                  "id":407,
+                  "english":"impact",
+                  "hungarian":["becsapódás", "lökés", "ütődés", "ütközés", "rázkódás"]
+               },
+               {
+                  "id":408,
+                  "english":"important",
+                  "hungarian":["jelentős", "fontos"]
+               },
+               {
+                  "id":409,
+                  "english":"improve",
+                  "hungarian":["javít", "tökéletesít", "fejleszt"]
+               },
+               {
+                  "id":410,
+                  "english":"in",
+                  "hungarian":["-ban/-ben"]
+               },
+               {
+                  "id":411,
+                  "english":"include",
+                  "hungarian":["magába foglal", "tartalmaz"]
+               },
+               {
+                  "id":412,
+                  "english":"including",
+                  "hungarian":["beleértve", "ideértve"]
+               },
+               {
+                  "id":413,
+                  "english":"increase",
+                  "hungarian":["fokoz", "emel", "szaporít", "növel"]
+               },
+               {
+                  "id":414,
+                  "english":"indeed",
+                  "hungarian":["valóban", "tényleg", "csakugyan"]
+               },
+               {
+                  "id":415,
+                  "english":"indicate",
+                  "hungarian":["jelez", "feltüntet", "mutat"]
+               },
+               {
+                  "id":416,
+                  "english":"individual",
+                  "hungarian":["sajátos", "individuális", "egyedi", "egyéni"]
+               },
+               {
+                  "id":417,
+                  "english":"industry",
+                  "hungarian":["ipar", "iparág"]
+               },
+               {
+                  "id":418,
+                  "english":"information",
+                  "hungarian":["értesülés", "információ"]
+               },
+               {
+                  "id":419,
+                  "english":"inside",
+                  "hungarian":["-ban/-ben", "valami belsejében"]
+               },
+               {
+                  "id":420,
+                  "english":"instead",
+                  "hungarian":["helyette", "inkább"]
+               },
+               {
+                  "id":421,
+                  "english":"institution",
+                  "hungarian":["intézet", "létesítmény", "intézmény"]
+               },
+               {
+                  "id":422,
+                  "english":"interest",
+                  "hungarian":["érdeklődés"]
+               },
+               {
+                  "id":423,
+                  "english":"interesting",
+                  "hungarian":["érdekfeszítő", "érdekes"]
+               },
+               {
+                  "id":424,
+                  "english":"international",
+                  "hungarian":["nemzetközi"]
+               },
+               {
+                  "id":425,
+                  "english":"interview",
+                  "hungarian":["interjú"]
+               },
+               {
+                  "id":426,
+                  "english":"into",
+                  "hungarian":["-ra/-re", "-ba/-be"]
+               },
+               {
+                  "id":427,
+                  "english":"investment",
+                  "hungarian":["befektetés", "beruházás", "tőkeelhelyezés"]
+               },
+               {
+                  "id":428,
+                  "english":"involve",
+                  "hungarian":["magában foglal", "vele jár"]
+               },
+               {
+                  "id":429,
+                  "english":"issue",
+                  "hungarian":["kiadás (könyvé)", "megjelenés (könyvé)", "kibocsátás", "forgalomba hozatal"]
+               },
+               {
+                  "id":430,
+                  "english":"it",
+                  "hungarian":["élettelenre utaló névmás"]
+               },
+               {
+                  "id":431,
+                  "english":"item",
+                  "hungarian":["darab"]
+               },
+               {
+                  "id":432,
+                  "english":"its",
+                  "hungarian":["övé", "azé"]
+               },
+               {
+                  "id":433,
+                  "english":"itself",
+                  "hungarian":["ő", "maga"]
+               },
+               {
+                  "id":434,
+                  "english":"job",
+                  "hungarian":[]
+               },
+               {
+                  "id":435,
+                  "english":"join",
+                  "hungarian":["foglalkozás", "állás"]
+               },
+               {
+                  "id":436,
+                  "english":"just",
+                  "hungarian":["nem régen", "éppen most"]
+               },
+               {
+                  "id":437,
+                  "english":"keep",
+                  "hungarian":["tart", "megtart", "eltesz"]
+               },
+               {
+                  "id":438,
+                  "english":"key",
+                  "hungarian":["kulcs"]
+               },
+               {
+                  "id":439,
+                  "english":"kid",
+                  "hungarian":["fiú", "srác", "kölyök", "gyerek"]
+               },
+               {
+                  "id":440,
+                  "english":"kill",
+                  "hungarian":["gyilkol", "öl", "megöl"]
+               },
+               {
+                  "id":441,
+                  "english":"kind",
+                  "hungarian":["faj", "fajta", "jelleg", "féle"]
+               },
+               {
+                  "id":442,
+                  "english":"kitchen",
+                  "hungarian":["konyha"]
+               },
+               {
+                  "id":443,
+                  "english":"know",
+                  "hungarian":["tud", "ismer"]
+               },
+               {
+                  "id":444,
+                  "english":"knowledge",
+                  "hungarian":["tudomány", "ismeret", "tudásanyag", "tudomás", "tudás"]
+               },               
+               {
+                  "id":445,
+                  "english":"land",
+                  "hungarian":["föld", "szárazföld"]
+               },               
+               {
+                  "id":446,
+                  "english":"language",
+                  "hungarian":["nyelv (mint jelrendszer)"]
+               },               
+               {
+                  "id":447,
+                  "english":"large",
+                  "hungarian":["nagy"]
+               },               
+               {
+                  "id":448,
+                  "english":"last",
+                  "hungarian":["a vége valaminek", "az utója valaminek"]
+               },               
+               {
+                  "id":449,
+                  "english":"late",
+                  "hungarian":["késő"]
+               },               
+               {
+                  "id":450,
+                  "english":"later",
+                  "hungarian":["azt követően", "később"]
+               },               
+               {
+                  "id":451,
+                  "english":"laugh",
+                  "hungarian":["nevet", "kinevet", "röhög"]
+               },               
+               {
+                  "id":452,
+                  "english":"law",
+                  "hungarian":["törvény"]
+               },               
+               {
+                  "id":453,
+                  "english":"lawyer",
+                  "hungarian":["ügyvéd"]
+               },               
+               {
+                  "id":454,
+                  "english":"lay",
+                  "hungarian":["fektet", "lefektet", "helyez", "lehelyez", "terít", "tesz"]
+               },               
+               {
+                  "id":455,
+                  "english":"lead",
+                  "hungarian":["irányít", "vezet"]
+               },               
+               {
+                  "id":456,
+                  "english":"leader",
+                  "hungarian":["vezető"]
+               },               
+               {
+                  "id":457,
+                  "english":"learn",
+                  "hungarian":["megtanul", "tanul"]
+               },               
+               {
+                  "id":458,
+                  "english":"least",
+                  "hungarian":["legkevésbé"]
+               },               
+               {
+                  "id":459,
+                  "english":"leave",
+                  "hungarian":["elutazik", "elmegy"]
+               },               
+               {
+                  "id":460,
+                  "english":"left",
+                  "hungarian":["bal"]
+               },               
+               {
+                  "id":461,
+                  "english":"leg",
+                  "hungarian":["láb", "lábszár"]
+               },               
+               {
+                  "id":462,
+                  "english":"legal",
+                  "hungarian":["jogos", "jogszerű", "megengedett", "legális", "törvényes"]
+               },               
+               {
+                  "id":463,
+                  "english":"less",
+                  "hungarian":["kevesebb", "kisebb"]
+               },               
+               {
+                  "id":464,
+                  "english":"let",
+                  "hungarian":["bérbe ad", "kiad"]
+               },               
+               {
+                  "id":465,
+                  "english":"letter",
+                  "hungarian":["levél"]
+               },               
+               {
+                  "id":466,
+                  "english":"level",
+                  "hungarian":["színvonal", "szint"]
+               },               
+               {
+                  "id":467,
+                  "english":"lie",
+                  "hungarian":["hazudik"]
+               },               
+               {
+                  "id":468,
+                  "english":"life",
+                  "hungarian":["élet"]
+               },               
+               {
+                  "id":469,
+                  "english":"light",
+                  "hungarian":["fény", "világosság"]
+               },               
+               {
+                  "id":470,
+                  "english":"like",
+                  "hungarian":["szeret", "kedvel"]
+               },               
+               {
+                  "id":471,
+                  "english":"likely",
+                  "hungarian":["valószínű"]
+               },               
+               {
+                  "id":472,
+                  "english":"line",
+                  "hungarian":["egyenes", "vonal"]
+               },               
+               {
+                  "id":473,
+                  "english":"list",
+                  "hungarian":["lista", "jegyzék", "lajstrom", "névsor"]
+               },               
+               {
+                  "id":474,
+                  "english":"listen",
+                  "hungarian":["hallgat", "figyel"]
+               },               
+               {
+                  "id":475,
+                  "english":"little",
+                  "hungarian":["kicsi", "apró", "pici"]
+               },               
+               {
+                  "id":476,
+                  "english":"live",
+                  "hungarian":["létezik", "életben van", "él"]
+               },               
+               {
+                  "id":477,
+                  "english":"local",
+                  "hungarian":["helyi"]
+               },               
+               {
+                  "id":478,
+                  "english":"long",
+                  "hungarian":["hosszú"]
+               },               
+               {
+                  "id":479,
+                  "english":"look",
+                  "hungarian":["néz", "megnéz", "megtekint", "szemlél"]
+               },               
+               {
+                  "id":480,
+                  "english":"lose",
+                  "hungarian":["elveszít"]
+               },               
+               {
+                  "id":481,
+                  "english":"loss",
+                  "hungarian":["elveszés", "elvesztés"]
+               },               
+               {
+                  "id":482,
+                  "english":"lot",
+                  "hungarian":["osztályrész"]
+               },               
+               {
+                  "id":483,
+                  "english":"love",
+                  "hungarian":["szeretet"]
+               },               
+               {
+                  "id":484,
+                  "english":"low",
+                  "hungarian":["kis", "alacsony"]
+               },               
+               {
+                  "id":485,
+                  "english":"machine",
+                  "hungarian":["munkagép", "gép", "gépezet", "masina", "készülék"]
+               },               
+               {
+                  "id":486,
+                  "english":"magazine",
+                  "hungarian":["magazin", "folyóirat", "képeslap"]
+               },               
+               {
+                  "id":487,
+                  "english":"main",
+                  "hungarian":["fő"]
+               },               
+               {
+                  "id":488,
+                  "english":"maintain",
+                  "hungarian":["fenntart"]
+               },               
+               {
+                  "id":489,
+                  "english":"major",
+                  "hungarian":["jelentősebb", "nagyobb"]
+               },               
+               {
+                  "id":490,
+                  "english":"majority",
+                  "hungarian":["többség"]
+               },               
+               {
+                  "id":491,
+                  "english":"make",
+                  "hungarian":["készít", "csinál", "gyárt"]
+               },               
+               {
+                  "id":492,
+                  "english":"man",
+                  "hungarian":["férfi"]
+               },               
+               {
+                  "id":493,
+                  "english":"manage",
+                  "hungarian":["igazgat", "irányít", "vezet (vállalatot)", "kézben tart", "irányítja az ügyeket"]
+               },               
+               {
+                  "id":494,
+                  "english":"management",
+                  "hungarian":["irányítás", "intézés", "vezetés"]
+               },               
+               {
+                  "id":495,
+                  "english":"manager",
+                  "hungarian":["menedzser", "igazgató", "vezető"]
+               },               
+               {
+                  "id":496,
+                  "english":"many",
+                  "hungarian":["sok", "számos"]
+               },               
+               {
+                  "id":497,
+                  "english":"market",
+                  "hungarian":["piac"]
+               },               
+               {
+                  "id":498,
+                  "english":"marriage",
+                  "hungarian":["házasság"]
+               },               
+               {
+                  "id":499,
+                  "english":"material",
+                  "hungarian":["anyag"]
+               },               
+               {
+                  "id":500,
+                  "english":"matter",
+                  "hungarian":["lényeges valakinek"]
+               },
+               {
+                  "id":501,
+                  "english":"may",
+                  "hungarian":["szabad"]
+               },
+               {
+                  "id":502,
+                  "english":"maybe",
+                  "hungarian":["lehet", "esetleg", "talán"]
+               },
+               {
+                  "id":503,
+                  "english":"me",
+                  "hungarian":["engem", "nekem", "én"]
+               },
+               {
+                  "id":504,
+                  "english":"mean",
+                  "hungarian":["jelent"]
+               },
+               {
+                  "id":505,
+                  "english":"measure",
+                  "hungarian":["rendszabály"]
+               },
+               {
+                  "id":506,
+                  "english":"media",
+                  "hungarian":["média"]
+               },
+               {
+                  "id":507,
+                  "english":"medical",
+                  "hungarian":["orvosi"]
+               },
+               {
+                  "id":508,
+                  "english":"meet",
+                  "hungarian":["találkozik"]
+               },
+               {
+                  "id":509,
+                  "english":"meeting",
+                  "hungarian":["találkozó", "összejövetel", "gyűlés", "értekezlet"]
+               },
+               {
+                  "id":510,
+                  "english":"member",
+                  "hungarian":["tag"]
+               },
+               {
+                  "id":511,
+                  "english":"memory",
+                  "hungarian":["emlékezet", "emlékezőtehetség", "memória"]
+               },
+               {
+                  "id":512,
+                  "english":"mention",
+                  "hungarian":["beszél valakinek valamiről", "szóvá tesz", "megemlít", "említ"]
+               },
+               {
+                  "id":513,
+                  "english":"message",
+                  "hungarian":["üzenet"]
+               },
+               {
+                  "id":514,
+                  "english":"method",
+                  "hungarian":["eljárás", "mód", "módszer"]
+               },
+               {
+                  "id":515,
+                  "english":"middle",
+                  "hungarian":["középső", "közép-"]
+               },
+               {
+                  "id":516,
+                  "english":"might",
+                  "hungarian":["lehet", "-hat/-het"]
+               },
+               {
+                  "id":517,
+                  "english":"military",
+                  "hungarian":["harci", "hadi", "katona-", "katonás", "katonai"]
+               },
+               {
+                  "id":518,
+                  "english":"million",
+                  "hungarian":["millió"]
+               },
+               {
+                  "id":519,
+                  "english":"mind",
+                  "hungarian":["értelem", "értelmesség", "elme", "ész"]
+               },
+               {
+                  "id":520,
+                  "english":"minute",
+                  "hungarian":["perc"]
+               },
+               {
+                  "id":521,
+                  "english":"miss",
+                  "hungarian":["elhibáz", "elvét", "eltéveszt"]
+               },
+               {
+                  "id":522,
+                  "english":"mission",
+                  "hungarian":["bevetés", "feladat", "megbízás", "küldetés"]
+               },
+               {
+                  "id":523,
+                  "english":"model",
+                  "hungarian":["modell", "mintadarab"]
+               },
+               {
+                  "id":524,
+                  "english":"modern",
+                  "hungarian":["mai", "modern", "korszerű", "újszerű", "divatos"]
+               },
+               {
+                  "id":525,
+                  "english":"moment",
+                  "hungarian":["pillanat"]
+               },
+               {
+                  "id":526,
+                  "english":"money",
+                  "hungarian":["pénz"]
+               },
+               {
+                  "id":527,
+                  "english":"month",
+                  "hungarian":["hónap"]
+               },
+               {
+                  "id":528,
+                  "english":"more",
+                  "hungarian":["több"]
+               },
+               {
+                  "id":529,
+                  "english":"morning",
+                  "hungarian":["reggel"]
+               },
+               {
+                  "id":530,
+                  "english":"most",
+                  "hungarian":["a legvalamilyenebb"]
+               },
+               {
+                  "id":531,
+                  "english":"mother",
+                  "hungarian":["édesanya", "anya"]
+               },
+               {
+                  "id":532,
+                  "english":"mouth",
+                  "hungarian":["száj"]
+               },
+               {
+                  "id":533,
+                  "english":"move",
+                  "hungarian":["mozog"]
+               },
+               {
+                  "id":534,
+                  "english":"movement",
+                  "hungarian":["mozgatás", "mozgás"]
+               },
+               {
+                  "id":535,
+                  "english":"movie",
+                  "hungarian":["film"]
+               },
+               {
+                  "id":536,
+                  "english":"Mr",
+                  "hungarian":["úr"]
+               },
+               {
+                  "id":537,
+                  "english":"Mrs",
+                  "hungarian":["férjes asszony"]
+               },
+               {
+                  "id":538,
+                  "english":"much",
+                  "hungarian":["sok"]
+               },
+               {
+                  "id":539,
+                  "english":"music",
+                  "hungarian":["muzsika", "zene"]
+               },
+               {
+                  "id":540,
+                  "english":"must",
+                  "hungarian":["muszáj", "kell"]
+               },
+               {
+                  "id":541,
+                  "english":"my",
+                  "hungarian":["az én valamim", "enyém"]
+               },
+               {
+                  "id":542,
+                  "english":"myself",
+                  "hungarian":["magam", "saját magam"]
+               },
+               {
+                  "id":543,
+                  "english":"name",
+                  "hungarian":["név"]
+               },
+               {
+                  "id":544,
+                  "english":"nation",
+                  "hungarian":["nemzet"]
+               },               
+               {
+                  "id":545,
+                  "english":"national",
+                  "hungarian":["állami", "nemzeti"]
+               },               
+               {
+                  "id":546,
+                  "english":"natural",
+                  "hungarian":["természeti", "természetes"]
+               },               
+               {
+                  "id":547,
+                  "english":"nature",
+                  "hungarian":["természet"]
+               },               
+               {
+                  "id":548,
+                  "english":"near",
+                  "hungarian":["közel valakihez", "valami közelében"]
+               },               
+               {
+                  "id":549,
+                  "english":"nearly",
+                  "hungarian":["csaknem", "majdnem"]
+               },               
+               {
+                  "id":550,
+                  "english":"necessary",
+                  "hungarian":["nélkülözhetetlen", "szükséges", "létfontosságú"]
+               },               
+               {
+                  "id":551,
+                  "english":"need",
+                  "hungarian":["szüksége van valamire", "szükséges"]
+               },               
+               {
+                  "id":552,
+                  "english":"network",
+                  "hungarian":["hálózat"]
+               },               
+               {
+                  "id":553,
+                  "english":"never",
+                  "hungarian":["soha", "sohasem"]
+               },               
+               {
+                  "id":554,
+                  "english":"new",
+                  "hungarian":["újszerű", "új"]
+               },               
+               {
+                  "id":555,
+                  "english":"news",
+                  "hungarian":["hír", "újság", "hírek"]
+               },               
+               {
+                  "id":556,
+                  "english":"newspaper",
+                  "hungarian":["hírlap", "újság"]
+               },               
+               {
+                  "id":557,
+                  "english":"next",
+                  "hungarian":["következő", "szomszédos"]
+               },               
+               {
+                  "id":558,
+                  "english":"nice",
+                  "hungarian":["rendes", "kellemes", "szép", "szimpatikus"]
+               },               
+               {
+                  "id":559,
+                  "english":"night",
+                  "hungarian":["este", "éjjel", "éjszaka"]
+               },               
+               {
+                  "id":560,
+                  "english":"no",
+                  "hungarian":["nem"]
+               },               
+               {
+                  "id":561,
+                  "english":"none",
+                  "hungarian":["egyik sem", "egy sem"]
+               },               
+               {
+                  "id":562,
+                  "english":"nor",
+                  "hungarian":["se", "sem"]
+               },               
+               {
+                  "id":563,
+                  "english":"north",
+                  "hungarian":["észak"]
+               },               
+               {
+                  "id":564,
+                  "english":"not",
+                  "hungarian":["nem"]
+               },               
+               {
+                  "id":565,
+                  "english":"note",
+                  "hungarian":["megjegyez", "megfigyel", "feljegyez"]
+               },               
+               {
+                  "id":566,
+                  "english":"nothing",
+                  "hungarian":["semmi"]
+               },               
+               {
+                  "id":567,
+                  "english":"notice",
+                  "hungarian":["megfigyel", "észrevesz"]
+               },               
+               {
+                  "id":568,
+                  "english":"now",
+                  "hungarian":["jelenleg", "most"]
+               },               
+               {
+                  "id":569,
+                  "english":"n't",
+                  "hungarian":["nem"]
+               },               
+               {
+                  "id":570,
+                  "english":"number",
+                  "hungarian":["szám", "sorszám"]
+               },               
+               {
+                  "id":571,
+                  "english":"occur",
+                  "hungarian":["megtörténik", "bekövetkezik", "megesik"]
+               },               
+               {
+                  "id":572,
+                  "english":"of",
+                  "hungarian":["közül"]
+               },               
+               {
+                  "id":573,
+                  "english":"off",
+                  "hungarian":["ki", "el"]
+               },               
+               {
+                  "id":574,
+                  "english":"offer",
+                  "hungarian":["felkínál", "ajánlkozik", "ajánl"]
+               },               
+               {
+                  "id":575,
+                  "english":"office",
+                  "hungarian":["iroda"]
+               },               
+               {
+                  "id":576,
+                  "english":"officer",
+                  "hungarian":["katonatiszt", "tiszt"]
+               },               
+               {
+                  "id":577,
+                  "english":"official",
+                  "hungarian":["hivatalos közeg", "hivatalos személy", "tisztviselő", "hivatalnok"]
+               },               
+               {
+                  "id":578,
+                  "english":"often",
+                  "hungarian":["gyakran"]
+               },               
+               {
+                  "id":579,
+                  "english":"oh",
+                  "hungarian":["ó", "jaj", "ó jaj!"]
+               },               
+               {
+                  "id":580,
+                  "english":"oil",
+                  "hungarian":["olaj"]
+               },               
+               {
+                  "id":581,
+                  "english":"ok",
+                  "hungarian":["Rendben van!", "Helyes!", "OK!"]
+               },               
+               {
+                  "id":582,
+                  "english":"old",
+                  "hungarian":["öreg", "régi", "idős", "vén"]
+               },               
+               {
+                  "id":583,
+                  "english":"on",
+                  "hungarian":["-on/-en/-ön"]
+               },               
+               {
+                  "id":584,
+                  "english":"once",
+                  "hungarian":["egyszer"]
+               },               
+               {
+                  "id":585,
+                  "english":"one",
+                  "hungarian":["egy"]
+               },               
+               {
+                  "id":586,
+                  "english":"only",
+                  "hungarian":["csak", "csupán"]
+               },               
+               {
+                  "id":587,
+                  "english":"onto",
+                  "hungarian":["-ra/-re"]
+               },               
+               {
+                  "id":588,
+                  "english":"open",
+                  "hungarian":["kitár", "kinyit"]
+               },               
+               {
+                  "id":589,
+                  "english":"operation",
+                  "hungarian":["operáció", "művelet", "műtét"]
+               },               
+               {
+                  "id":590,
+                  "english":"opportunity",
+                  "hungarian":["esély", "lehetőség"]
+               },               
+               {
+                  "id":591,
+                  "english":"option",
+                  "hungarian":["alternatíva", "választás"]
+               },               
+               {
+                  "id":592,
+                  "english":"or",
+                  "hungarian":["vagy"]
+               },               
+               {
+                  "id":593,
+                  "english":"order",
+                  "hungarian":["rend", "osztály"]
+               },               
+               {
+                  "id":594,
+                  "english":"organization",
+                  "hungarian":["szervezet", "szervezés", "megszervezés", "szervezettség"]
+               },               
+               {
+                  "id":595,
+                  "english":"other",
+                  "hungarian":["másik"]
+               },               
+               {
+                  "id":596,
+                  "english":"others",
+                  "hungarian":["a többi"," a többiek"]
+               },               
+               {
+                  "id":597,
+                  "english":"our",
+                  "hungarian":["a mi valamink"]
+               },               
+               {
+                  "id":598,
+                  "english":"out",
+                  "hungarian":["ki", "kifelé", "kinn"]
+               },               
+               {
+                  "id":599,
+                  "english":"outside",
+                  "hungarian":["valamin kívül"]
+               },               
+               {
+                  "id":600,
+                  "english":"over",
+                  "hungarian":["valami/valaki fölé", "valami fölött"]
+               },{
+                  "id":601,
+                  "english":"own",
+                  "hungarian":["saját"]
+               },
+               {
+                  "id":602,
+                  "english":"owner",
+                  "hungarian":["gazda", "tulajdonos"]
+               },
+               {
+                  "id":603,
+                  "english":"page",
+                  "hungarian":["oldal", "lap"]
+               },
+               {
+                  "id":604,
+                  "english":"pain",
+                  "hungarian":["kín", "szenvedés", "gyötrelem", "fájás", "fájdalom"]
+               },
+               {
+                  "id":605,
+                  "english":"painting",
+                  "hungarian":["festmény", "kép"]
+               },
+               {
+                  "id":606,
+                  "english":"paper",
+                  "hungarian":["papír", "papiros"]
+               },
+               {
+                  "id":607,
+                  "english":"parent",
+                  "hungarian":["szülő"]
+               },
+               {
+                  "id":608,
+                  "english":"part",
+                  "hungarian":["rész"]
+               },
+               {
+                  "id":609,
+                  "english":"participant",
+                  "hungarian":["részes", "résztvevő"]
+               },
+               {
+                  "id":610,
+                  "english":"particular",
+                  "hungarian":["különös", "különleges"]
+               },
+               {
+                  "id":611,
+                  "english":"particularly",
+                  "hungarian":["főleg", "különösen"]
+               },
+               {
+                  "id":612,
+                  "english":"partner",
+                  "hungarian":["társ", "partner"]
+               },
+               {
+                  "id":613,
+                  "english":"party",
+                  "hungarian":["összejövetel", "buli", "estély"]
+               },
+               {
+                  "id":614,
+                  "english":"pass",
+                  "hungarian":["előz", "elhalad valami mellett", "áthalad valamin", "elmegy", "odébb áll", "továbbhalad"]
+               },
+               {
+                  "id":615,
+                  "english":"past",
+                  "hungarian":["múlt", "elmúlt", "régi"]
+               },
+               {
+                  "id":616,
+                  "english":"patient",
+                  "hungarian":["páciens", "beteg"]
+               },
+               {
+                  "id":617,
+                  "english":"pattern",
+                  "hungarian":["minta", "séma", "sablon"]
+               },
+               {
+                  "id":618,
+                  "english":"pay",
+                  "hungarian":["fizet"]
+               },
+               {
+                  "id":619,
+                  "english":"peace",
+                  "hungarian":["béke"]
+               },
+               {
+                  "id":620,
+                  "english":"people",
+                  "hungarian":["emberek"]
+               },
+               {
+                  "id":621,
+                  "english":"per",
+                  "hungarian":["által", "keresztül", "útján", "révén"]
+               },
+               {
+                  "id":622,
+                  "english":"perform",
+                  "hungarian":["előad", "játszik"]
+               },
+               {
+                  "id":623,
+                  "english":"performance",
+                  "hungarian":["előadás", "eljátszás"]
+               },
+               {
+                  "id":624,
+                  "english":"perhaps",
+                  "hungarian":["esetleg", "talán"]
+               },
+               {
+                  "id":625,
+                  "english":"period",
+                  "hungarian":["időtartam", "időszak", "korszak"]
+               },
+               {
+                  "id":626,
+                  "english":"person",
+                  "hungarian":["ember"]
+               },
+               {
+                  "id":627,
+                  "english":"personal",
+                  "hungarian":["személyes"]
+               },
+               {
+                  "id":628,
+                  "english":"phone",
+                  "hungarian":["telefon", "mobiltelefon"]
+               },
+               {
+                  "id":629,
+                  "english":"physical",
+                  "hungarian":["testi", "fizikai"]
+               },
+               {
+                  "id":630,
+                  "english":"pick",
+                  "hungarian":["kiválaszt", "gondosan válogat"]
+               },
+               {
+                  "id":631,
+                  "english":"picture",
+                  "hungarian":["kép", "festmény", "arckép", "képmás"]
+               },
+               {
+                  "id":632,
+                  "english":"piece",
+                  "hungarian":["rész", "darab"]
+               },
+               {
+                  "id":633,
+                  "english":"place",
+                  "hungarian":["hely"]
+               },
+               {
+                  "id":634,
+                  "english":"plan",
+                  "hungarian":["terv", "alaprajz", "elgondolás", "elrendezés"]
+               },
+               {
+                  "id":635,
+                  "english":"plant",
+                  "hungarian":["növény"]
+               },
+               {
+                  "id":636,
+                  "english":"play",
+                  "hungarian":["játszik"]
+               },
+               {
+                  "id":637,
+                  "english":"player",
+                  "hungarian":["játékos"]
+               },
+               {
+                  "id":638,
+                  "english":"PM",
+                  "hungarian":["délután"]
+               },
+               {
+                  "id":639,
+                  "english":"point",
+                  "hungarian":["pont"]
+               },
+               {
+                  "id":640,
+                  "english":"police",
+                  "hungarian":["rendőrség"]
+               },
+               {
+                  "id":641,
+                  "english":"policy",
+                  "hungarian":["politika"]
+               },
+               {
+                  "id":642,
+                  "english":"political",
+                  "hungarian":["politikai"]
+               },
+               {
+                  "id":643,
+                  "english":"politics",
+                  "hungarian":["politika", "államtudomány"]
+               },
+               {
+                  "id":644,
+                  "english":"poor",
+                  "hungarian":["szegény", "szegényes"]
+               },               
+               {
+                  "id":645,
+                  "english":"popular",
+                  "hungarian":["közkedvelt", "populáris", "népszerű"]
+               },               
+               {
+                  "id":646,
+                  "english":"population",
+                  "hungarian":["népesség", "lakosság"]
+               },               
+               {
+                  "id":647,
+                  "english":"position",
+                  "hungarian":["állás", "állapot", "helyzet"]
+               },               
+               {
+                  "id":648,
+                  "english":"positive",
+                  "hungarian":["pozitív"]
+               },               
+               {
+                  "id":649,
+                  "english":"possible",
+                  "hungarian":["lehet", "lehetséges"]
+               },               
+               {
+                  "id":650,
+                  "english":"power",
+                  "hungarian":["hatalom"]
+               },               
+               {
+                  "id":651,
+                  "english":"practice",
+                  "hungarian":["gyakorlás", "gyakorlat"]
+               },               
+               {
+                  "id":652,
+                  "english":"prepare",
+                  "hungarian":["felkészíti magát", "előkészületeket tesz", "felkészül"]
+               },               
+               {
+                  "id":653,
+                  "english":"present",
+                  "hungarian":["mostani", "jelenidejű", "jelenlegi"]
+               },               
+               {
+                  "id":654,
+                  "english":"president",
+                  "hungarian":["elnök"]
+               },               
+               {
+                  "id":655,
+                  "english":"pressure",
+                  "hungarian":["nyomás", "kényszer", "befolyás"]
+               },               
+               {
+                  "id":656,
+                  "english":"pretty",
+                  "hungarian":["elég", "eléggé", "meglehetősen"]
+               },               
+               {
+                  "id":657,
+                  "english":"prevent",
+                  "hungarian":["meggátol", "meghiúsít", "megakadályoz"]
+               },               
+               {
+                  "id":658,
+                  "english":"price",
+                  "hungarian":["ár"]
+               },               
+               {
+                  "id":659,
+                  "english":"private",
+                  "hungarian":["magán"]
+               },               
+               {
+                  "id":660,
+                  "english":"probably",
+                  "hungarian":["valószínűleg", "talán"]
+               },               
+               {
+                  "id":661,
+                  "english":"problem",
+                  "hungarian":["probléma", "gond"]
+               },               
+               {
+                  "id":662,
+                  "english":"process",
+                  "hungarian":["folyamat", "eljárás", "fejlődés"]
+               },               
+               {
+                  "id":663,
+                  "english":"produce",
+                  "hungarian":["termel"]
+               },               
+               {
+                  "id":664,
+                  "english":"product",
+                  "hungarian":["termék", "gyártmány", "készítmény", "végtermék"]
+               },               
+               {
+                  "id":665,
+                  "english":"production",
+                  "hungarian":["alkotás", "produkció", "színrehozás", "kiállítás (darabé)", "rendezés"]
+               },               
+               {
+                  "id":666,
+                  "english":"professional",
+                  "hungarian":["profi", "hivatásos", "szakmai", "szakmabeli"]
+               },               
+               {
+                  "id":667,
+                  "english":"professor",
+                  "hungarian":["egyetemi tanár", "főiskolai tanár", "professzor"]
+               },               
+               {
+                  "id":668,
+                  "english":"program",
+                  "hungarian":["program", "műsor"]
+               },               
+               {
+                  "id":669,
+                  "english":"project",
+                  "hungarian":["projekt", "program", "tervezet", "terv"]
+               },               
+               {
+                  "id":670,
+                  "english":"property",
+                  "hungarian":["tulajdon", "vagyon"]
+               },               
+               {
+                  "id":671,
+                  "english":"protect",
+                  "hungarian":["véd", "megvéd", "oltalmaz", "óv", "biztosít"]
+               },               
+               {
+                  "id":672,
+                  "english":"prove",
+                  "hungarian":["igazol", "bizonyít", "bebizonyít"]
+               },               
+               {
+                  "id":673,
+                  "english":"provide",
+                  "hungarian":["ellát", "gondoskodik"]
+               },               
+               {
+                  "id":674,
+                  "english":"public",
+                  "hungarian":["publikus", "nyilvános"]
+               },               
+               {
+                  "id":675,
+                  "english":"pull",
+                  "hungarian":["húz", "von", "kihúz", "meghúz", "kiránt", "megránt"]
+               },               
+               {
+                  "id":676,
+                  "english":"purpose",
+                  "hungarian":["terv", "cél", "szándék"]
+               },               
+               {
+                  "id":677,
+                  "english":"push",
+                  "hungarian":["tol", "lök", "taszít"]
+               },               
+               {
+                  "id":678,
+                  "english":"put",
+                  "hungarian":["tesz", "helyez valahova"]
+               },               
+               {
+                  "id":679,
+                  "english":"quality",
+                  "hungarian":["minőség"]
+               },               
+               {
+                  "id":680,
+                  "english":"question",
+                  "hungarian":["kérdés"]
+               },               
+               {
+                  "id":681,
+                  "english":"quickly",
+                  "hungarian":["azonnal", "gyorsan"]
+               },               
+               {
+                  "id":682,
+                  "english":"quite",
+                  "hungarian":["teljesen", "egész(en)"]
+               },               
+               {
+                  "id":683,
+                  "english":"race",
+                  "hungarian":["verseny", "futam"]
+               },               
+               {
+                  "id":684,
+                  "english":"radio",
+                  "hungarian":["rádió"]
+               },               
+               {
+                  "id":685,
+                  "english":"raise",
+                  "hungarian":["megemel", "feljebb emel", "emel"]
+               },               
+               {
+                  "id":686,
+                  "english":"range",
+                  "hungarian":["skála", "kategória", "tartomány"]
+               },               
+               {
+                  "id":687,
+                  "english":"rate",
+                  "hungarian":["hányad", "arány"]
+               },               
+               {
+                  "id":688,
+                  "english":"rather",
+                  "hungarian":["eléggé", "meglehetősen"]
+               },               
+               {
+                  "id":689,
+                  "english":"reach",
+                  "hungarian":["kinyújt", "nyújt"]
+               },               
+               {
+                  "id":690,
+                  "english":"read",
+                  "hungarian":["olvas", "elolvas"]
+               },               
+               {
+                  "id":691,
+                  "english":"ready",
+                  "hungarian":["kész (valamire)"]
+               },               
+               {
+                  "id":692,
+                  "english":"real",
+                  "hungarian":["valódi", "igazi", "reális", "valóságos"]
+               },               
+               {
+                  "id":693,
+                  "english":"reality",
+                  "hungarian":["létezés", "tények", "realitás", "valóság"]
+               },               
+               {
+                  "id":694,
+                  "english":"realize",
+                  "hungarian":["megért", "ráébred", "felfog", "ráeszmél", "átlát", "tudatában van", "elképzel"]
+               },               
+               {
+                  "id":695,
+                  "english":"really",
+                  "hungarian":["igazán", "valóban"]
+               },               
+               {
+                  "id":696,
+                  "english":"reason",
+                  "hungarian":["indok", "ok"]
+               },               
+               {
+                  "id":697,
+                  "english":"receive",
+                  "hungarian":["megkap", "kap", "elfogad"]
+               },               
+               {
+                  "id":698,
+                  "english":"recent",
+                  "hungarian":["újabb", "nem régi"]
+               },               
+               {
+                  "id":699,
+                  "english":"recently",
+                  "hungarian":["mostanában", "az utóbbi időben", "múltkor", "nemrég"]
+               },               
+               {
+                  "id":700,
+                  "english":"recognize",
+                  "hungarian":["felismer", "megismer"]
+               },
+               {
+                  "id":701,
+                  "english":"record",
+                  "hungarian":["nyilvántartás", "feljegyzés"]
+               },
+               {
+                  "id":702,
+                  "english":"red",
+                  "hungarian":["piros", "vörös"]
+               },
+               {
+                  "id":703,
+                  "english":"reduce",
+                  "hungarian":["mérsékel", "gyengít", "lenyom", "csökkent"]
+               },
+               {
+                  "id":704,
+                  "english":"reflect",
+                  "hungarian":["visszatükröződik", "visszasugároz", "visszaver"]
+               },
+               {
+                  "id":705,
+                  "english":"region",
+                  "hungarian":["környék", "vidék", "körzet", "régió"]
+               },
+               {
+                  "id":706,
+                  "english":"relate",
+                  "hungarian":["előad", "elbeszél", "elmesél", "elmond", "beszámol"]
+               },
+               {
+                  "id":707,
+                  "english":"relationship",
+                  "hungarian":["kapcsolat", "vonatkozás", "összefüggés", "viszony"]
+               },
+               {
+                  "id":708,
+                  "english":"religious",
+                  "hungarian":["vallás-", "vallási", "vallásos", "áhítatos", "istenfélő"]
+               },
+               {
+                  "id":709,
+                  "english":"remain",
+                  "hungarian":["tartózkodik", "marad"]
+               },
+               {
+                  "id":710,
+                  "english":"remember",
+                  "hungarian":["emlékszik", "emlékezik"]
+               },
+               {
+                  "id":711,
+                  "english":"remove",
+                  "hungarian":["eltávolít", "elmozdít", "leszerel", "levesz", "leszed"]
+               },
+               {
+                  "id":712,
+                  "english":"report",
+                  "hungarian":["jelentés"]
+               },
+               {
+                  "id":713,
+                  "english":"represent",
+                  "hungarian":["képvisel"]
+               },
+               {
+                  "id":714,
+                  "english":"Republican",
+                  "hungarian":["republikánus"]
+               },
+               {
+                  "id":715,
+                  "english":"require",
+                  "hungarian":["elvár", "követel", "megkövetel"]
+               },
+               {
+                  "id":716,
+                  "english":"research",
+                  "hungarian":["vizsgálat", "vizsgálódás", "kutatás"]
+               },
+               {
+                  "id":717,
+                  "english":"resource",
+                  "hungarian":["erőforrás", "eszköz", "pénzeszközök", "anyagi források", "vagyon", "menedék"]
+               },
+               {
+                  "id":718,
+                  "english":"respond",
+                  "hungarian":["válaszol", "felel"]
+               },
+               {
+                  "id":719,
+                  "english":"response",
+                  "hungarian":["felelet", "válasz"]
+               },
+               {
+                  "id":720,
+                  "english":"responsibility",
+                  "hungarian":["felelősség"]
+               },
+               {
+                  "id":721,
+                  "english":"rest",
+                  "hungarian":["nyugalom", "pihenés"]
+               },
+               {
+                  "id":722,
+                  "english":"result",
+                  "hungarian":["következmény", "eredmény"]
+               },
+               {
+                  "id":723,
+                  "english":"return",
+                  "hungarian":["visszajön", "visszatér", "hazaérkezik"]
+               },
+               {
+                  "id":724,
+                  "english":"reveal",
+                  "hungarian":["feltár", "felfed", "szem elé tár", "megmutat"]
+               },
+               {
+                  "id":725,
+                  "english":"rich",
+                  "hungarian":["gazdag"]
+               },
+               {
+                  "id":726,
+                  "english":"right",
+                  "hungarian":["jobb"]
+               },
+               {
+                  "id":727,
+                  "english":"rise",
+                  "hungarian":["nő", "nagyobbodik", "növekszik", "erősödik"]
+               },
+               {
+                  "id":728,
+                  "english":"risk",
+                  "hungarian":["kockázat", "rizikó", "veszély"]
+               },
+               {
+                  "id":729,
+                  "english":"road",
+                  "hungarian":["út"]
+               },
+               {
+                  "id":730,
+                  "english":"rock",
+                  "hungarian":["szikla", "kő", "kőzet", "kavics"]
+               },
+               {
+                  "id":731,
+                  "english":"role",
+                  "hungarian":["szerep"]
+               },
+               {
+                  "id":732,
+                  "english":"room",
+                  "hungarian":["szoba"]
+               },
+               {
+                  "id":733,
+                  "english":"rule",
+                  "hungarian":["előírás", "szabály"]
+               },
+               {
+                  "id":734,
+                  "english":"run",
+                  "hungarian":["fut", "szalad", "rohan"]
+               },
+               {
+                  "id":735,
+                  "english":"safe",
+                  "hungarian":["veszélytelen", "biztonságos"]
+               },
+               {
+                  "id":736,
+                  "english":"same",
+                  "hungarian":["ugyanaz"]
+               },
+               {
+                  "id":737,
+                  "english":"save",
+                  "hungarian":["megvéd", "megment", "megóv"]
+               },
+               {
+                  "id":738,
+                  "english":"say",
+                  "hungarian":["szól", "mond"]
+               },
+               {
+                  "id":739,
+                  "english":"scene",
+                  "hungarian":["jelenet", "kép", "szcéna", "ingerült jelenet", "heves jelenet"]
+               },
+               {
+                  "id":740,
+                  "english":"school",
+                  "hungarian":["iskola"]
+               },
+               {
+                  "id":741,
+                  "english":"science",
+                  "hungarian":["tudomány"]
+               },
+               {
+                  "id":742,
+                  "english":"scientist",
+                  "hungarian":["tudós"]
+               },
+               {
+                  "id":743,
+                  "english":"score",
+                  "hungarian":["sávoz", "vonalaz", "csíkoz", "barázdál"]
+               },
+               {
+                  "id":744,
+                  "english":"sea",
+                  "hungarian":["tenger", "óceán"]
+               },               
+               {
+                  "id":745,
+                  "english":"season",
+                  "hungarian":["évszak"]
+               },               
+               {
+                  "id":746,
+                  "english":"seat",
+                  "hungarian":["ülőhely"]
+               },               
+               {
+                  "id":747,
+                  "english":"second",
+                  "hungarian":["második"]
+               },               
+               {
+                  "id":748,
+                  "english":"section",
+                  "hungarian":["szakasz", "darab", "terület", "rész"]
+               },               
+               {
+                  "id":749,
+                  "english":"security",
+                  "hungarian":["biztonság"]
+               },               
+               {
+                  "id":750,
+                  "english":"see",
+                  "hungarian":["lát", "megnéz", "észrevesz"]
+               },               
+               {
+                  "id":751,
+                  "english":"seek",
+                  "hungarian":["kutat", "keres"]
+               },               
+               {
+                  "id":752,
+                  "english":"seem",
+                  "hungarian":["tűnik", "látszik"]
+               },               
+               {
+                  "id":753,
+                  "english":"sell",
+                  "hungarian":["árul", "értékesít", "elad"]
+               },               
+               {
+                  "id":754,
+                  "english":"send",
+                  "hungarian":["küld", "elküld", "eljuttat", "felad"]
+               },               
+               {
+                  "id":755,
+                  "english":"senior",
+                  "hungarian":["idősebb", "öregebb"]
+               },               
+               {
+                  "id":756,
+                  "english":"sense",
+                  "hungarian":["értelem", "jelentés"]
+               },               
+               {
+                  "id":757,
+                  "english":"series",
+                  "hungarian":["sorozat", "sor"]
+               },               
+               {
+                  "id":758,
+                  "english":"serious",
+                  "hungarian":["komoly"]
+               },               
+               {
+                  "id":759,
+                  "english":"serve",
+                  "hungarian":["szolgál", "kiszolgál", "felszolgál", "tálal"]
+               },               
+               {
+                  "id":760,
+                  "english":"service",
+                  "hungarian":["szolgáltatás", "felszolgálás", "kiszolgálás"]
+               },               
+               {
+                  "id":761,
+                  "english":"set",
+                  "hungarian":["elhelyez", "elrendez", "helyre rak", "támaszt", "letesz"]
+               },               
+               {
+                  "id":762,
+                  "english":"seven",
+                  "hungarian":["hét"]
+               },               
+               {
+                  "id":763,
+                  "english":"several",
+                  "hungarian":["számos", "néhány", "több"]
+               },               
+               {
+                  "id":764,
+                  "english":"sex",
+                  "hungarian":["szeretkezés", "szex"]
+               },               
+               {
+                  "id":765,
+                  "english":"sexual",
+                  "hungarian":["szexuális", "nemi", "ivari"]
+               },               
+               {
+                  "id":766,
+                  "english":"shake",
+                  "hungarian":["ráz", "kiráz", "felráz", "megráz", "levet"]
+               },               
+               {
+                  "id":767,
+                  "english":"share",
+                  "hungarian":["részvény"]
+               },               
+               {
+                  "id":768,
+                  "english":"she",
+                  "hungarian":["ő (nőnemű)"]
+               },               
+               {
+                  "id":769,
+                  "english":"shoot",
+                  "hungarian":["lő", "tüzel", "kilő", "meglő", "vadászik valamire"]
+               },               
+               {
+                  "id":770,
+                  "english":"short",
+                  "hungarian":["rövid"]
+               },               
+               {
+                  "id":771,
+                  "english":"shot",
+                  "hungarian":["golyó", "ágyúgolyó", "súlydobó golyó", "lövedék"]
+               },               
+               {
+                  "id":772,
+                  "english":"should",
+                  "hungarian":["kellene", "-na/-ne"]
+               },               
+               {
+                  "id":773,
+                  "english":"shoulder",
+                  "hungarian":["váll", "lapocka"]
+               },               
+               {
+                  "id":774,
+                  "english":"show",
+                  "hungarian":["mutat", "felmutat", "bemutat", "jelez"]
+               },               
+               {
+                  "id":775,
+                  "english":"side",
+                  "hungarian":["valaminek az oldala"]
+               },               
+               {
+                  "id":776,
+                  "english":"sign",
+                  "hungarian":["jelzés", "jel"]
+               },               
+               {
+                  "id":777,
+                  "english":"significant",
+                  "hungarian":["lényeges", "szignifikáns", "jelentős"]
+               },               
+               {
+                  "id":778,
+                  "english":"similar",
+                  "hungarian":["hasonló"]
+               },               
+               {
+                  "id":779,
+                  "english":"simple",
+                  "hungarian":["közönséges", "egyszerű"]
+               },               
+               {
+                  "id":780,
+                  "english":"simply",
+                  "hungarian":["egyszerűen", "világosan", "könnyen"]
+               },               
+               {
+                  "id":781,
+                  "english":"since",
+                  "hungarian":["azóta", "hogy...", "mióta csak...", "amióta"]
+               },               
+               {
+                  "id":782,
+                  "english":"sing",
+                  "hungarian":["énekel", "elénekel", "dalol", "eldalol", "előad"]
+               },               
+               {
+                  "id":783,
+                  "english":"single",
+                  "hungarian":["szimpla", "egyedüli", "egyetlen"]
+               },               
+               {
+                  "id":784,
+                  "english":"sister",
+                  "hungarian":["leánytestvér", "nővér", "húg"]
+               },               
+               {
+                  "id":785,
+                  "english":"sit",
+                  "hungarian":["ül"]
+               },               
+               {
+                  "id":786,
+                  "english":"site",
+                  "hungarian":["telek", "házhely", "hely"]
+               },               
+               {
+                  "id":787,
+                  "english":"situation",
+                  "hungarian":["állapot", "helyzet"]
+               },               
+               {
+                  "id":788,
+                  "english":"six",
+                  "hungarian":["hat"]
+               },               
+               {
+                  "id":789,
+                  "english":"size",
+                  "hungarian":["nagyság", "terjedelem", "méret"]
+               },               
+               {
+                  "id":790,
+                  "english":"skill",
+                  "hungarian":["jártasság", "gyakorlat", "gyakorlottság", "ügyesség", "készség"]
+               },               
+               {
+                  "id":791,
+                  "english":"skin",
+                  "hungarian":["bőr", "nyers bőr", "kikészített bőr", "külső felület", "héj", "kéreg"]
+               },               
+               {
+                  "id":792,
+                  "english":"small",
+                  "hungarian":["kis", "kicsi", "apró"]
+               },               
+               {
+                  "id":793,
+                  "english":"smile",
+                  "hungarian":["megmosolyog", "rámosolyog", "mosolyog"]
+               },               
+               {
+                  "id":794,
+                  "english":"so",
+                  "hungarian":["annyira", "olyan"]
+               },               
+               {
+                  "id":795,
+                  "english":"social",
+                  "hungarian":["szociális", "társadalmi"]
+               },               
+               {
+                  "id":796,
+                  "english":"society",
+                  "hungarian":["társadalom"]
+               },               
+               {
+                  "id":797,
+                  "english":"soldier",
+                  "hungarian":["katona", "közkatona", "harcos", "közlegény"]
+               },               
+               {
+                  "id":798,
+                  "english":"some",
+                  "hungarian":["egy kevés", "egy kis", "némi"]
+               },               
+               {
+                  "id":799,
+                  "english":"somebody",
+                  "hungarian":["valaki"]
+               },               
+               {
+                  "id":800,
+                  "english":"someone",
+                  "hungarian":["valaki"]
+               },
+               {
+                  "id":801,
+                  "english":"something",
+                  "hungarian":["valami"]
+               },
+               {
+                  "id":802,
+                  "english":"sometimes",
+                  "hungarian":["olykor", "néha"]
+               },
+               {
+                  "id":803,
+                  "english":"son",
+                  "hungarian":["fiú"]
+               },
+               {
+                  "id":804,
+                  "english":"song",
+                  "hungarian":["ének", "éneklés"]
+               },
+               {
+                  "id":805,
+                  "english":"soon",
+                  "hungarian":["nemsokára", "rövidesen", "hamar", "hamarosan", "mindjárt"]
+               },
+               {
+                  "id":806,
+                  "english":"sort",
+                  "hungarian":["fajta", "nem", "faj", "féle"]
+               },
+               {
+                  "id":807,
+                  "english":"sound",
+                  "hungarian":["hang", "zaj"]
+               },
+               {
+                  "id":808,
+                  "english":"source",
+                  "hungarian":["kiindulópont", "kezdőpont", "eredet", "forrás"]
+               },
+               {
+                  "id":809,
+                  "english":"south",
+                  "hungarian":["dél (égtáj)", "délen fekvő"]
+               },
+               {
+                  "id":810,
+                  "english":"southern",
+                  "hungarian":["déli"]
+               },
+               {
+                  "id":811,
+                  "english":"space",
+                  "hungarian":["hely", "köz", "kiterjedés", "tér"]
+               },
+               {
+                  "id":812,
+                  "english":"speak",
+                  "hungarian":["beszél"]
+               },
+               {
+                  "id":813,
+                  "english":"special",
+                  "hungarian":["speciális", "különleges", "sajátságos", "alkalmi", "rendkívüli"]
+               },
+               {
+                  "id":814,
+                  "english":"specific",
+                  "hungarian":["sajátos", "speciális", "jellegzetes", "különleges"]
+               },
+               {
+                  "id":815,
+                  "english":"speech",
+                  "hungarian":["beszéd", "beszédmód", "beszédmodor"]
+               },
+               {
+                  "id":816,
+                  "english":"spend",
+                  "hungarian":["kiad", "(el)költ"]
+               },
+               {
+                  "id":817,
+                  "english":"sport",
+                  "hungarian":["sport", "sportág", "testgyakorlás"]
+               },
+               {
+                  "id":818,
+                  "english":"spring",
+                  "hungarian":["tavasz"]
+               },
+               {
+                  "id":819,
+                  "english":"staff",
+                  "hungarian":["személyzet"]
+               },
+               {
+                  "id":820,
+                  "english":"stage",
+                  "hungarian":["dobogó", "emelvény", "színhely", "színpad"]
+               },
+               {
+                  "id":821,
+                  "english":"stand",
+                  "hungarian":["áll"]
+               },
+               {
+                  "id":822,
+                  "english":"standard",
+                  "hungarian":["mérték", "követelmény", "színvonal"]
+               },
+               {
+                  "id":823,
+                  "english":"star",
+                  "hungarian":["csillag"]
+               },
+               {
+                  "id":824,
+                  "english":"start",
+                  "hungarian":["elkezd", "megkezd valamit", "kezd"]
+               },
+               {
+                  "id":825,
+                  "english":"state",
+                  "hungarian":["helyzet", "állapot"]
+               },
+               {
+                  "id":826,
+                  "english":"statement",
+                  "hungarian":["állítás", "megállapítás", "kijelentés"]
+               },
+               {
+                  "id":827,
+                  "english":"station",
+                  "hungarian":["állomás", "megállóhely", "pályaudvar"]
+               },
+               {
+                  "id":828,
+                  "english":"stay",
+                  "hungarian":["marad"]
+               },
+               {
+                  "id":829,
+                  "english":"step",
+                  "hungarian":["lépés"]
+               },
+               {
+                  "id":830,
+                  "english":"still",
+                  "hungarian":["még"]
+               },
+               {
+                  "id":831,
+                  "english":"stock",
+                  "hungarian":["rönk", "tuskó", "törzs"]
+               },
+               {
+                  "id":832,
+                  "english":"stop",
+                  "hungarian":["véget vet", "megállít", "megáll"]
+               },
+               {
+                  "id":833,
+                  "english":"store",
+                  "hungarian":["üzlet", "áruház", "kereskedés", "bolt"]
+               },
+               {
+                  "id":834,
+                  "english":"story",
+                  "hungarian":["történet", "elbeszélés", "anekdota"]
+               },
+               {
+                  "id":835,
+                  "english":"strategy",
+                  "hungarian":["stratégia", "hadászat", "játékterv"]
+               },
+               {
+                  "id":836,
+                  "english":"street",
+                  "hungarian":["utca", "út"]
+               },
+               {
+                  "id":837,
+                  "english":"strong",
+                  "hungarian":["erős", "izmos", "befolyásos"]
+               },
+               {
+                  "id":838,
+                  "english":"structure",
+                  "hungarian":["struktúra", "szerkezet", "alak"]
+               },
+               {
+                  "id":839,
+                  "english":"student",
+                  "hungarian":["diák", "hallgató", "egyetemista", "főiskolás"]
+               },
+               {
+                  "id":840,
+                  "english":"study",
+                  "hungarian":["tanulás"]
+               },
+               {
+                  "id":841,
+                  "english":"stuff",
+                  "hungarian":["dolog", "anyag", "nyersanyag"]
+               },
+               {
+                  "id":842,
+                  "english":"style",
+                  "hungarian":["stílus"]
+               },
+               {
+                  "id":843,
+                  "english":"subject",
+                  "hungarian":["alany"]
+               },
+               {
+                  "id":844,
+                  "english":"success",
+                  "hungarian":["siker"]
+               },               
+               {
+                  "id":845,
+                  "english":"successful",
+                  "hungarian":["sikeres"]
+               },               
+               {
+                  "id":846,
+                  "english":"such",
+                  "hungarian":["ilyesmi/olyasmi"]
+               },               
+               {
+                  "id":847,
+                  "english":"suddenly",
+                  "hungarian":["egyszerre csak", "hirtelen"]
+               },               
+               {
+                  "id":848,
+                  "english":"suffer",
+                  "hungarian":["szenved"]
+               },               
+               {
+                  "id":849,
+                  "english":"suggest",
+                  "hungarian":["javasol", "ajánl", "tanácsol"]
+               },               
+               {
+                  "id":850,
+                  "english":"summer",
+                  "hungarian":["nyár"]
+               },               
+               {
+                  "id":851,
+                  "english":"support",
+                  "hungarian":["támogatás", "segély", "támaszték", "támogatottság"]
+               },               
+               {
+                  "id":852,
+                  "english":"sure",
+                  "hungarian":["kétségtelen", "bizonyos", "biztos"]
+               },               
+               {
+                  "id":853,
+                  "english":"surface",
+                  "hungarian":["felület", "felszín"]
+               },               
+               {
+                  "id":854,
+                  "english":"system",
+                  "hungarian":["rendszer", "szisztéma", "módszer"]
+               },               
+               {
+                  "id":855,
+                  "english":"table",
+                  "hungarian":["asztal"]
+               },               
+               {
+                  "id":856,
+                  "english":"take",
+                  "hungarian":["vesz", "elvesz", "elszed"]
+               },               
+               {
+                  "id":857,
+                  "english":"talk",
+                  "hungarian":["beszél"]
+               },               
+               {
+                  "id":858,
+                  "english":"task",
+                  "hungarian":["feladat"]
+               },               
+               {
+                  "id":859,
+                  "english":"tax",
+                  "hungarian":["adó"]
+               },               
+               {
+                  "id":860,
+                  "english":"teach",
+                  "hungarian":["oktat", "tanít"]
+               },               
+               {
+                  "id":861,
+                  "english":"teacher",
+                  "hungarian":["tanár", "oktató", "pedagógus", "előadó"]
+               },               
+               {
+                  "id":862,
+                  "english":"team",
+                  "hungarian":["csapat", "csoport", "brigád"]
+               },               
+               {
+                  "id":863,
+                  "english":"technology",
+                  "hungarian":["technika", "műszaki tudományok", "technológia"]
+               },               
+               {
+                  "id":864,
+                  "english":"television",
+                  "hungarian":["televízió"]
+               },               
+               {
+                  "id":865,
+                  "english":"tell",
+                  "hungarian":["mond", "elmond", "megmond"]
+               },               
+               {
+                  "id":866,
+                  "english":"ten",
+                  "hungarian":["tíz"]
+               },               
+               {
+                  "id":867,
+                  "english":"tend",
+                  "hungarian":["gondoz", "ellát", "kiszolgál"]
+               },               
+               {
+                  "id":868,
+                  "english":"term",
+                  "hungarian":["időszak", "időtartam"]
+               },               
+               {
+                  "id":869,
+                  "english":"test",
+                  "hungarian":["teszt", "próba", "próbatétel"]
+               },               
+               {
+                  "id":870,
+                  "english":"than",
+                  "hungarian":["mint"]
+               },               
+               {
+                  "id":871,
+                  "english":"thank",
+                  "hungarian":["köszönetet mond", "hálát ad", "megköszön"]
+               },               
+               {
+                  "id":872,
+                  "english":"that",
+                  "hungarian":["hogy"]
+               },               
+               {
+                  "id":873,
+                  "english":"the",
+                  "hungarian":["a", "az"]
+               },               
+               {
+                  "id":874,
+                  "english":"their",
+                  "hungarian":["az ő valamijük"]
+               },               
+               {
+                  "id":875,
+                  "english":"them",
+                  "hungarian":["őket", "azokat", "nekik", "azoknak"]
+               },               
+               {
+                  "id":876,
+                  "english":"themselves",
+                  "hungarian":["ők maguk", "magukat"]
+               },               
+               {
+                  "id":877,
+                  "english":"then",
+                  "hungarian":["akkor"]
+               },               
+               {
+                  "id":878,
+                  "english":"theory",
+                  "hungarian":["teória", "elmélet"]
+               },               
+               {
+                  "id":879,
+                  "english":"there",
+                  "hungarian":["ott", "amott"]
+               },               
+               {
+                  "id":880,
+                  "english":"these",
+                  "hungarian":["ezek"]
+               },               
+               {
+                  "id":881,
+                  "english":"they",
+                  "hungarian":["ők"]
+               },               
+               {
+                  "id":882,
+                  "english":"thing",
+                  "hungarian":["dolog"]
+               },               
+               {
+                  "id":883,
+                  "english":"think",
+                  "hungarian":["elmélkedik", "töpreng", "gondolkodik"]
+               },               
+               {
+                  "id":884,
+                  "english":"third",
+                  "hungarian":["harmadik"]
+               },               
+               {
+                  "id":885,
+                  "english":"this",
+                  "hungarian":["ez", "ez a(z)", "ezt", "ezt a(z)"]
+               },               
+               {
+                  "id":886,
+                  "english":"those",
+                  "hungarian":["azok"]
+               },               
+               {
+                  "id":887,
+                  "english":"though",
+                  "hungarian":["bár", "habár", "jóllehet", "noha"]
+               },               
+               {
+                  "id":888,
+                  "english":"thought",
+                  "hungarian":["gondolat", "gondolkodás", "meggondolás"]
+               },               
+               {
+                  "id":889,
+                  "english":"thousand",
+                  "hungarian":["ezer"]
+               },               
+               {
+                  "id":890,
+                  "english":"threat",
+                  "hungarian":["fenyegető veszedelem", "fenyegetés"]
+               },               
+               {
+                  "id":891,
+                  "english":"three",
+                  "hungarian":["három"]
+               },               
+               {
+                  "id":892,
+                  "english":"through",
+                  "hungarian":["át valamin", "keresztül valamin"]
+               },               
+               {
+                  "id":893,
+                  "english":"throughout",
+                  "hungarian":["valaminek minden részén"]
+               },               
+               {
+                  "id":894,
+                  "english":"throw",
+                  "hungarian":["vet", "hány", "hajít", "dob"]
+               },               
+               {
+                  "id":895,
+                  "english":"thus",
+                  "hungarian":["így"]
+               },               
+               {
+                  "id":896,
+                  "english":"time",
+                  "hungarian":["idő"]
+               },               
+               {
+                  "id":897,
+                  "english":"to",
+                  "hungarian":["-hoz/-hez/-höz", "-ba/-be", "-nak/-nek"]
+               },               
+               {
+                  "id":898,
+                  "english":"today",
+                  "hungarian":["ma"]
+               },               
+               {
+                  "id":899,
+                  "english":"together",
+                  "hungarian":["együtt"]
+               },               
+               {
+                  "id":900,
+                  "english":"tonight",
+                  "hungarian":["ma este"]
+               },
+               {
+                  "id":901,
+                  "english":"too",
+                  "hungarian":["nagyon", "túlságosan"]
+               },
+               {
+                  "id":902,
+                  "english":"top",
+                  "hungarian":["csúcs", "legmagasabb pont"]
+               },
+               {
+                  "id":903,
+                  "english":"total",
+                  "hungarian":["egész", "totális", "teljes"]
+               },
+               {
+                  "id":904,
+                  "english":"tough",
+                  "hungarian":["edzett", "ellenálló", "kemény", "erős", "tartós"]
+               },
+               {
+                  "id":905,
+                  "english":"toward",
+                  "hungarian":["felé", "irányába", "irányában"]
+               },
+               {
+                  "id":906,
+                  "english":"town",
+                  "hungarian":["város", "település", "község"]
+               },
+               {
+                  "id":907,
+                  "english":"trade",
+                  "hungarian":["ipar", "üzletág", "kereskedelem"]
+               },
+               {
+                  "id":908,
+                  "english":"traditional",
+                  "hungarian":["tradicionális", "hagyományos"]
+               },
+               {
+                  "id":909,
+                  "english":"training",
+                  "hungarian":["oktatás", "betanítás", "képzés", "kiképzés"]
+               },
+               {
+                  "id":910,
+                  "english":"travel",
+                  "hungarian":["utazik", "utazást tesz", "utazásokat tesz"]
+               },
+               {
+                  "id":911,
+                  "english":"treat",
+                  "hungarian":["bánik valakivel/valamivel", "kezel"]
+               },
+               {
+                  "id":912,
+                  "english":"treatment",
+                  "hungarian":["gyógymód", "kúra", "gyógykezelés", "kezelés (orvosi)"]
+               },
+               {
+                  "id":913,
+                  "english":"tree",
+                  "hungarian":["fa"]
+               },
+               {
+                  "id":914,
+                  "english":"trial",
+                  "hungarian":["kísérlet", "vizsgálat", "kipróbálás"]
+               },
+               {
+                  "id":915,
+                  "english":"trip",
+                  "hungarian":["kirándulás", "kiruccanás", "út", "utazás", "túra"]
+               },
+               {
+                  "id":916,
+                  "english":"trouble",
+                  "hungarian":["baj", "gond"]
+               },
+               {
+                  "id":917,
+                  "english":"true",
+                  "hungarian":["valós", "igazságnak megfelelő", "igaz"]
+               },
+               {
+                  "id":918,
+                  "english":"truth",
+                  "hungarian":["igaz", "az igaz", "valóság", "igazság"]
+               },
+               {
+                  "id":919,
+                  "english":"try",
+                  "hungarian":["próbál", "kipróbál", "megpróbál", "megkísérel"]
+               },
+               {
+                  "id":920,
+                  "english":"turn",
+                  "hungarian":["megfordul", "fordul", "forog", "forgolódik"]
+               },
+               {
+                  "id":921,
+                  "english":"TV",
+                  "hungarian":["televízió", "tévé"]
+               },
+               {
+                  "id":922,
+                  "english":"two",
+                  "hungarian":["kettő", "két", "kettes"]
+               },
+               {
+                  "id":923,
+                  "english":"type",
+                  "hungarian":["jelleg", "rendszer", "alapforma", "típus"]
+               },
+               {
+                  "id":924,
+                  "english":"under",
+                  "hungarian":["alatt"]
+               },
+               {
+                  "id":925,
+                  "english":"understand",
+                  "hungarian":["megért", "felfog", "ért"]
+               },
+               {
+                  "id":926,
+                  "english":"unit",
+                  "hungarian":["egység"]
+               },
+               {
+                  "id":927,
+                  "english":"until",
+                  "hungarian":["amíg...", "amíg... nem"]
+               },
+               {
+                  "id":928,
+                  "english":"up",
+                  "hungarian":["felfelé", "fel"]
+               },
+               {
+                  "id":929,
+                  "english":"upon",
+                  "hungarian":["-on/-en/-ön"]
+               },
+               {
+                  "id":930,
+                  "english":"us",
+                  "hungarian":["minket", "nekünk"]
+               },
+               {
+                  "id":931,
+                  "english":"use",
+                  "hungarian":["használ", "alkalmaz", "igénybe vesz"]
+               },
+               {
+                  "id":932,
+                  "english":"usually",
+                  "hungarian":["általában", "többnyire", "rendesen", "rendszerint"]
+               },
+               {
+                  "id":933,
+                  "english":"value",
+                  "hungarian":["érték"]
+               },
+               {
+                  "id":934,
+                  "english":"various",
+                  "hungarian":["különféle", "különböző"]
+               },
+               {
+                  "id":935,
+                  "english":"very",
+                  "hungarian":["nagyon", "igen nagyon"]
+               },
+               {
+                  "id":936,
+                  "english":"victim",
+                  "hungarian":["áldozat"]
+               },
+               {
+                  "id":937,
+                  "english":"view",
+                  "hungarian":["látvány", "látkép", "kilátás"]
+               },
+               {
+                  "id":938,
+                  "english":"violence",
+                  "hungarian":["bántalmazás", "erőszak"]
+               },
+               {
+                  "id":939,
+                  "english":"visit",
+                  "hungarian":["ellátogat valahová", "meglátogat"]
+               },
+               {
+                  "id":940,
+                  "english":"voice",
+                  "hungarian":["hang"]
+               },
+               {
+                  "id":941,
+                  "english":"vote",
+                  "hungarian":["szavazás", "szavazólap", "szavazat"]
+               },
+               {
+                  "id":942,
+                  "english":"wait",
+                  "hungarian":["várakozik", "vár"]
+               },
+               {
+                  "id":943,
+                  "english":"walk",
+                  "hungarian":["jár", "gyalogol", "megy"]
+               },
+               {
+                  "id":944,
+                  "english":"wall",
+                  "hungarian":["fal"]
+               },               
+               {
+                  "id":945,
+                  "english":"want",
+                  "hungarian":["kér", "kíván", "akar", "óhajt"]
+               },               
+               {
+                  "id":946,
+                  "english":"war",
+                  "hungarian":["küzdelem", "csata", "háború"]
+               },               
+               {
+                  "id":947,
+                  "english":"watch",
+                  "hungarian":["néz", "szemmel tart"]
+               },               
+               {
+                  "id":948,
+                  "english":"water",
+                  "hungarian":["víz"]
+               },               
+               {
+                  "id":949,
+                  "english":"way",
+                  "hungarian":["út"]
+               },               
+               {
+                  "id":950,
+                  "english":"we",
+                  "hungarian":["mi"]
+               },               
+               {
+                  "id":951,
+                  "english":"weapon",
+                  "hungarian":["fegyver"]
+               },               
+               {
+                  "id":952,
+                  "english":"wear",
+                  "hungarian":["visel", "hord"]
+               },               
+               {
+                  "id":953,
+                  "english":"week",
+                  "hungarian":["hét"]
+               },               
+               {
+                  "id":954,
+                  "english":"weight",
+                  "hungarian":["súly", "teher", "nyomás", "terhelés", "megterhelés"]
+               },               
+               {
+                  "id":955,
+                  "english":"well",
+                  "hungarian":["jól", "helyesen"]
+               },               
+               {
+                  "id":956,
+                  "english":"west",
+                  "hungarian":["nyugat"]
+               },               
+               {
+                  "id":957,
+                  "english":"western",
+                  "hungarian":["nyugati"]
+               },               
+               {
+                  "id":958,
+                  "english":"what?",
+                  "hungarian":["micsoda?", "mi?"]
+               },               
+               {
+                  "id":959,
+                  "english":"whatever",
+                  "hungarian":["bármi", "akármi"]
+               },               
+               {
+                  "id":960,
+                  "english":"when?",
+                  "hungarian":["mikor?"]
+               },               
+               {
+                  "id":961,
+                  "english":"where?",
+                  "hungarian":["hol?", "merre?"]
+               },               
+               {
+                  "id":962,
+                  "english":"whether?",
+                  "hungarian":["vajon?"]
+               },               
+               {
+                  "id":963,
+                  "english":"which?",
+                  "hungarian":["melyik?", "melyiket?"]
+               },               
+               {
+                  "id":964,
+                  "english":"while",
+                  "hungarian":["mindaddig", "amíg"]
+               },               
+               {
+                  "id":965,
+                  "english":"white",
+                  "hungarian":["fehér"]
+               },               
+               {
+                  "id":966,
+                  "english":"who?",
+                  "hungarian":["ki?", "kicsoda?", "kik?"]
+               },               
+               {
+                  "id":967,
+                  "english":"whole",
+                  "hungarian":["egész", "teljes"]
+               },               
+               {
+                  "id":968,
+                  "english":"whom?",
+                  "hungarian":["kit?", "kiket?"]
+               },               
+               {
+                  "id":969,
+                  "english":"whose?",
+                  "hungarian":["kié?", "kiké?"]
+               },               
+               {
+                  "id":970,
+                  "english":"why?",
+                  "hungarian":["miért?"]
+               },               
+               {
+                  "id":971,
+                  "english":"wide",
+                  "hungarian":["széles", "kiterjedt", "szélesen elterülő", "valamilyen szélességű"]
+               },               
+               {
+                  "id":972,
+                  "english":"wife",
+                  "hungarian":["feleség"]
+               },               
+               {
+                  "id":973,
+                  "english":"will",
+                  "hungarian":["akarat", "akaraterő", "szabad akarat", "szabad választás"]
+               },               
+               {
+                  "id":974,
+                  "english":"win",
+                  "hungarian":["nyer"]
+               },               
+               {
+                  "id":975,
+                  "english":"wind",
+                  "hungarian":["szél", "szellő", "viharos szél", "fuvallat", "széljárás"]
+               },               
+               {
+                  "id":976,
+                  "english":"window",
+                  "hungarian":["ablak"]
+               },               
+               {
+                  "id":977,
+                  "english":"wish",
+                  "hungarian":["óhajt", "vágyik valamire", "kíván"]
+               },               
+               {
+                  "id":978,
+                  "english":"with",
+                  "hungarian":["-val/-vel"]
+               },               
+               {
+                  "id":979,
+                  "english":"within",
+                  "hungarian":["valami belsejében", "valamin belül"]
+               },               
+               {
+                  "id":980,
+                  "english":"without",
+                  "hungarian":["valamin kívül"]
+               },               
+               {
+                  "id":981,
+                  "english":"woman",
+                  "hungarian":["nő", "asszony"]
+               },               
+               {
+                  "id":982,
+                  "english":"wonder",
+                  "hungarian":["kíváncsi", "azon tűnődik", "szeretné tudni"]
+               },               
+               {
+                  "id":983,
+                  "english":"word",
+                  "hungarian":["szó"]
+               },               
+               {
+                  "id":984,
+                  "english":"work",
+                  "hungarian":["dolgozik"]
+               },               
+               {
+                  "id":985,
+                  "english":"worker",
+                  "hungarian":["fizikai munkás", "munkás"]
+               },               
+               {
+                  "id":986,
+                  "english":"world",
+                  "hungarian":["világ", "föld"]
+               },               
+               {
+                  "id":987,
+                  "english":"worry",
+                  "hungarian":["aggódik", "gyötrődik", "nyugtalankodik", "emészti magát", "emésztődik", "aggodalmaskodik"]
+               },               
+               {
+                  "id":988,
+                  "english":"would",
+                  "hungarian":["-na/-ne"]
+               },               
+               {
+                  "id":989,
+                  "english":"write",
+                  "hungarian":["ír"]
+               },               
+               {
+                  "id":990,
+                  "english":"writer",
+                  "hungarian":["írással foglalkozó ember", "szerző", "költő", "író"]
+               },               
+               {
+                  "id":991,
+                  "english":"wrong",
+                  "hungarian":["helytelen", "rossz"]
+               },               
+               {
+                  "id":992,
+                  "english":"yard",
+                  "hungarian":["angol hosszmértékegység = 0,914 méter"]
+               },               
+               {
+                  "id":993,
+                  "english":"yeah",
+                  "hungarian":["igen"]
+               },               
+               {
+                  "id":994,
+                  "english":"year",
+                  "hungarian":["év"]
+               },               
+               {
+                  "id":995,
+                  "english":"yes",
+                  "hungarian":["igen"]
+               },               
+               {
+                  "id":996,
+                  "english":"yet",
+                  "hungarian":["már"]
+               },               
+               {
+                  "id":997,
+                  "english":"you",
+                  "hungarian":["te", "téged"]
+               },               
+               {
+                  "id":998,
+                  "english":"young",
+                  "hungarian":["ifjú", "fiatal"]
+               },               
+               {
+                  "id":999,
+                  "english":"your",
+                  "hungarian":["a te valamid"]
+               },               
+               {
+                  "id":1000,
+                  "english":"yourself",
+                  "hungarian":["te (saját magad)"]
                }
          ]
       }
    ],
-   "memory_words":
+   "grammar":
    [
       {
-         "id": 1,
-         "english": "treat",
-         "hungarian": "kezelni"
-      },
-      {
-         "id": 2,
-         "english": "try",
-         "hungarian": "próbálni"
-      },
-      {
-         "id": 3,
-         "english": "turn",
-         "hungarian": "fordulni"
-      },
-      {
-         "id": 4,
-         "english": "understand",
-         "hungarian": "megérteni"
-      },
-      {
-         "id": 5,
-         "english": "use",
-         "hungarian": "használni"
-      },
-      {
-         "id": 6,
-         "english": "visit",
-         "hungarian": "meglátogatni"
-      },
-      {
-         "id": 7,
-         "english": "wait",
-         "hungarian": "várni"
-      },
-      {
-         "id": 8,
-         "english": "want",
-         "hungarian": "akarni"
-      },
-      {
-         "id": 9,
-         "english": "walk",
-         "hungarian": "sétálni"
-      },
-      {
-         "id": 10,
-         "english": "watch",
-         "hungarian": "nézni (tv-t)"
-      },
-      {
-         "id": 11,
-         "english": "win",
-         "hungarian": "nyerni"
-      },
-      {
-         "id": 12,
-         "english": "wonder",
-         "hungarian": "elmélkedni"
-      },
-      {
-         "id": 13,
-         "english": "write",
-         "hungarian": "írni"
-      },
-      {
-         "id": 14,
-         "english": "put",
-         "hungarian": "tenni"
-      },
-      {
-         "id": 15,
-         "english": "relate",
-         "hungarian": "átérezni"
-      },
-      {
-         "id": 16,
-         "english": "run",
-         "hungarian": "futni"
-      },
-      {
-         "id": 17,
-         "english": "have",
-         "hungarian": "birtokol"
-      },
-      {
-         "id": 18,
-         "english": "help",
-         "hungarian": "segíteni"
-      },
-      {
-         "id": 19,
-         "english": "improve",
-         "hungarian": "javítani"
-      },
-      {
-         "id": 20,
-         "english": "join",
-         "hungarian": "csatlakozni"
-      },
-      {
-         "id": 21,
-         "english": "know",
-         "hungarian": "tudni"
+         "title":"valami",
+         "text":"még valami/ndafds"
       }
    ]
 }

@@ -6,7 +6,7 @@ import {FetchContext} from '../../context/Fetch';
 import {MemoryContext} from '../../context/Memory';
 
 function MemoryGame(){
-    const {memoryWordsList} = useContext(FetchContext);
+    const {wordsList} = useContext(FetchContext);
     const {setRotateAll, setMemoryIdList, setAnalogousIdList} = useContext(MemoryContext);
     const [localList, setLocalList] = useState([]);
     const [numberOfCards, setNumberOfCards] = useState(8);
@@ -33,14 +33,15 @@ function MemoryGame(){
 
     useEffect(()=>{
         const list=[]
-        const shuffledArray = memoryWordsList.sort(function(){return 0.5 - Math.random()}).slice(0,numberOfCards);
+        console.log(wordsList[0].list)
+        const shuffledArray = wordsList[0].list.sort(function(){return 0.5 - Math.random()}).slice(0,numberOfCards);
         for (let index = 0; index < shuffledArray.length; index++) {
             list.push({id: shuffledArray[index].id, word: shuffledArray[index].english});
-            list.push({id: shuffledArray[index].id, word: shuffledArray[index].hungarian});
+            list.push({id: shuffledArray[index].id, word: shuffledArray[index].hungarian[0]});
         }
 
         setLocalList(list.sort(function(){return 0.5 - Math.random()}));
-    },[memoryWordsList, numberOfCards])
+    },[wordsList, numberOfCards])
 
     const handleLayout = (func, numCol, numCards) => {
         setNumberOfCards(numCards);
@@ -51,10 +52,10 @@ function MemoryGame(){
         setRotateAll(true);
 
         const list=[]
-        const shuffledArray = memoryWordsList.sort(function(){return 0.5 - Math.random()}).slice(0,numberOfCards);
+        const shuffledArray = wordsList[0].list.sort(function(){return 0.5 - Math.random()}).slice(0,numberOfCards);
         for (let index = 0; index < shuffledArray.length; index++) {
             list.push({id: shuffledArray[index].id, word: shuffledArray[index].english});
-            list.push({id: shuffledArray[index].id, word: shuffledArray[index].hungarian});
+            list.push({id: shuffledArray[index].id, word: shuffledArray[index].hungarian[0]});
         }
 
         setLocalList(list.sort(function(){return 0.5 - Math.random()}));

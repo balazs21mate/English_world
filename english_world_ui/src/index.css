@@ -12,3 +12,7 @@
     transform: rotateY(180deg);
     transition: transform 1s;
 }
+
+.new_line{
+    white-space: pre;
+}
