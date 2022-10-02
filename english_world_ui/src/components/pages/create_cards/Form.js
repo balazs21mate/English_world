@@ -65,7 +65,7 @@ function Form() {
         if (title.length > 0 && english.length > 0 && hungarian.length > 0) {
             const Item = {
                 id:createList.length + 1,
-                list: [{english: english,hungarian: hungarian}],
+                list: [{english: english,hungarian: hungarian.split(',')}],
                 title: title
             }
             setCreateList(list =>[...list, Item]);
@@ -84,13 +84,13 @@ function Form() {
             if (createList.length > 0) {
                 const filteredList = createList.filter(item => item.title === title)
                 if (filteredList.length > 0) {
-                    filteredList[0].list.push({english: english,hungarian: hungarian})
+                    filteredList[0].list.push({english: english,hungarian: hungarian.split(',')})
                     setCreateList(list =>[...list]);
                     set_error(`Added new word to this list: ${title}!`, 2000, true);
                 } else {
                     const Item = {
                         id:createList.length + 1,
-                        list: [{english: english,hungarian: hungarian}],
+                        list: [{english: english,hungarian: hungarian.split(',')}],
                         title: title
                     }
                     setCreateList(list =>[...list, Item]);
@@ -100,7 +100,7 @@ function Form() {
             }   else {
                 const Item = {
                     id:createList.length + 1,
-                    list: [{english: english,hungarian: hungarian}],
+                    list: [{english: english,hungarian: hungarian.split(',')}],
                     title: title
                 }
                 setCreateList(list =>[...list, Item]);
@@ -130,7 +130,9 @@ function Form() {
 
     const handleDeleteAll = () => {
         setCreateList([]);
+        localStorage.setItem('Items', JSON.stringify([]));
         setTitles([]);
+        localStorage.setItem('Titles', JSON.stringify([]));
         set_error('Deleted all list!', 1000, true);
     }
 
