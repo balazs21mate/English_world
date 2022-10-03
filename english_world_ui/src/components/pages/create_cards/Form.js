@@ -24,12 +24,16 @@ function Form() {
     const [title, setTitle] = useState('');
     const [english, setEnglish] = useState('');
     const [hungarian, setHungarian] = useState('');
+
     const [error, setError] = useState(false);
     const [errorColor, setErrorColor] = useState(false);
     const [errorText, setErrorText] = useState('');
+
     const [titles, setTitles] = useState([]);
+
     const [confirmText, setConfirmText] = useState('Biztos törli a listát?');
     const [visibleConfirm, setVisibleConfirm] = useState(false);
+    
     const [handle, setHandle] = useState();
 
     
@@ -57,28 +61,12 @@ function Form() {
         setItem(event.target.value);
     }
 
-    const handleForm = () =>{
-        setTitle('');
+    const handleWords = (props) =>{
         setEnglish('');
         setHungarian('');
-
-        if (title.length > 0 && english.length > 0 && hungarian.length > 0) {
-            const Item = {
-                id:createList.length + 1,
-                list: [{english: english,hungarian: hungarian.split(',')}],
-                title: title
-            }
-            setCreateList(list =>[...list, Item]);
-            setTitles(list =>[...list, Item.title]);
-            set_error(`Created this list: ${title}!`, 1000, true);
-        } else {
-            set_error('Please, fill in all fields!', 2000, false);
+        if (props === true) {
+            setTitle('');
         }
-    }
-
-    const handleWords = () =>{
-        setEnglish('');
-        setHungarian('');
 
         if (title.length > 0 && english.length > 0 && hungarian.length > 0) {
             if (createList.length > 0) {
@@ -215,7 +203,7 @@ function Form() {
                 </div>
             </div>
             <hr className='w-[80%] mt-6 border-b-solid self-center border-secondary_color'></hr>
-            <button className="text-center max-w-[25rem] mt-6 mx-auto p-1 text-3xl bg-button text-white border-none rounded-xl shadow-button outline-none mb-8 tracking-[0.3rem]" onClick={handleForm}>Create</button>
+            <button className="text-center max-w-[25rem] mt-6 mx-auto p-1 text-3xl bg-button text-white border-none rounded-xl shadow-button outline-none mb-8 tracking-[0.3rem]" onClick={()=>{handleWords(true)}}>Create</button>
         </div>
     );
 }
