@@ -33,7 +33,6 @@ function MemoryGame(){
 
     useEffect(()=>{
         const list=[]
-        console.log(wordsList[0].list)
         const shuffledArray = wordsList[0].list.sort(function(){return 0.5 - Math.random()}).slice(0,numberOfCards);
         for (let index = 0; index < shuffledArray.length; index++) {
             list.push({id: shuffledArray[index].id, word: shuffledArray[index].english});
