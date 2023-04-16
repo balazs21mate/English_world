@@ -7,7 +7,7 @@ export const FetchProvider = (props) => {
     const [wordsList, setWordsList] = useState([]);
     const [grammarList, setGrammarList] = useState([]);
 
-    const baseUrl = process.env.REACT_APP_BASE_URL;
+    const baseUrl = "http://localhost:3001/";
   
     useEffect(() => {
 
